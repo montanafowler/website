@@ -4,14 +4,19 @@ body {
 
 }
 
-.grid-item { 
+/*.grid-item { 
   width: 200px; 
 }
 .grid-item--width2 { 
   width: 400px;
-}
+}*/
 
 p {
-  font-family: verdana;
+  font-family: Trebuchet;
   font-size: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
 }
