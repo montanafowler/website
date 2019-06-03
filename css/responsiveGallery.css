@@ -1,6 +1,7 @@
 body {
 	margin: 0
 	background-color: lightblue;
+
 }
 
 .grid-item { 
@@ -8,4 +9,9 @@ body {
 }
 .grid-item--width2 { 
   width: 400px;
-   }
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
