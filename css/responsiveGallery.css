@@ -11,10 +11,13 @@ header, header * {
   font-family: "Trebuchet MS";
 
 }
-
 .filterButtons {
+   align-content: center;
+}
+
+.filterButton {
    display: inline-block;
-   padding: 4px;
+   padding: 20px;
    align-content: center;
 }
 
