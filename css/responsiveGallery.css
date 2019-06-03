@@ -1,4 +1,4 @@
-body {
+body, body * {
 	margin: 0
 	background: lightblue;
 
@@ -16,7 +16,8 @@ p, p * {
   font-size: 20px;
 }
 
-h1 {
+h1, h1 * {
   color: grey;
   text-align: center;
+  font-family: "Trebuchet MS";
 }
