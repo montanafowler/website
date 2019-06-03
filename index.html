@@ -14,18 +14,24 @@
 
 <body>
 
-  <p>Hello, world!!!</p>
+  <p>Hello, world!</p>
+  <p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+  var dt = new Date();
+  document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
 
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
   <div class="grid">
     <div class="grid-item">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
+      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" />
     </div>
     <div class="grid-item grid-item--width2">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
+      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg"  />
     </div>
     <div class="grid-item">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
+      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg"  />
     </div>
   </div>
 
