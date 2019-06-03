@@ -11,7 +11,7 @@ body {
   width: 400px;
 }*/
 
-p {
+p, p * {
   font-family: "Trebuchet MS";
   font-size: 20px;
 }
