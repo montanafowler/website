@@ -1,6 +1,14 @@
 body, body * {
 	margin: 0
 	background: lightblue;
+  font-family: "Trebuchet MS";
+}
+
+header, header * {
+
+  margin: 0
+  background: lightblue;
+  font-family: "Trebuchet MS";
 
 }
 
