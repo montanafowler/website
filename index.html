@@ -14,24 +14,148 @@
 
 <body>
 
-<div class="filterButtons">
+<!-- <div class="filterButtons"> -->
   <!-- <p>filter work</p> -->
   <div class="filterButton">
-  <input type="checkbox" name="nature" value="nature" class="filterButton"> nature<br>
+    <input type="checkbox" 
+    name="abstraction" 
+    value="abstraction" 
+    class="filterButton"> abstract<br>
   </div>
-  <div class="filterButtons">
 
-  <input type="checkbox" name="portraiture" value="portraiture" class="filterButton"> portraiture<br>
+  <div class="filterButton">
+    <input type="checkbox" 
+    name="exhibitions" 
+    value="exhibitions" 
+    class="filterButton"> exhibition<br>
+  </div>
+
+  <div class="filterButton">
+    <input type="checkbox" 
+    name="nature" 
+    value="nature" 
+    class="filterButton"> nature<br>
   </div>
   <div class="filterButton">
-
-  <input type="checkbox" name="abstract" value="abstract" class="filterButton"> abstract<br>
+    <input type="checkbox" 
+    name="portraiture" 
+    value="portraiture" 
+    class="filterButton"> portraiture<br>
   </div>
   <div class="filterButton">
+    <input type="checkbox" 
+    name="representation" 
+    value="representation" 
+    class="filterButton"> representation<br>
+  </div>
+  
 
-  <input type="checkbox" name="other" value="other" class="filterButton"> other<br>
-</div>
-</div>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+// <!-- Begin
+var abstractionArray = new Array() 
+var exhibitionsArray = new Array()
+var natureArray = new Array()
+var portraitureArray = new Array()
+var representationArray = new Array()
+
+// add the filenames to the arrays
+var abstractionLength = 16
+var exhibitionsLength = 15
+var natureLength = 28
+var portraitureLength = 27
+var representationLength = 48
+for(i = 0; i < abstractionLength; i++) {
+  abstractionArray[i] = "images/abstraction/abstraction_" + i + ".jpg"
+}
+
+for(i = 0; i < exhibitionsLength; i++) {
+  exhibitionsArray[i] = "images/exhibitions/exhibitions_" + i + ".jpg"
+}
+
+for(i = 0; i < natureLength; i++) {
+  natureArray[i] = "images/nature/nature_" + i + ".jpg"
+}
+
+for(i = 0; i < portraitureLength; i++) {
+  portraitureArray[i] = "images/portraiture/portraiture_" + i + ".jpg"
+}
+
+for(i = 0; i < representationLength; i++) {
+  representationArray[i] = "images/representation/representation_" + i + ".jpg"
+}
+
+// document.write('<p> abstraction before: <//p>');
+// for(i = 0; i < abstractionLength; i++) {
+//   document.write('<p>'+ abstractionArray[i] +'</p>');
+// }
+
+
+/**
+ * Randomize array element order in-place.
+ * Using Durstenfeld shuffle algorithm.
+ */
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+
+abstractionArray = shuffleArray(abstractionArray);
+exhibitionsArray = shuffleArray(exhibitionsArray);
+natureArray      = shuffleArray(natureArray);
+portraitureArray = shuffleArray(portraitureArray);
+representationArray = shuffleArray(representationArray);
+
+function makeSection(sectionName, array, arrayLength) {
+  document.write('<p> ' + sectionName + '</p>');
+  document.write('<section id= "' + sectionName + '">');
+  for(i = 0; i < arrayLength; i++) {
+    document.write('<img src="' + array[i] + '"  />');
+  }
+  document.write('</section>');
+}
+
+makeSection("abstraction", abstractionArray, abstractionLength);
+
+
+
+// <section id="photos">
+//   <img src="images/cat-1.jpg" alt="Cute cat">
+//   <img src="images/cat-2.jpg" alt="Serious cat">
+// </section>
+
+// document.write('<p> abstraction before: </p>');
+// for(i = 0; i < abstractionLength; i++) {
+//   document.write('<p>'+ abstractionArray[i] +'</p>');
+// }
+
+// do not edit anything below this line
+
+// var j = 0
+// var p = theImages.length;
+// var preBuffer = new Array()
+// for (i = 0; i < p; i++){
+//    preBuffer[i] = new Image()
+//    preBuffer[i].src = theImages[i]
+// }
+// var whichImage = Math.round(Math.random()*(p-1));
+// function showImage(){
+// document.write('<img src="'+theImages[whichImage]+'">');
+// }
+
+//  End -->
+</script>
+
+<!-- <section id="photos">
+  <img src="images/cat-1.jpg" alt="Cute cat">
+  <img src="images/cat-2.jpg" alt="Serious cat">
+</section> -->
 
 <!--   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
   <div class="grid">

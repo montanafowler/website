@@ -1,7 +1,35 @@
+/*
+abstractionArray = shuffleArray(abstractionArray);
+exhibitionsArray = shuffleArray(exhibitionsArray);
+natureArray = shuffleArray(natureArray);
+portraitureArray = shuffleArray(portraitureArray);
+representationArray = shuffleArray(representationArray);
+*/
+
+#abstraction {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 10;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    10;
+  -moz-column-gap:      0px;
+  column-count:         10;
+  column-gap:           0px;  
+}
+
+#abstraction img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+
 body, body * {
 	margin: 0
 	background: lightblue;
   font-family: "Trebuchet MS";
+  text-align: center;
 }
 
 header, header * {
@@ -13,13 +41,33 @@ header, header * {
 }
 .filterButtons {
    align-content: center;
+   display: inline-block;
+   padding: 30px;
+
 }
 
 .filterButton {
    display: inline-block;
-   padding: 20px;
+   padding: 30px;
    align-content: center;
 }
+
+/*@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}*/
 
 /*.grid-item { 
   width: 200px; 
