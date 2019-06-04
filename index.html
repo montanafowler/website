@@ -10,45 +10,116 @@
 
   <link href="css/responsiveGallery.css" rel="stylesheet">
   <!-- <link href="css/style.css" rel="stylesheet"> -->
+  <script src="jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="processCheckboxes.js"></script>  
 </head>
 
 <body>
 
+  <script>
+
+    // $('#abstractionCheckbox').click(function(e){
+    //   if (e.target.checked) {
+    //     window.localStorage.setItem('abstractionCheckboxChecked', true);
+    //   } else {
+    //     window.localStorage.setItem('abstractionCheckboxChecked', false);
+    //   }
+    // })
+     
+    $( document ).ready(function() {
+
+
+    var vars = {};
+    var count = 0;
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+        console.log(value);
+        count++;
+    });
+
+    console.log("count " + count);
+
+
+
+      // if ($('#abstractionCheckbox').checked) {
+      //   console.log("abstractionCheckbox is checked");
+      //   window.localStorage.setItem('abstractionCheckboxChecked', true);
+      // } else {
+      //   console.log("abstractionCheckbox is not checked");
+      //   window.localStorage.setItem('abstractionCheckboxChecked', false);
+      // }
+
+      // console.log(window.localStorage.getItem('abstractionCheckboxChecked'));
+      // if(window.localStorage.getItem('abstractionCheckboxChecked')) {
+      //   document.querySelector('#abstractionCheckbox').checked = true;
+      // } else {
+      //   document.querySelector('#abstractionCheckbox').checked = false;
+      // }
+      // // document.querySelector('#abstractionCheckbox').checked = window.localStorage.getItem('abstractionCheckboxChecked');
+      // // document.querySelector('#abstractionCheckbox').checked = false;
+      // console.log(document.querySelector('#abstractionCheckbox').checked);
+      
+    });
+
+    function processCheckboxes(abstractionCheckboxValue, exhibitionsCheckboxValue) {
+      console.log(abstractionCheckboxValue);
+      console.log(exhibitionsCheckboxValue);
+      window.alert(document.getElementById("abstractionCheckbox").checked);
+      window.alert(document.getElementById("exhibitionsCheckbox").checked);
+    }
+  </script>
+
+
 <!-- <div class="filterButtons"> -->
   <!-- <p>filter work</p> -->
+  <form id="checkboxForm" action="" method="GET" onsubmit="getUrlVars()">
   <div class="filterButton">
     <input type="checkbox" 
-    name="abstraction" 
+    id="abstractionCheckbox"
+    name="showType" 
     value="abstraction" 
-    class="filterButton"> abstract<br>
+    class="filterButton"
+    onchange=
+    > abstraction<br>
   </div>
 
   <div class="filterButton">
     <input type="checkbox" 
-    name="exhibitions" 
+    id="exhibitionsCheckbox"
+    name="showType" 
     value="exhibitions" 
-    class="filterButton"> exhibition<br>
+    class="filterButton"
+    > exhibitions<br>
   </div>
 
   <div class="filterButton">
-    <input type="checkbox" 
-    name="nature" 
+    <input type="checkbox"
+    id="natureCheckbox" 
+    name="showType" 
     value="nature" 
-    class="filterButton"> nature<br>
+    class="filterButton"
+    onchange="this.form.submit()"> nature<br>
   </div>
   <div class="filterButton">
-    <input type="checkbox" 
-    name="portraiture" 
+    <input type="checkbox"
+    id="portraitureCheckbox" 
+    name="showType" 
     value="portraiture" 
-    class="filterButton"> portraiture<br>
+    class="filterButton"
+    > portraiture<br>
   </div>
   <div class="filterButton">
     <input type="checkbox" 
-    name="representation" 
+    id="representationCheckbox"
+    name="showType" 
     value="representation" 
-    class="filterButton"> representation<br>
+    class="filterButton"
+    > representation<br>
   </div>
-  
+  <input type="submit" value="Submit">
+  </form>
+<!-- onchange="this.form.submit()" -->
+
 
 
 <SCRIPT LANGUAGE="JavaScript">
