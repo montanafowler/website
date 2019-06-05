@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <p> top of head </p>
   <meta charset="utf-8">
   <h1>MONTANA FOWLER</h1>
   <meta name="author" content="">
@@ -12,74 +13,16 @@
   <!-- <link href="css/style.css" rel="stylesheet"> -->
   <script src="jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="processCheckboxes.js"></script>  
-</head>
+  <script type="text/javascript" src="makeArrays.js"></script>
 
-<body>
-
-  <script>
-
-    // $('#abstractionCheckbox').click(function(e){
-    //   if (e.target.checked) {
-    //     window.localStorage.setItem('abstractionCheckboxChecked', true);
-    //   } else {
-    //     window.localStorage.setItem('abstractionCheckboxChecked', false);
-    //   }
-    // })
-     
-    $( document ).ready(function() {
-
-
-    var vars = {};
-    var count = 0;
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-        console.log(value);
-        count++;
-    });
-
-    console.log("count " + count);
-
-
-
-      // if ($('#abstractionCheckbox').checked) {
-      //   console.log("abstractionCheckbox is checked");
-      //   window.localStorage.setItem('abstractionCheckboxChecked', true);
-      // } else {
-      //   console.log("abstractionCheckbox is not checked");
-      //   window.localStorage.setItem('abstractionCheckboxChecked', false);
-      // }
-
-      // console.log(window.localStorage.getItem('abstractionCheckboxChecked'));
-      // if(window.localStorage.getItem('abstractionCheckboxChecked')) {
-      //   document.querySelector('#abstractionCheckbox').checked = true;
-      // } else {
-      //   document.querySelector('#abstractionCheckbox').checked = false;
-      // }
-      // // document.querySelector('#abstractionCheckbox').checked = window.localStorage.getItem('abstractionCheckboxChecked');
-      // // document.querySelector('#abstractionCheckbox').checked = false;
-      // console.log(document.querySelector('#abstractionCheckbox').checked);
-      
-    });
-
-    function processCheckboxes(abstractionCheckboxValue, exhibitionsCheckboxValue) {
-      console.log(abstractionCheckboxValue);
-      console.log(exhibitionsCheckboxValue);
-      window.alert(document.getElementById("abstractionCheckbox").checked);
-      window.alert(document.getElementById("exhibitionsCheckbox").checked);
-    }
-  </script>
-
-
-<!-- <div class="filterButtons"> -->
-  <!-- <p>filter work</p> -->
-  <form id="checkboxForm" action="" method="GET" onsubmit="getUrlVars()">
+  <p> top of body </p>
+<form id="checkboxForm" action="" method="GET">
   <div class="filterButton">
     <input type="checkbox" 
     id="abstractionCheckbox"
     name="showType" 
     value="abstraction" 
     class="filterButton"
-    onchange=
     > abstraction<br>
   </div>
 
@@ -97,8 +40,7 @@
     id="natureCheckbox" 
     name="showType" 
     value="nature" 
-    class="filterButton"
-    onchange="this.form.submit()"> nature<br>
+    class="filterButton"> nature<br>
   </div>
   <div class="filterButton">
     <input type="checkbox"
@@ -118,145 +60,108 @@
   </div>
   <input type="submit" value="Submit">
   </form>
-<!-- onchange="this.form.submit()" -->
 
+</head>
 
-
-<SCRIPT LANGUAGE="JavaScript">
-
-// <!-- Begin
-var abstractionArray = new Array() 
-var exhibitionsArray = new Array()
-var natureArray = new Array()
-var portraitureArray = new Array()
-var representationArray = new Array()
-
-// add the filenames to the arrays
-var abstractionLength = 16
-var exhibitionsLength = 15
-var natureLength = 28
-var portraitureLength = 27
-var representationLength = 48
-for(i = 0; i < abstractionLength; i++) {
-  abstractionArray[i] = "images/abstraction/abstraction_" + i + ".jpg"
-}
-
-for(i = 0; i < exhibitionsLength; i++) {
-  exhibitionsArray[i] = "images/exhibitions/exhibitions_" + i + ".jpg"
-}
-
-for(i = 0; i < natureLength; i++) {
-  natureArray[i] = "images/nature/nature_" + i + ".jpg"
-}
-
-for(i = 0; i < portraitureLength; i++) {
-  portraitureArray[i] = "images/portraiture/portraiture_" + i + ".jpg"
-}
-
-for(i = 0; i < representationLength; i++) {
-  representationArray[i] = "images/representation/representation_" + i + ".jpg"
-}
-
-// document.write('<p> abstraction before: <//p>');
-// for(i = 0; i < abstractionLength; i++) {
-//   document.write('<p>'+ abstractionArray[i] +'</p>');
-// }
-
-
-/**
- * Randomize array element order in-place.
- * Using Durstenfeld shuffle algorithm.
- */
-function shuffleArray(array) {
-    for (var i = array.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
-    return array;
-}
-
-abstractionArray = shuffleArray(abstractionArray);
-exhibitionsArray = shuffleArray(exhibitionsArray);
-natureArray      = shuffleArray(natureArray);
-portraitureArray = shuffleArray(portraitureArray);
-representationArray = shuffleArray(representationArray);
-
-function makeSection(sectionName, array, arrayLength) {
-  document.write('<p> ' + sectionName + '</p>');
-  document.write('<section id= "' + sectionName + '">');
-  for(i = 0; i < arrayLength; i++) {
-    document.write('<img src="' + array[i] + '"  />');
-  }
-  document.write('</section>');
-}
-
-makeSection("abstraction", abstractionArray, abstractionLength);
-
-
-
-// <section id="photos">
-//   <img src="images/cat-1.jpg" alt="Cute cat">
-//   <img src="images/cat-2.jpg" alt="Serious cat">
-// </section>
-
-// document.write('<p> abstraction before: </p>');
-// for(i = 0; i < abstractionLength; i++) {
-//   document.write('<p>'+ abstractionArray[i] +'</p>');
-// }
-
-// do not edit anything below this line
-
-// var j = 0
-// var p = theImages.length;
-// var preBuffer = new Array()
-// for (i = 0; i < p; i++){
-//    preBuffer[i] = new Image()
-//    preBuffer[i].src = theImages[i]
-// }
-// var whichImage = Math.round(Math.random()*(p-1));
-// function showImage(){
-// document.write('<img src="'+theImages[whichImage]+'">');
-// }
-
-//  End -->
-</script>
-
-<!-- <section id="photos">
-  <img src="images/cat-1.jpg" alt="Cute cat">
-  <img src="images/cat-2.jpg" alt="Serious cat">
-</section> -->
-
-<!--   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-  <div class="grid">
-    <div class="grid-item">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" />
-    </div>
-    <div class="grid-item grid-item__width2">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg"  />
-    </div>
-    <div class="grid-item">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg"  />
-    </div>
-  </div> -->
-
-  <!-- <div class="container">
-  <div class="grid">
-    <div class="cell">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
-    </div>
-    <div class="cell">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
-    </div>
-    <div class="cell">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
-    </div>
-    <div class="cell">
-      <img src="https://i.ebayimg.com/images/g/66MAAOSwEzxYQBPf/s-l300.jpg" class="responsive-image" />
-    </div>
+<body>
+<!-- <p> top of body </p>
+<form id="checkboxForm" action="" method="GET">
+  <div class="filterButton">
+    <input type="checkbox" 
+    id="abstractionCheckbox"
+    name="showType" 
+    value="abstraction" 
+    class="filterButton"
+    > abstraction<br>
   </div>
-</div> -->
+
+  <div class="filterButton">
+    <input type="checkbox" 
+    id="exhibitionsCheckbox"
+    name="showType" 
+    value="exhibitions" 
+    class="filterButton"
+    > exhibitions<br>
+  </div>
+
+  <div class="filterButton">
+    <input type="checkbox"
+    id="natureCheckbox" 
+    name="showType" 
+    value="nature" 
+    class="filterButton"> nature<br>
+  </div>
+  <div class="filterButton">
+    <input type="checkbox"
+    id="portraitureCheckbox" 
+    name="showType" 
+    value="portraiture" 
+    class="filterButton"
+    > portraiture<br>
+  </div>
+  <div class="filterButton">
+    <input type="checkbox" 
+    id="representationCheckbox"
+    name="showType" 
+    value="representation" 
+    class="filterButton"
+    > representation<br>
+  </div>
+  <input type="submit" value="Submit">
+  </form> -->
+
+  <script>
+     
+    // $( document ).ready(
+    function processCheckboxesAfterHTMLLoad() {
+
+      // document.write('<p> top of body </p> <form id="checkboxForm" action="" method="GET"><div class="filterButton"><input type="checkbox" id="abstractionCheckbox" name="showType" value="abstraction" class="filterButton"> abstraction<br></div>');
+      // document.write('<div class="filterButton"><input type="checkbox" id="exhibitionsCheckbox" name="showType" value="exhibitions"  class="filterButton"> exhibitions<br> </div>');
+      // document.write('<div class="filterButton"><input type="checkbox" id="natureCheckbox" name="showType" value="nature"  class="filterButton"> nature<br> </div>');
+      // document.write('<div class="filterButton"><input type="checkbox" id="portraitureCheckbox" name="showType" value="portraiture"  class="filterButton"> portraiture<br> </div>');
+      // document.write('<div class="filterButton"><input type="checkbox" id="representationCheckbox" name="showType" value="representation"  class="filterButton"> representation<br> </div>');
+      // document.write('<input type="submit" value="Submit"></form>');
+
+  
+  
+
+      var checkedElements = new Array();
+      var count = 0;
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+          checkedElements[count] = value;
+          console.log(value);
+          count++;
+      });
+
+      console.log("count " + count);
+
+      var photosToDisplay = new Array();
+
+      // if count is zero, none were checked so show all
+      if(count == 0) {
+        checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation"];
+      } 
+      var tempSectionTitle = ""
+      var tempArray = new Array();
+      for(i = 0; i < checkedElements.length; i++) {
+        tempArray = shuffleArray(makeArray(checkedElements[i]));
+        photosToDisplay = photosToDisplay.concat(tempArray);
+        tempSectionTitle += checkedElements[i] + " ";
+        if(count > 0) {
+          document.getElementById(checkedElements[i] + "Checkbox").checked = true;
+        }
+      }
+
+      photosToDisplay = shuffleArray(photosToDisplay);
+      //document.write('<p> ' + photosToDisplay + '</p>');
+      // makeSection(tempSectionTitle, photosToDisplay);
+
+    }
+
+  </script>
+
+
+
 </body>
 
 </html>
