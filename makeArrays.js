@@ -15,7 +15,8 @@ function makeArray(type) {
 
 	if(type == "abstraction") {
 		for(i = 0; i < abstractionLength; i++) {
-	  		abstractionArray[i] = "images/abstraction/abstraction_" + i + ".jpg"
+	  		abstractionArray[i] = "images/abstraction/abstraction_smaller_" + i + ".jpg"
+	  		
 		}
 		return abstractionArray;
 	}
