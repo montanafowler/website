@@ -70,3 +70,37 @@ function makeSection(sectionName, array) {
   }
   document.write('</section>');
 }
+
+function arrayRemove(arr, value) {
+
+   return arr.filter(function(ele){
+       return ele != value;
+   });
+
+}
+
+function getBase64Image(img) {
+    var canvas = document.createElement("canvas");
+    canvas.width = img.width;
+    canvas.height = img.height;
+
+    var ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0);
+    var dataURL = canvas.toDataURL("image/png");
+
+    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+}
+
+function readMetaData(filepath) {
+	// Requiring fs module in which  
+	// readFile function is defined. 
+	//const fs = require('fs'); 
+	var fs = require('fs');
+	var textByLine = fs.readFileSync('test.txt').toString().split("\n");
+	console.log(textByLine);
+	// fs.readFile(filepath, (err, data) => { 
+	//     if (err) throw err; 
+	  
+	//     console.log(data.toString()); 
+	// });
+}

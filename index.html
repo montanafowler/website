@@ -2,7 +2,6 @@
 <html>
 
 <head>
-  <p> top of head </p>
   <meta charset="utf-8">
   <h1>MONTANA FOWLER</h1>
   <meta name="author" content="">
@@ -12,6 +11,7 @@
   <link href="css/responsiveGallery.css" rel="stylesheet">
   <!-- <link href="css/style.css" rel="stylesheet"> -->
   <script src="jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" srd="require.js"></script>
   <script type="text/javascript" src="processCheckboxes.js"></script>  
   <script type="text/javascript" src="makeArrays.js"></script>
 
@@ -21,7 +21,6 @@
   
 
 <body>
-<p> top of body </p>
 <form id="checkboxForm" action="" method="GET">
   <div class="filterButton">
     <input type="checkbox" 
@@ -29,6 +28,7 @@
     name="showType" 
     value="abstraction" 
     class="filterButton"
+    onChange="this.form.submit()"
     > abstraction<br>
   </div>
 
@@ -38,6 +38,7 @@
     name="showType" 
     value="exhibitions" 
     class="filterButton"
+    onChange="this.form.submit()"
     > exhibitions<br>
   </div>
 
@@ -46,7 +47,8 @@
     id="natureCheckbox" 
     name="showType" 
     value="nature" 
-    class="filterButton"> nature<br>
+    class="filterButton"
+    onChange="this.form.submit()"> nature<br>
   </div>
   <div class="filterButton">
     <input type="checkbox"
@@ -54,6 +56,7 @@
     name="showType" 
     value="portraiture" 
     class="filterButton"
+    onChange="this.form.submit()"
     > portraiture<br>
   </div>
   <div class="filterButton">
@@ -62,17 +65,30 @@
     name="showType" 
     value="representation" 
     class="filterButton"
+    onChange="this.form.submit()"
     > representation<br>
   </div>
-  <input type="submit" value="Submit">
+  <!-- <input type="submit" value="Submit"> -->
   </form>
 
 <script>
-     
+
+
     // $( document ).ready(
     // function processCheckboxesAfterHTMLLoad() {
       console.log("processCheckboxesAfterHTMLLoad");
+      var txtFile = new XMLHttpRequest();
+      var allText = "filler text";
+      txtFile.onreadystatechange = function() {
+        if (txtFile.readyState === 4 && txtFile.status == 200) {
+          allText = txtFile.responseText;
+        }
+      };
+      txtFile.open("GET", "test.txt", true);
+      txtFile.send();
 
+      // document.getElementById('your div id').innerHTML = allText;
+      console.log(allText);
       // document.write('<p> top of body </p> <form id="checkboxForm" action="" method="GET"><div class="filterButton"><input type="checkbox" id="abstractionCheckbox" name="showType" value="abstraction" class="filterButton"> abstraction<br></div>');
       // document.write('<div class="filterButton"><input type="checkbox" id="exhibitionsCheckbox" name="showType" value="exhibitions"  class="filterButton"> exhibitions<br> </div>');
       // document.write('<div class="filterButton"><input type="checkbox" id="natureCheckbox" name="showType" value="nature"  class="filterButton"> nature<br> </div>');
@@ -105,8 +121,8 @@
       console.log("checkedElements.length " + checkedElements.length);
       var index = 0;
       var i = 0;
-      for(i = 0; i < checkedElements.length; i++) {
-        console.log("i " + i + " checkedElements[i] " + checkedElements[i]);
+      while(index < checkedElements.length) {
+        console.log("index " + index + " checkedElements[index] " + checkedElements[index]);
         tempArray = shuffleArray(makeArray(checkedElements[index]));
         photosToDisplay = photosToDisplay.concat(tempArray);
         tempSectionTitle += checkedElements[index] + " ";
@@ -117,9 +133,44 @@
         index++;
       }
 
+      // var j = 0;
+      // var k = 0;
+      // var photosToDisplayLength = photosToDisplay.length;
+      // while(j < photosToDisplayLength) {
+      //   while(k < photosToDisplayLength) {
+      //     var a = new Image(),
+      //         b = new Image();
+      //     a.src = photosToDisplay[j];
+      //     b.src = photosToDisplay[k];
+
+      //     // might need to wait until a and b have actually loaded, ignoring this for now
+      //     a.onload = function() {
+      //       var a_base64 = getBase64Image(a);
+      //       b.onload = function() {
+      //         b_base64 = getBase64Image(b);
+      //         onsole.log("a_base64 " + a_base64);
+      //         console.log("b_base64 " + b_base64);
+
+      //         if (a_base64 === b_base64) {
+      //             // they are identical
+      //             console.log("IDENTICAL");
+      //             console.log(a.src);
+      //             console.log(b.src);
+      //         }
+      //       };
+      //     };
+          
+              
+
+        
+      //     k++;
+      //   }
+      //   j++;
+      // }
+
       photosToDisplay = shuffleArray(photosToDisplay);
-      //document.write('<p> ' + photosToDisplay + '</p>');
-      // makeSection(tempSectionTitle, photosToDisplay);
+      // document.write('<p> ' + photosToDisplay + '</p>');
+      makeSection(tempSectionTitle, photosToDisplay);
 
     // }
 
