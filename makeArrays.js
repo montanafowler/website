@@ -1,3 +1,11 @@
+function getImageIdFromFilepath(filepath) {
+	var filename = filepath.replace(/^.*[\\\/]/, '');
+	filename = filename.replace('.jpg', '');
+	filename = filename.replace('smaller_', '');
+	console.log("imageId: " + filename);
+	return filename;
+}
+
 function makeArray(type) {
 
 	var abstractionArray = new Array() 
@@ -67,7 +75,8 @@ function makeSection(sectionName, array) {
   document.write('<p> ' + sectionName + '</p>');
   document.write('<section id= "' + sectionName + '">');
   for(i = 0; i < array.length; i++) {
-    document.write('<img src="' + array[i] + '" class="galleryImage"  />');
+  	var imageId = getImageIdFromFilepath(array[i]);
+    document.write('<img src="' + array[i] + '" id="' + imageId + '" class="galleryImage"  />');
   }
   document.write('</section>');
 }
@@ -105,6 +114,8 @@ function readMetaData(filepath) {
 	//     console.log(data.toString()); 
 	// });
 }
+
+
 
 function getText(){
     // read text from URL location

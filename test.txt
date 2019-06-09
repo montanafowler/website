@@ -1,6 +1,6 @@
 {
-	"abstraction": {
-		"abstraction_0":  {
+	"abstraction": {"elements":
+		[ {
 
 			"title": "untitled",
 			"image_ids":["abstraction_0"],
@@ -12,7 +12,7 @@
 			"show":"yes"
 
 		},
-		"abstraction_1": {
+		 {
 			"title": "all the code I have ever written",
 			"image_ids":["abstraction_1"],
 			"materials": "oil and paper on canvas",
@@ -22,7 +22,7 @@
 			"for_sale": "no",
 			"show":"yes"
 		},
-		"abstraction_2": {
+		 {
 			"title": "untitled",
 			"image_ids":["abstraction_2"],
 			"materials": "acrylic on canvas",
@@ -32,7 +32,7 @@
 			"for_sale": "no",
 			"show":"yes"
 		},
-		"abstraction_3": {
+		 {
 			"title": "untitled",
 			"image_ids":["abstraction_3"],
 			"materials": "acrylic on canvas",
@@ -42,7 +42,7 @@
 			"for_sale": "no",
 			"show":"yes"
 		},
-		"abstraction_4": {
+		{
 			"title": "untitled",
 			"image_ids":["abstraction_4"],
 			"materials": "acrylic on canvas",
@@ -51,6 +51,6 @@
 			"category": ["abstraction"],
 			"for_sale": "no",
 			"show":"yes"
-		}
-	}
+		}]}
+	
 }
