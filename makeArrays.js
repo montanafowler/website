@@ -23,28 +23,28 @@ function makeArray(type) {
 
 	if(type == "exhibitions") {
 		for(i = 0; i < exhibitionsLength; i++) {
-		  exhibitionsArray[i] = "images/exhibitions/exhibitions_" + i + ".jpg"
+		  exhibitionsArray[i] = "images/exhibitions/exhibitions_smaller_" + i + ".jpg"
 		}
 		return exhibitionsArray;
 	}
 
 	if(type == "nature") {
 		for(i = 0; i < natureLength; i++) {
-	  		natureArray[i] = "images/nature/nature_" + i + ".jpg"
+	  		natureArray[i] = "images/nature/nature_smaller_" + i + ".jpg"
 		}
 		return natureArray;
 	}
 
 	if(type == "portraiture") {
 		for(i = 0; i < portraitureLength; i++) {
-	  		portraitureArray[i] = "images/portraiture/portraiture_" + i + ".jpg"
+	  		portraitureArray[i] = "images/portraiture/portraiture_smaller_" + i + ".jpg"
 		}
 		return portraitureArray;
 	}
 
 
 	for(i = 0; i < representationLength; i++) {
-	  representationArray[i] = "images/representation/representation_" + i + ".jpg"
+	  representationArray[i] = "images/representation/representation_smaller_" + i + ".jpg"
 	}
 	return representationArray;
 }
@@ -104,4 +104,26 @@ function readMetaData(filepath) {
 	  
 	//     console.log(data.toString()); 
 	// });
+}
+
+function getText(){
+    // read text from URL location
+    var request = new XMLHttpRequest();
+    request.open('GET', 'https://montanafowler.github.io/website/test.txt', true);
+    request.send(null);
+    request.onreadystatechange = function () {
+    	console.log("onreadystatechange");
+        if (request.readyState === 4 && request.status === 200) {
+            var type = request.getResponseHeader('Content-Type');
+            if (type.indexOf("text") !== 1) {
+            	console.log("return responseText");
+            	console.log(request.responseText);
+            	var obj = JSON.parse(request.responseText);
+            	console.log(obj.abstraction);
+            	var abs = obj.abstraction;
+            	console.log(abs.abstraction_0);
+                return request.responseText;
+            }
+        }
+    }
 }

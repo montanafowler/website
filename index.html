@@ -77,27 +77,10 @@
     // $( document ).ready(
     // function processCheckboxesAfterHTMLLoad() {
       console.log("processCheckboxesAfterHTMLLoad");
-      var txtFile = new XMLHttpRequest();
-      var allText = "filler text";
-      txtFile.onreadystatechange = function() {
-        if (txtFile.readyState === 4 && txtFile.status == 200) {
-          allText = txtFile.responseText;
-        }
-      };
-      txtFile.open("GET", "test.txt", true);
-      txtFile.send();
+      
+      var allText = getText();
 
-      // document.getElementById('your div id').innerHTML = allText;
       console.log(allText);
-      // document.write('<p> top of body </p> <form id="checkboxForm" action="" method="GET"><div class="filterButton"><input type="checkbox" id="abstractionCheckbox" name="showType" value="abstraction" class="filterButton"> abstraction<br></div>');
-      // document.write('<div class="filterButton"><input type="checkbox" id="exhibitionsCheckbox" name="showType" value="exhibitions"  class="filterButton"> exhibitions<br> </div>');
-      // document.write('<div class="filterButton"><input type="checkbox" id="natureCheckbox" name="showType" value="nature"  class="filterButton"> nature<br> </div>');
-      // document.write('<div class="filterButton"><input type="checkbox" id="portraitureCheckbox" name="showType" value="portraiture"  class="filterButton"> portraiture<br> </div>');
-      // document.write('<div class="filterButton"><input type="checkbox" id="representationCheckbox" name="showType" value="representation"  class="filterButton"> representation<br> </div>');
-      // document.write('<input type="submit" value="Submit"></form>');
-
-  
-  
 
       var checkedElements = new Array();
       var count = 0;

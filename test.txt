@@ -1,6 +1,57 @@
 {
-  "title": "flowers",
-  "materials": "acrylico en lienzo",
-  "date": 2018,
-  "category": ["nature", "abstract"]
+	"abstraction": {
+		"abstraction_0":  {
+
+			"title": "untitled",
+			"image_ids":["abstraction_0"],
+			"materials": "oil on cardstock",
+			"year": 2017,
+			"size": "4 X 6 in.",
+			"for_sale": "no",
+			"category": ["abstraction"],
+			"show":"yes"
+
+		},
+		"abstraction_1": {
+			"title": "all the code I have ever written",
+			"image_ids":["abstraction_1"],
+			"materials": "oil and paper on canvas",
+			"year": 2017,
+			"size": "36 X 60 in",
+			"category": ["abstraction"],
+			"for_sale": "no",
+			"show":"yes"
+		},
+		"abstraction_2": {
+			"title": "untitled",
+			"image_ids":["abstraction_2"],
+			"materials": "acrylic on canvas",
+			"year": 2018,
+			"size": "16 X 20 in",
+			"category": ["abstraction"],
+			"for_sale": "no",
+			"show":"yes"
+		},
+		"abstraction_3": {
+			"title": "untitled",
+			"image_ids":["abstraction_3"],
+			"materials": "acrylic on canvas",
+			"year": 2018,
+			"size": "16 X 16 in",
+			"category": ["abstraction"],
+			"for_sale": "no",
+			"show":"yes"
+		},
+		"abstraction_4": {
+			"title": "untitled",
+			"image_ids":["abstraction_4"],
+			"materials": "acrylic on canvas",
+			"year": 2018,
+			"size": "15 X 18 in",
+			"category": ["abstraction"],
+			"for_sale": "no",
+			"show":"yes"
+		},
+	}
+	
 }
