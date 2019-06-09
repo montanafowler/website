@@ -71,6 +71,8 @@
   <!-- <input type="submit" value="Submit"> -->
   </form>
 
+  <div id="tempText"></div>
+
 <script>
 
 
@@ -116,46 +118,14 @@
         index++;
       }
 
-      // var j = 0;
-      // var k = 0;
-      // var photosToDisplayLength = photosToDisplay.length;
-      // while(j < photosToDisplayLength) {
-      //   while(k < photosToDisplayLength) {
-      //     var a = new Image(),
-      //         b = new Image();
-      //     a.src = photosToDisplay[j];
-      //     b.src = photosToDisplay[k];
-
-      //     // might need to wait until a and b have actually loaded, ignoring this for now
-      //     a.onload = function() {
-      //       var a_base64 = getBase64Image(a);
-      //       b.onload = function() {
-      //         b_base64 = getBase64Image(b);
-      //         onsole.log("a_base64 " + a_base64);
-      //         console.log("b_base64 " + b_base64);
-
-      //         if (a_base64 === b_base64) {
-      //             // they are identical
-      //             console.log("IDENTICAL");
-      //             console.log(a.src);
-      //             console.log(b.src);
-      //         }
-      //       };
-      //     };
-          
-              
-
-        
-      //     k++;
-      //   }
-      //   j++;
-      // }
-
       photosToDisplay = shuffleArray(photosToDisplay);
-      // document.write('<p> ' + photosToDisplay + '</p>');
-      makeSection(tempSectionTitle, photosToDisplay);
 
-    // }
+      // make the first page not have so many photos so it loads faster
+      if(count == 0) {
+        photosToDisplay = photosToDisplay.slice(0, photosToDisplay.length / 6);
+      }
+
+      makeSection(tempSectionTitle, photosToDisplay);
 
   </script>
 

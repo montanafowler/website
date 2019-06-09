@@ -67,7 +67,7 @@ function makeSection(sectionName, array) {
   document.write('<p> ' + sectionName + '</p>');
   document.write('<section id= "' + sectionName + '">');
   for(i = 0; i < array.length; i++) {
-    document.write('<img src="' + array[i] + '"  />');
+    document.write('<img src="' + array[i] + '" class="galleryImage"  />');
   }
   document.write('</section>');
 }
@@ -122,6 +122,8 @@ function getText(){
             	console.log(obj.abstraction);
             	var abs = obj.abstraction;
             	console.log(abs.abstraction_0);
+            	var abs0 = abs.abstraction_0;
+            	document.getElementById("tempText").innerText = abs0.title;
                 return request.responseText;
             }
         }
