@@ -51,7 +51,6 @@
 			"category": ["abstraction"],
 			"for_sale": "no",
 			"show":"yes"
-		},
+		}
 	}
-	
 }
