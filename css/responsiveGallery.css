@@ -38,16 +38,31 @@ representationArray = shuffleArray(representationArray);
   max-width: 700px;
   text-align: center;
   color: #ccc;
-  padding: 10px 0;
+  padding: 8px 0;
   height: 150px;
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 14px;
+}
+
+#materialsCaption {
+  display: inline;
+  padding-right: 8px;
+}
+
+#sizeCaption {
+  display: inline;
+  padding-right: 8px;
+}
+
+#locationCaption {
+  display: inline;
+  font-style: italic;
 }
 
 /* title of Modal Image */
 #title {
   margin: auto;
-  display: block;
+  display: inline;
   width: 80%;
   max-width: 700px;
   text-align: center;
@@ -56,6 +71,25 @@ representationArray = shuffleArray(representationArray);
   height: 10px;
   font-weight: bold;
   font-size: 20px;
+}
+
+#yearCaption {
+  margin: auto;
+  display: inline;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  margin-left: 8px;
+  height: 10px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+#topLine  {
+  margin-top: 18px;
+  display: block;
 }
 
 /* Add Animation */

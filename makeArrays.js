@@ -91,13 +91,13 @@ function makeSection(sectionName, array) {
     	+ ' title="temp title"'
     	+ ' materials="temp materials"'
     	+ ' year="temp year"'
-    	+ ' width="-1"'
-    	+ ' height="-1"'
+    	+ ' widthInches="-1"'
+    	+ ' heightInches="-1"'
     	+ ' for_sale="temp no"'
     	+ ' categories=["abstraction"]'
     	+ ' show="temp yes"'
     	+ ' location="temp location"'
-    	+'  />');
+    	+ ' hidden=true />');
   }
   document.write('</section>');
 }
@@ -123,7 +123,7 @@ function getBase64Image(img) {
 }
 
 
-function getText() {
+function getText(checkedElements) {
     // read text from URL location
     var request = new XMLHttpRequest();
     request.open('GET', 'https://raw.githubusercontent.com/montanafowler/website/master/allJson.txt', true);
@@ -133,29 +133,60 @@ function getText() {
         if (request.readyState === 4 && request.status === 200) {
             var type = request.getResponseHeader('Content-Type');
             if (type.indexOf("text") !== 1) {
-            	console.log("return responseText");
             	console.log(request.responseText);
             	var obj = JSON.parse(request.responseText);
-            	console.log(obj.abstraction);
-            	var abstractionObj = obj.abstraction;
-            	var abstractionJSONArray = abstractionObj.elements;
+            	var allObj = obj.all;
+            	var allJSONArray = allObj.elements;
 
-            	for(i = 0; i < abstractionJSONArray.length; i++) {
-            		console.log("abstractionJSONArray.image_ids " 
-            			+ abstractionJSONArray[i].image_ids);
-            		var imageIdsArray = abstractionJSONArray[i].image_ids;
-            		var imageTitle = abstractionJSONArray[i].title;
-            		
-            		for(j = 0; j < imageIdsArray.length; j++) {
-            			document.getElementById(imageIdsArray[j]).alt 
-	            			= abstractionJSONArray[i].materials + " - " 
-	            			+ abstractionJSONArray[i].size + " - "
-	            			+ year;
-	            		document.getElementById(imageIdsArray[j]).year = year;
-	            		document.getElementById(imageIdsArray[j]).size = size;
-            			document.getElementById(imageIdsArray[j]).title = imageTitle;
+            	for(i = 0; i < allJSONArray.length; i++) {
+            		var imageId = allJSONArray[i].image_id;
+            		var imageTitle = allJSONArray[i].title;
+            		var materials = allJSONArray[i].materials;
+            		var year = allJSONArray[i].year;
+            		var width = allJSONArray[i].width;
+            		var height = allJSONArray[i].height;
+            		var for_sale = allJSONArray[i].for_sale;
+            		var categories = allJSONArray[i].categories;
+            		var show = allJSONArray[i].show;
+            		var location = allJSONArray[i].location;
+            		var alt = materials + "    " + width + " x " + height + "in.    <i>" + location + "</i>";
+
+            		if(document.getElementById(imageId) != null) {
+            			document.getElementById(imageId).alt = alt;//materials + "\t" + width + " x " + height + "in.\t" + year;
+            			// document.getElementById(imageId).alt = allJSONArray[i].year;
+            			// document.getElementById(imageId).alt = allJSONArray[i].materials;
+        				document.getElementById(imageId).year = year;
+        				document.getElementById(imageId).widthInches = width;
+        				document.getElementById(imageId).heightInches = height;
+    					document.getElementById(imageId).title = imageTitle;
+    					document.getElementById(imageId).materials = materials;
+    					document.getElementById(imageId).for_sale = for_sale;
+    					document.getElementById(imageId).categories = categories;
+    					document.getElementById(imageId).show = show;
+    					document.getElementById(imageId).location = location;
+    					document.getElementById(imageId).title = imageTitle;
+
+    					console.log("checkedElements: " + checkedElements);
+    					console.log("categories for " + imageId + " " + categories);
+    					console.log("categories.length " + categories.length);
+    					for(j = 0; j < categories.length; j++) {
+				          for(k = 0; k < checkedElements.length; k++) {
+				            // category matches one we want to display
+				            console.log("categories[j] " + categories[j] + " ? checkedElements[k] " + checkedElements[k] );
+				            if(categories[j] == checkedElements[k]) {
+				              document.getElementById(imageId).hidden = false;
+				              console.log("category match!");
+				              break;
+				            }
+				          }
+				          if(document.getElementById(imageId).hidden == false) {
+				            break;
+				          }
+				        }
+
             		}
-s            	}
+        			        		
+            	}
 
             	
                 return request.responseText;

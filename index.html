@@ -75,8 +75,16 @@
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="modalImg">
-    <div id="title"></div>
-    <div id="caption"></div>
+    <div id="topLine">
+        <div id="title"></div>
+        <div id="yearCaption"></div>
+    </div>
+    <div id="caption">
+        <div id="materialsCaption"></div>
+        <div id="sizeCaption"></div>
+        <div id="locationCaption"></div>
+    </div>
+    
   </div>
 
 <script>
@@ -85,7 +93,6 @@
       var count = 0;
       var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
           checkedElements.push(value);
-          console.log(value);
           count++;
       });
 
@@ -97,14 +104,16 @@
 
 
       var allImages = makeAllArray();
+
       // make the first page not have so many photos so it loads faster
       if(count == 0) {
-        allImages = allImages.slice(0, 10);
+       // allImages = allImages.slice(0, 10);
       }
+      var photosToDisplay = allImages;
+      makeSection("", allImages);
 
-      makeSection("all images section", allImages);
-
-      var allText = getText();
+      var allText = getText(checkedElements);
+      console.log("done calling allText");
 
       // console.log(allText);
 
@@ -117,19 +126,20 @@
       // var tempSectionTitle = ""
       // var tempArray = new Array();
       // console.log("checkedElements.length " + checkedElements.length);
-      // var index = 0;
+      var index = 0;
       // var i = 0;
-      // while(index < checkedElements.length) {
+       while(index < checkedElements.length) {
       //   console.log("index " + index + " checkedElements[index] " + checkedElements[index]);
       //   tempArray = shuffleArray(makeArray(checkedElements[index]));
       //   photosToDisplay = photosToDisplay.concat(tempArray);
       //   tempSectionTitle += checkedElements[index] + " ";
         
-      //   if(count > 0) {
-      //     document.getElementById(checkedElements[index] + "Checkbox").checked = true;
-      //   }
-      //   index++;
-      // }
+        if(count > 0) {
+
+          document.getElementById(checkedElements[index] + "Checkbox").checked = true;
+        }
+         index++;
+       }
 
       // photosToDisplay = shuffleArray(photosToDisplay);
 
@@ -148,15 +158,22 @@
       var modalImg = document.getElementById("modalImg");
       var title = document.getElementById("title");
       var captionText = document.getElementById("caption");
-
+      var yearCaption = document.getElementById("yearCaption");
+      var materialsCaption = document.getElementById("materialsCaption");
+      var sizeCaption = document.getElementById("sizeCaption");
+      var locationCaption = document.getElementById("locationCaption");
 
       for(i = 0; i < photosToDisplay.length; i++) {
         var img = document.getElementById(getImageIdFromFilepath(photosToDisplay[i]));
         img.onclick = function(){
           modal.style.display = "block";
           modalImg.src = this.src;
-          captionText.innerHTML = this.materials;
+          //captionText.innerHTML = this.alt;
+          materialsCaption.innerHTML = this.materials;
+          sizeCaption.innerHTML = this.widthInches + " x " + this.heightInches + " in.";
+          locationCaption.innerHTML = this.location;
           title.innerHTML = this.title;
+          yearCaption.innerHTML = this.year;
           var imageId = getImageIdFromFilepath(this.id);
         }
       }
@@ -170,6 +187,7 @@
         modal.style.display = "none";
       }
 
+     
 
   </script>
 
