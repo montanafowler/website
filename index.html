@@ -75,14 +75,11 @@
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="modalImg">
+    <div id="title"></div>
     <div id="caption"></div>
   </div>
 
 <script>
- 
-      var allText = getText();
-
-      console.log(allText);
 
       var checkedElements = new Array();
       var count = 0;
@@ -93,39 +90,55 @@
       });
 
       console.log("count " + count);
-      console.log("checkedElements " + checkedElements);
-
-      var photosToDisplay = new Array();
-
       // if count is zero, none were checked so show all
       if(count == 0) {
         checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation"];
       } 
-      var tempSectionTitle = ""
-      var tempArray = new Array();
-      console.log("checkedElements.length " + checkedElements.length);
-      var index = 0;
-      var i = 0;
-      while(index < checkedElements.length) {
-        console.log("index " + index + " checkedElements[index] " + checkedElements[index]);
-        tempArray = shuffleArray(makeArray(checkedElements[index]));
-        photosToDisplay = photosToDisplay.concat(tempArray);
-        tempSectionTitle += checkedElements[index] + " ";
-        
-        if(count > 0) {
-          document.getElementById(checkedElements[index] + "Checkbox").checked = true;
-        }
-        index++;
-      }
 
-      photosToDisplay = shuffleArray(photosToDisplay);
 
+      var allImages = makeAllArray();
       // make the first page not have so many photos so it loads faster
       if(count == 0) {
-        photosToDisplay = photosToDisplay.slice(0, photosToDisplay.length / 6);
+        allImages = allImages.slice(0, 10);
       }
 
-      makeSection(tempSectionTitle, photosToDisplay);
+      makeSection("all images section", allImages);
+
+      var allText = getText();
+
+      // console.log(allText);
+
+      
+      // console.log("checkedElements " + checkedElements);
+
+      // var photosToDisplay = new Array();
+
+      
+      // var tempSectionTitle = ""
+      // var tempArray = new Array();
+      // console.log("checkedElements.length " + checkedElements.length);
+      // var index = 0;
+      // var i = 0;
+      // while(index < checkedElements.length) {
+      //   console.log("index " + index + " checkedElements[index] " + checkedElements[index]);
+      //   tempArray = shuffleArray(makeArray(checkedElements[index]));
+      //   photosToDisplay = photosToDisplay.concat(tempArray);
+      //   tempSectionTitle += checkedElements[index] + " ";
+        
+      //   if(count > 0) {
+      //     document.getElementById(checkedElements[index] + "Checkbox").checked = true;
+      //   }
+      //   index++;
+      // }
+
+      // photosToDisplay = shuffleArray(photosToDisplay);
+
+      // // make the first page not have so many photos so it loads faster
+      // if(count == 0) {
+      //   photosToDisplay = photosToDisplay.slice(0, photosToDisplay.length / 6);
+      // }
+
+      // makeSection(tempSectionTitle, photosToDisplay);
 
 
       // Get the modal
@@ -133,6 +146,7 @@
 
       // Get the image and insert it inside the modal - use its "alt" text as a caption
       var modalImg = document.getElementById("modalImg");
+      var title = document.getElementById("title");
       var captionText = document.getElementById("caption");
 
 
@@ -141,7 +155,8 @@
         img.onclick = function(){
           modal.style.display = "block";
           modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
+          captionText.innerHTML = this.materials;
+          title.innerHTML = this.title;
           var imageId = getImageIdFromFilepath(this.id);
         }
       }

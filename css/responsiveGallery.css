@@ -25,8 +25,9 @@ representationArray = shuffleArray(representationArray);
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  height: 70%;
+  max-height: 700px;
+  max-width: 80%;
 }
 
 /* Caption of Modal Image */
@@ -39,6 +40,22 @@ representationArray = shuffleArray(representationArray);
   color: #ccc;
   padding: 10px 0;
   height: 150px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* title of Modal Image */
+#title {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* Add Animation */

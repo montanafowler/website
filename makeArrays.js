@@ -6,6 +6,15 @@ function getImageIdFromFilepath(filepath) {
 	return filename;
 }
 
+function makeAllArray() {
+	var arr = new Array();
+	var totalAllImages = 98;
+	for(i = 0; i < totalAllImages; i++) {
+		arr[i] = "images/all/all_" + i + ".jpg";
+	}
+	return arr;
+}
+
 function makeArray(type) {
 
 	var abstractionArray = new Array() 
@@ -76,7 +85,19 @@ function makeSection(sectionName, array) {
   document.write('<section id= "' + sectionName + '">');
   for(i = 0; i < array.length; i++) {
   	var imageId = getImageIdFromFilepath(array[i]);
-    document.write('<img src="' + array[i] + '" id="' + imageId + '" class="galleryImage"  />');
+    document.write('<img src="' + array[i] 
+    	+ '" id="' + imageId 
+    	+ '" class="galleryImage"' 
+    	+ ' title="temp title"'
+    	+ ' materials="temp materials"'
+    	+ ' year="temp year"'
+    	+ ' width="-1"'
+    	+ ' height="-1"'
+    	+ ' for_sale="temp no"'
+    	+ ' categories=["abstraction"]'
+    	+ ' show="temp yes"'
+    	+ ' location="temp location"'
+    	+'  />');
   }
   document.write('</section>');
 }
@@ -101,23 +122,8 @@ function getBase64Image(img) {
     return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
 }
 
-function readMetaData(filepath) {
-	// Requiring fs module in which  
-	// readFile function is defined. 
-	//const fs = require('fs'); 
-	var fs = require('fs');
-	var textByLine = fs.readFileSync('test.txt').toString().split("\n");
-	console.log(textByLine);
-	// fs.readFile(filepath, (err, data) => { 
-	//     if (err) throw err; 
-	  
-	//     console.log(data.toString()); 
-	// });
-}
 
-
-
-function getText(){
+function getText() {
     // read text from URL location
     var request = new XMLHttpRequest();
     request.open('GET', 'https://montanafowler.github.io/website/test.txt', true);
@@ -131,10 +137,26 @@ function getText(){
             	console.log(request.responseText);
             	var obj = JSON.parse(request.responseText);
             	console.log(obj.abstraction);
-            	var abs = obj.abstraction;
-            	console.log(abs.abstraction_0);
-            	var abs0 = abs.abstraction_0;
-            	document.getElementById("tempText").innerText = abs0.title;
+            	var abstractionObj = obj.abstraction;
+            	var abstractionJSONArray = abstractionObj.elements;
+
+            	for(i = 0; i < abstractionJSONArray.length; i++) {
+            		console.log("abstractionJSONArray.image_ids " 
+            			+ abstractionJSONArray[i].image_ids);
+            		var imageIdsArray = abstractionJSONArray[i].image_ids;
+            		var imageTitle = abstractionJSONArray[i].title;
+            		for(j = 0; j < imageIdsArray.length; j++) {
+            			document.getElementById(imageIdsArray[j]).alt 
+	            			= abstractionJSONArray[i].materials + " - " 
+	            			+ abstractionJSONArray[i].size + " - "
+	            			+ year;
+	            		document.getElementById(imageIdsArray[j]).year = year;
+	            		document.getElementById(imageIdsArray[j]).size = size;
+            			document.getElementById(imageIdsArray[j]).title = imageTitle;
+            		}
+s            	}
+
+            	
                 return request.responseText;
             }
         }
