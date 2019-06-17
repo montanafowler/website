@@ -12,21 +12,27 @@ representationArray = shuffleArray(representationArray);
   color: white;
 }
 
+.container:hover .sectionImageLabel {
+  opacity: 1; 
+}
+
 
 
 
 .sectionImageLabel {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
-  color: #D3D3D3;
+  bottom: 10px;
+  left: 4px;
+  color: #010101;
   opacity: 0;
+  transition: .3s;
   cursor: pointer;
+  font-weight: bold;
 }
 
-.sectionImageLabel:hover {
+/*.sectionImageLabel:hover {
   opacity: 1;
-}
+}*/
 
 /* The Modal (background) */
 .modal {
@@ -175,7 +181,7 @@ section {
 }
 
 .galleryImage:hover {
-  opacity: 0.7;
+  opacity: 0.6;
   
 }
 
