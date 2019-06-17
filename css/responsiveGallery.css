@@ -6,6 +6,28 @@ portraitureArray = shuffleArray(portraitureArray);
 representationArray = shuffleArray(representationArray);
 */
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.sectionImageLabel {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: #D3D3D3;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.sectionImageLabel:hover {
+  opacity: 1;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -152,7 +174,10 @@ section {
   transition: 0.3s;
 }
 
-.galleryImage:hover {opacity: 0.7;}
+.galleryImage:hover {
+  opacity: 0.7;
+  
+}
 
 @media (max-width: 1200px) {
   section {

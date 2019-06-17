@@ -85,6 +85,7 @@ function makeSection(sectionName, array) {
   document.write('<section id= "' + sectionName + '">');
   for(i = 0; i < array.length; i++) {
   	var imageId = getImageIdFromFilepath(array[i]);
+  	document.write('<div class="container">');
     document.write('<img src="' + array[i] 
     	+ '" id="' + imageId 
     	+ '" class="galleryImage"' 
@@ -98,30 +99,28 @@ function makeSection(sectionName, array) {
     	+ ' show="temp yes"'
     	+ ' location="temp location"'
     	+ ' hidden=true />');
+
+	
+
+    var num = imageId.replace("all_", "");
+    document.write('<div class="sectionImageLabel" id="' + imageId + '_label" hidden=true>' + num + '</div>')
+    document.write('</div>');
+
+ //    $(imageId).hover(function(){
+	//   document.getElementById(imageId + "_label").css("opacity", "1");
+	//   }, function(){
+	//   document.getElementById(imageId + "_label").css("opacity", "0");
+	// });
   }
   document.write('</section>');
 }
 
 function arrayRemove(arr, value) {
-
    return arr.filter(function(ele){
        return ele != value;
    });
 
 }
-
-function getBase64Image(img) {
-    var canvas = document.createElement("canvas");
-    canvas.width = img.width;
-    canvas.height = img.height;
-
-    var ctx = canvas.getContext("2d");
-    ctx.drawImage(img, 0, 0);
-    var dataURL = canvas.toDataURL("image/png");
-
-    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-}
-
 
 function getText(checkedElements) {
     // read text from URL location
@@ -129,11 +128,9 @@ function getText(checkedElements) {
     request.open('GET', 'https://raw.githubusercontent.com/montanafowler/website/master/allJson.txt', true);
     request.send(null);
     request.onreadystatechange = function () {
-    	console.log("onreadystatechange");
         if (request.readyState === 4 && request.status === 200) {
             var type = request.getResponseHeader('Content-Type');
             if (type.indexOf("text") !== 1) {
-            	console.log(request.responseText);
             	var obj = JSON.parse(request.responseText);
             	var allObj = obj.all;
             	var allJSONArray = allObj.elements;
@@ -149,13 +146,10 @@ function getText(checkedElements) {
             		var categories = allJSONArray[i].categories;
             		var show = allJSONArray[i].show;
             		var location = allJSONArray[i].location;
-            		var alt = materials + "    " + width + " x " + height + "in.    <i>" + location + "</i>";
 
             		if(document.getElementById(imageId) != null) {
-            			document.getElementById(imageId).alt = alt;//materials + "\t" + width + " x " + height + "in.\t" + year;
-            			// document.getElementById(imageId).alt = allJSONArray[i].year;
-            			// document.getElementById(imageId).alt = allJSONArray[i].materials;
-        				document.getElementById(imageId).year = year;
+            			// set all the attributes of the image with the meta data
+            			document.getElementById(imageId).year = year;
         				document.getElementById(imageId).widthInches = width;
         				document.getElementById(imageId).heightInches = height;
     					document.getElementById(imageId).title = imageTitle;
@@ -165,17 +159,14 @@ function getText(checkedElements) {
     					document.getElementById(imageId).show = show;
     					document.getElementById(imageId).location = location;
     					document.getElementById(imageId).title = imageTitle;
-
-    					console.log("checkedElements: " + checkedElements);
-    					console.log("categories for " + imageId + " " + categories);
-    					console.log("categories.length " + categories.length);
+    					
+    					// loop through categories to set hidden to true
     					for(j = 0; j < categories.length; j++) {
 				          for(k = 0; k < checkedElements.length; k++) {
 				            // category matches one we want to display
-				            console.log("categories[j] " + categories[j] + " ? checkedElements[k] " + checkedElements[k] );
 				            if(categories[j] == checkedElements[k]) {
 				              document.getElementById(imageId).hidden = false;
-				              console.log("category match!");
+				              document.getElementById(imageId + "_label").hidden = false;
 				              break;
 				            }
 				          }
@@ -183,12 +174,8 @@ function getText(checkedElements) {
 				            break;
 				          }
 				        }
-
-            		}
-        			        		
+            		}		
             	}
-
-            	
                 return request.responseText;
             }
         }
