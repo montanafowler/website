@@ -126,7 +126,7 @@ function getBase64Image(img) {
 function getText() {
     // read text from URL location
     var request = new XMLHttpRequest();
-    request.open('GET', 'https://montanafowler.github.io/website/test.txt', true);
+    request.open('GET', 'https://raw.githubusercontent.com/montanafowler/website/master/allJson.txt', true);
     request.send(null);
     request.onreadystatechange = function () {
     	console.log("onreadystatechange");
@@ -145,6 +145,7 @@ function getText() {
             			+ abstractionJSONArray[i].image_ids);
             		var imageIdsArray = abstractionJSONArray[i].image_ids;
             		var imageTitle = abstractionJSONArray[i].title;
+            		
             		for(j = 0; j < imageIdsArray.length; j++) {
             			document.getElementById(imageIdsArray[j]).alt 
 	            			= abstractionJSONArray[i].materials + " - " 
