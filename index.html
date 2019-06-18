@@ -110,10 +110,16 @@
        // allImages = allImages.slice(0, 10);
       }
       var photosToDisplay = allImages;
+      allImages = shuffleArray(allImages);
+      // allImages = filterNewerForward(allImages);
+      photosToDisplay = allImages;
+
       makeSection("", allImages);
 
       var allText = getText(checkedElements);
       console.log("done calling allText");
+
+      filterNewerFoward(allImages);
 
       // console.log(allText);
 

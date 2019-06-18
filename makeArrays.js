@@ -6,6 +6,24 @@ function getImageIdFromFilepath(filepath) {
 	return filename;
 }
 
+function filterNewerForward(arr) {
+	for(i = 0; i < arr.length - 1; i++) {
+		var imgId = getImageIdFromFilepath(arr[i]);
+		var img = document.getElementById(imgId);
+		var imgId1 = getImageIdFromFilepath(arr[i + 1]);
+		var img1 = document.getElementById(imgId1);
+
+		console.log(imgId + " compare " + imgId1);
+		console.log(img.year + " " + img1.year);
+		if (img1.year > img.year) {
+			var temp = arr[i];
+			arr[i] = arr[i + 1];
+			arr[i + 1] = temp;
+		}
+	}
+	return arr;
+}
+
 function makeAllArray() {
 	var arr = new Array();
 	var totalAllImages = 98;
@@ -164,7 +182,7 @@ function getText(checkedElements) {
     					for(j = 0; j < categories.length; j++) {
 				          for(k = 0; k < checkedElements.length; k++) {
 				            // category matches one we want to display
-				            if(categories[j] == checkedElements[k]) {
+				            if(categories[j] == checkedElements[k] && show == "yes") {
 				              document.getElementById(imageId).hidden = false;
 				              document.getElementById(imageId + "_label").hidden = false;
 				              break;
