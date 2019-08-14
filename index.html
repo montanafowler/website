@@ -21,7 +21,9 @@
   
 
 <body>
+
 <form id="checkboxForm" action="" method="GET">
+  <!-- checkboxes -->
   <div class="filterButton">
     <input type="checkbox" 
     id="abstractionCheckbox"
@@ -31,7 +33,6 @@
     onChange="this.form.submit()"
     > abstraction<br>
   </div>
-
   <div class="filterButton">
     <input type="checkbox" 
     id="exhibitionsCheckbox"
@@ -41,7 +42,6 @@
     onChange="this.form.submit()"
     > exhibitions<br>
   </div>
-
   <div class="filterButton">
     <input type="checkbox"
     id="natureCheckbox" 
@@ -68,24 +68,45 @@
     onChange="this.form.submit()"
     > representation<br>
   </div>
-  <!-- <input type="submit" value="Submit"> -->
+
+  <!-- about -->
+  <div class="filterButton"> 
+    <a href="about.html">about</a>
+  </div>
+
+  <!-- contact -->
+  <div class="filterButton"> 
+    <a href="contact.html">contact</a>
+  </div>
   </form>
 
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modalImg">
-    <div id="topLine">
-        <div id="title"></div>
-        <div id="yearCaption"></div>
+  
+
+
+  <div id="main-content" class="main">
+    <div id="sidebar" class="sidebar">
+        
     </div>
-    <div id="caption">
-        <div id="materialsCaption"></div>
-        <div id="sizeCaption"></div>
-        <div id="locationCaption"></div>
-    </div>
-    
+    <div id="content" class="content">
+        <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="topLine">
+            <div id="title"></div>
+            <div id="yearCaption"></div>
+        </div>
+        <div id="caption">
+            <div id="materialsCaption"></div>
+            <div id="sizeCaption"></div>
+            <div id="locationCaption"></div>
+        </div>
+        
   </div>
+
+
+
+  
 
 <script>
 
@@ -105,13 +126,16 @@
 
       var allImages = makeAllArray();
 
-      // make the first page not have so many photos so it loads faster
-      if(count == 0) {
-       // allImages = allImages.slice(0, 10);
-      }
+      
       var photosToDisplay = allImages;
       allImages = shuffleArray(allImages);
       // allImages = filterNewerForward(allImages);
+
+      // make the first page not have so many photos so it loads faster
+      if(count == 0) {
+        allImages = allImages.slice(0, 16);
+      }
+
       photosToDisplay = allImages;
 
       makeSection("", allImages);
@@ -119,7 +143,7 @@
       var allText = getText(checkedElements);
       console.log("done calling allText");
 
-      filterNewerFoward(allImages);
+      //filterNewerFoward(allImages);
 
       // console.log(allText);
 
@@ -196,6 +220,9 @@
      
 
   </script>
+
+      </div>
+</div>
 
 <!-- <p> top of body </p>
 <form id="checkboxForm" action="" method="GET">

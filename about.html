@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <h1>MONTANA FOWLER</h1>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/responsiveGallery.css" rel="stylesheet">
+  <script src="jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" srd="require.js"></script>
+  <script type="text/javascript" src="processCheckboxes.js"></script>  
+  <script type="text/javascript" src="makeArrays.js"></script>  
+</head>
+
+  
+
+<body>
+ <form id="checkboxForm" action="index.html" method="GET">
+  <!-- checkboxes -->
+  <div class="filterButton">
+    <input type="checkbox" 
+    id="abstractionCheckbox"
+    name="showType" 
+    value="abstraction" 
+    class="filterButton"
+    onChange="this.form.submit()"
+    > abstraction<br>
+  </div>
+  <div class="filterButton">
+    <input type="checkbox" 
+    id="exhibitionsCheckbox"
+    name="showType" 
+    value="exhibitions" 
+    class="filterButton"
+    onChange="this.form.submit()"
+    > exhibitions<br>
+  </div>
+  <div class="filterButton">
+    <input type="checkbox"
+    id="natureCheckbox" 
+    name="showType" 
+    value="nature" 
+    class="filterButton"
+    onChange="this.form.submit()"> nature<br>
+  </div>
+  <div class="filterButton">
+    <input type="checkbox"
+    id="portraitureCheckbox" 
+    name="showType" 
+    value="portraiture" 
+    class="filterButton"
+    onChange="this.form.submit()"
+    > portraiture<br>
+  </div>
+  <div class="filterButton">
+    <input type="checkbox" 
+    id="representationCheckbox"
+    name="showType" 
+    value="representation" 
+    class="filterButton"
+    onChange="this.form.submit()"
+    > representation<br>
+  </div>
+  
+  <!-- about -->
+  <div class="filterButton"> 
+    <a href="about.html">about</a>
+  </div>
+
+  <!-- contact -->
+  <div class="filterButton"> 
+    <a href="contact.html">contact</a>
+  </div>
+ </form>
+
+ 
+
+</div>
+
+
+
+</body>
+
+</html>

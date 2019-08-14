@@ -177,6 +177,33 @@ function getText(checkedElements) {
     					document.getElementById(imageId).show = show;
     					document.getElementById(imageId).location = location;
     					document.getElementById(imageId).title = imageTitle;
+
+    					// Get the modal
+						var modal = document.getElementById("myModal");
+
+						// Get the image and insert it inside the modal - use its "alt" text as a caption
+						var modalImg = document.getElementById("modalImg");
+						var title = document.getElementById("title");
+						var captionText = document.getElementById("caption");
+						var yearCaption = document.getElementById("yearCaption");
+						var materialsCaption = document.getElementById("materialsCaption");
+						var sizeCaption = document.getElementById("sizeCaption");
+						var locationCaption = document.getElementById("locationCaption");
+
+						//for(i = 0; i < photosToDisplay.length; i++) {
+						// var img = document.getElementById(imageId);
+						// img.onclick = function(){
+						// 	modal.style.display = "block";
+						// 	modalImg.src = this.src;
+						// 	//captionText.innerHTML = this.alt;
+						// 	materialsCaption.innerHTML = this.materials;
+						// 	sizeCaption.innerHTML = this.widthInches + " x " + this.heightInches + " in.";
+						// 	locationCaption.innerHTML = this.location;
+						// 	title.innerHTML = this.title;
+						// 	yearCaption.innerHTML = this.year;
+						// 	var imageId = getImageIdFromFilepath(this.id);
+						// }
+						//}
     					
     					// loop through categories to set hidden to true
     					for(j = 0; j < categories.length; j++) {

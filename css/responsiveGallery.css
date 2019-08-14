@@ -17,8 +17,6 @@ representationArray = shuffleArray(representationArray);
 }
 
 
-
-
 .sectionImageLabel {
   position: absolute;
   bottom: 10px;
