@@ -1016,7 +1016,7 @@
 			"show":"yes",
 			"location":"Granada, Spain"
 		},
-
+x
 		{
 			"title": "concierto de Test Tube, retrato de Nathan Umbanhowar, músico y novio americano",
 			"image_id":"all_79",

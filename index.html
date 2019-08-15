@@ -1,230 +1,172 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  <h1>MONTANA FOWLER</h1>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="css/responsiveGallery.css" rel="stylesheet">
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
-  <script src="jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" srd="require.js"></script>
-  <script type="text/javascript" src="processCheckboxes.js"></script>  
-  <script type="text/javascript" src="makeArrays.js"></script>
-
-  
-  </head>
-
-  
-
+  <title></title>
+</head>
 <body>
-
-<form id="checkboxForm" action="" method="GET">
-  <!-- checkboxes -->
-  <div class="filterButton">
-    <input type="checkbox" 
-    id="abstractionCheckbox"
-    name="showType" 
-    value="abstraction" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > abstraction<br>
-  </div>
-  <div class="filterButton">
-    <input type="checkbox" 
-    id="exhibitionsCheckbox"
-    name="showType" 
-    value="exhibitions" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > exhibitions<br>
-  </div>
-  <div class="filterButton">
-    <input type="checkbox"
-    id="natureCheckbox" 
-    name="showType" 
-    value="nature" 
-    class="filterButton"
-    onChange="this.form.submit()"> nature<br>
-  </div>
-  <div class="filterButton">
-    <input type="checkbox"
-    id="portraitureCheckbox" 
-    name="showType" 
-    value="portraiture" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > portraiture<br>
-  </div>
-  <div class="filterButton">
-    <input type="checkbox" 
-    id="representationCheckbox"
-    name="showType" 
-    value="representation" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > representation<br>
-  </div>
-
-  <!-- about -->
-  <div class="filterButton"> 
-    <a href="about.html">about</a>
-  </div>
-
-  <!-- contact -->
-  <div class="filterButton"> 
-    <a href="contact.html">contact</a>
-  </div>
-  </form>
-
-  
-
-
-  <div id="main-content" class="main">
-    <div id="sidebar" class="sidebar">
-        
+  <h1>MONTANA FOWLER</h1>
+  <meta content="" name="author">
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/responsiveGallery.css" rel="stylesheet"><!-- <link href="css/style.css" rel="stylesheet"> -->
+  <script src="jquery-3.4.1.min.js">
+  </script> 
+  <script type="text/javascript">
+  </script> 
+  <script src="processCheckboxes.js" type="text/javascript"></script> 
+  <script src="makeArrays.js" type="text/javascript"></script>
+  <form action="" id="checkboxForm" method="get" name="checkboxForm">
+    <!-- checkboxes -->
+    <div class="filterButton">
+      <input class="filterButton" id="abstractionCheckbox" name="showType" onchange="this.form.submit()" type="checkbox" value="abstraction"> abstraction<br>
     </div>
-    <div id="content" class="content">
-        <!-- The Modal -->
-      <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="modalImg">
+    <div class="filterButton">
+      <input class="filterButton" id="exhibitionsCheckbox" name="showType" onchange="this.form.submit()" type="checkbox" value="exhibitions"> exhibitions<br>
+    </div>
+    <div class="filterButton">
+      <input class="filterButton" id="natureCheckbox" name="showType" onchange="this.form.submit()" type="checkbox" value="nature"> nature<br>
+    </div>
+    <div class="filterButton">
+      <input class="filterButton" id="portraitureCheckbox" name="showType" onchange="this.form.submit()" type="checkbox" value="portraiture"> portraiture<br>
+    </div>
+    <div class="filterButton">
+      <input class="filterButton" id="representationCheckbox" name="showType" onchange="this.form.submit()" type="checkbox" value="representation"> representation<br>
+    </div><!-- about -->
+    <div class="filterButton">
+      <a href="about.html">about</a>
+    </div>
+  </form>
+  <div class="main" id="main-content">
+    <div class="sidebar" id="sidebar"></div>
+    <div class="content" id="content">
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <span class="close">&times;</span> <img class="modal-content" id="modalImg">
         <div id="topLine">
-            <div id="title"></div>
-            <div id="yearCaption"></div>
+          <div id="title"></div>
+          <div id="yearCaption"></div>
         </div>
         <div id="caption">
-            <div id="materialsCaption"></div>
-            <div id="sizeCaption"></div>
-            <div id="locationCaption"></div>
+          <div id="materialsCaption"></div>
+          <div id="sizeCaption"></div>
+          <div id="locationCaption"></div>
         </div>
-        
-  </div>
-
-
-
-  
-
-<script>
-
-      var checkedElements = new Array();
-      var count = 0;
-      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-          checkedElements.push(value);
-          count++;
-      });
-
-      console.log("count " + count);
-      // if count is zero, none were checked so show all
-      if(count == 0) {
-        checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation"];
-      } 
-
-
-      var allImages = makeAllArray();
-
-      
-      var photosToDisplay = allImages;
-      allImages = shuffleArray(allImages);
-      // allImages = filterNewerForward(allImages);
-
-      // make the first page not have so many photos so it loads faster
-      if(count == 0) {
-        allImages = allImages.slice(0, 16);
-      }
-
-      photosToDisplay = allImages;
-
-      makeSection("", allImages);
-
-      var allText = getText(checkedElements);
-      console.log("done calling allText");
-
-      //filterNewerFoward(allImages);
-
-      // console.log(allText);
-
-      
-      // console.log("checkedElements " + checkedElements);
-
-      // var photosToDisplay = new Array();
-
-      
-      // var tempSectionTitle = ""
-      // var tempArray = new Array();
-      // console.log("checkedElements.length " + checkedElements.length);
-      var index = 0;
-      // var i = 0;
-       while(index < checkedElements.length) {
-      //   console.log("index " + index + " checkedElements[index] " + checkedElements[index]);
-      //   tempArray = shuffleArray(makeArray(checkedElements[index]));
-      //   photosToDisplay = photosToDisplay.concat(tempArray);
-      //   tempSectionTitle += checkedElements[index] + " ";
-        
-        if(count > 0) {
-
-          document.getElementById(checkedElements[index] + "Checkbox").checked = true;
-        }
-         index++;
-       }
-
-      // photosToDisplay = shuffleArray(photosToDisplay);
-
-      // // make the first page not have so many photos so it loads faster
-      // if(count == 0) {
-      //   photosToDisplay = photosToDisplay.slice(0, photosToDisplay.length / 6);
-      // }
-
-      // makeSection(tempSectionTitle, photosToDisplay);
-
-
-      // Get the modal
-      var modal = document.getElementById("myModal");
-
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      var modalImg = document.getElementById("modalImg");
-      var title = document.getElementById("title");
-      var captionText = document.getElementById("caption");
-      var yearCaption = document.getElementById("yearCaption");
-      var materialsCaption = document.getElementById("materialsCaption");
-      var sizeCaption = document.getElementById("sizeCaption");
-      var locationCaption = document.getElementById("locationCaption");
-
-      for(i = 0; i < photosToDisplay.length; i++) {
-        var img = document.getElementById(getImageIdFromFilepath(photosToDisplay[i]));
-        img.onclick = function(){
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          //captionText.innerHTML = this.alt;
-          materialsCaption.innerHTML = this.materials;
-          sizeCaption.innerHTML = this.widthInches + " x " + this.heightInches + " in.";
-          locationCaption.innerHTML = this.location;
-          title.innerHTML = this.title;
-          yearCaption.innerHTML = this.year;
-          var imageId = getImageIdFromFilepath(this.id);
-        }
-      }
-
-      
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() { 
-        modal.style.display = "none";
-      }
-
-     
-
-  </script>
-
       </div>
-</div>
+      <script>
 
-<!-- <p> top of body </p>
+         var checkedElements = new Array();
+         var count = 0;
+         var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+             checkedElements.push(value);
+             count++;
+         });
+
+         console.log("count " + count);
+         // if count is zero, none were checked so show all
+         if(count == 0) {
+           checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation"];
+         } 
+
+
+         var allImages = makeAllArray();
+
+         
+         var photosToDisplay = allImages;
+         allImages = shuffleArray(allImages);
+         // allImages = filterNewerForward(allImages);
+
+         // make the first page not have so many photos so it loads faster
+         if(count == 0) {
+           allImages = allImages.slice(0, 16);
+         }
+
+         photosToDisplay = allImages;
+
+         makeSection("", allImages);
+
+         var allText = getText(checkedElements);
+         console.log("done calling allText");
+
+         //filterNewerFoward(allImages);
+
+         // console.log(allText);
+
+         
+         // console.log("checkedElements " + checkedElements);
+
+         // var photosToDisplay = new Array();
+
+         
+         // var tempSectionTitle = ""
+         // var tempArray = new Array();
+         // console.log("checkedElements.length " + checkedElements.length);
+         var index = 0;
+         // var i = 0;
+          while(index < checkedElements.length) {
+         //   console.log("index " + index + " checkedElements[index] " + checkedElements[index]);
+         //   tempArray = shuffleArray(makeArray(checkedElements[index]));
+         //   photosToDisplay = photosToDisplay.concat(tempArray);
+         //   tempSectionTitle += checkedElements[index] + " ";
+           
+           if(count > 0) {
+
+             document.getElementById(checkedElements[index] + "Checkbox").checked = true;
+           }
+            index++;
+          }
+
+         // photosToDisplay = shuffleArray(photosToDisplay);
+
+         // // make the first page not have so many photos so it loads faster
+         // if(count == 0) {
+         //   photosToDisplay = photosToDisplay.slice(0, photosToDisplay.length / 6);
+         // }
+
+         // makeSection(tempSectionTitle, photosToDisplay);
+
+
+         // Get the modal
+         var modal = document.getElementById("myModal");
+
+         // Get the image and insert it inside the modal - use its "alt" text as a caption
+         var modalImg = document.getElementById("modalImg");
+         var title = document.getElementById("title");
+         var captionText = document.getElementById("caption");
+         var yearCaption = document.getElementById("yearCaption");
+         var materialsCaption = document.getElementById("materialsCaption");
+         var sizeCaption = document.getElementById("sizeCaption");
+         var locationCaption = document.getElementById("locationCaption");
+
+         for(i = 0; i < photosToDisplay.length; i++) {
+           var img = document.getElementById(getImageIdFromFilepath(photosToDisplay[i]));
+           img.onclick = function(){
+             modal.style.display = "block";
+             modalImg.src = this.src;
+             //captionText.innerHTML = this.alt;
+             materialsCaption.innerHTML = this.materials;
+             sizeCaption.innerHTML = this.widthInches + " x " + this.heightInches + " in.";
+             locationCaption.innerHTML = this.location;
+             title.innerHTML = this.title;
+             yearCaption.innerHTML = this.year;
+             var imageId = getImageIdFromFilepath(this.id);
+           }
+         }
+
+         
+         // Get the <span> element that closes the modal
+         var span = document.getElementsByClassName("close")[0];
+
+         // When the user clicks on <span> (x), close the modal
+         span.onclick = function() { 
+           modal.style.display = "none";
+         }
+
+        
+
+      </script>
+    </div>
+  </div><!-- <p> top of body </p>
 <form id="checkboxForm" action="" method="GET">
   <div class="filterButton">
     <input type="checkbox" 
@@ -269,11 +211,5 @@
   </div>
   <input type="submit" value="Submit">
   </form> -->
-
-
-
-
-
 </body>
-
 </html>
