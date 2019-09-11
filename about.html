@@ -81,14 +81,35 @@
 
   <div class="aboutImageAndText">
     <h3> Montana Fowler </h3>
-    <p> Brown University Visual Art (AB) & Computer Science (AB) </p>
-    <p> current PhD candidate in Computational Media at UC Santa Cruz </p>
+    <p id="brownDegrees"> Brown University <p>
+    <p id="brownDegrees"> Visual Art (AB) & Computer Science (AB) </p>
+    <p id="brownDegrees"> current PhD candidate in Computational Media at UC Santa Cruz </p>
+    
+    <div class="forComissionsScramble">
+      <p class="forCommissions"> For commissions, prints and purchases contact me at </p>
+      <p id="email" class="unscramble"> asdhkajfsbsdkj </p>
+      <button class="unscramble" id="unscrambleButton" onclick="unscrambleEmailFunction()">unscramble email</button>
+    </div>
+
+    <script>
+      var email = "montanacfowler@gmail.com";
+      console.log(document.getElementById("email").innerHTML);
+      if(email != document.getElementById("email").innerHTML) {
+        var shuffled = email.split('').sort(function(){return 0.5-Math.random()}).join('');
+        document.getElementById("email").innerHTML = shuffled;
+      }
+      
+
+      function unscrambleEmailFunction() {
+        document.getElementById("email").innerHTML = email;
+      }
+    </script>
+
+
+
+    <p> In your email, please use titles and/or ID numbers to reference my work. </p>
 
     <a href="https://fineartamerica.com/profiles/montana-fowler.html"> order prints and products of mine from fineartamerica.com </a>
-
-    <p> For commissions, prints and purchases contact me at </p>
-    <p> asdhkajfsbsdkj  unscramble button </p>
-    <p> In your email, please use titles and/or ID numbers of my work you like for commission style, would like a print of, or would like to buy. </p>
   </div>
 
  </div>
