@@ -51,7 +51,7 @@ representationArray = shuffleArray(representationArray);
 .modal-content {
   margin: auto;
   display: block;
-  height: 70%;
+/*  height: 70%;*/
   max-height: 700px;
   max-width: 80%;
 }
@@ -223,6 +223,15 @@ section {
   column-count:         1;
   padding-left: 5px;
   padding-right: 5px;
+  }
+
+  .sectionImageLabel {
+    opacity: .7;
+    color: #110111;
+  }
+
+  .modal-content {
+    max-width: 100%;
   }
 }
 

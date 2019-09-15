@@ -9,9 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <link href="css/responsiveGallery.css" rel="stylesheet">
+<!--   <link href="css/responsiveGallery.css" rel="stylesheet"> -->
+
+<!--   <link href="bootstrap-4.3.1-dist/css/bootstrap-grid.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/aboutAndContact.css" rel="stylesheet">
-  <link href="bootstrap-4.3.1-dist/css/bootstrap-grid.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
  -->
@@ -94,20 +96,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="images/aboutStudio.jpg" class="aboutImageAndText"></img>
+          <img src="images/aboutStudio.jpg" class="aboutImage"></img>
         </div>
         <div class="col-md-6">
           <div class="row">
             <h3> Montana Fowler </h3>
           </div>
           <div class="row">
-            <p id="brownDegrees"> Brown University </p>
+            <p class="brownDegrees text-center"> Brown University </p>
           </div>
           <div class="row">
-            <p id="brownDegrees"> Visual Art (AB) & Computer Science (AB) </p>
+            <p class="brownDegrees"> Visual Art (AB) & Computer Science (AB) </p>
           </div> 
           <div class="row">
-            <p id="brownDegrees"> current PhD candidate in Computational Media at UC Santa Cruz </p>
+            <p class="brownDegrees"> current PhD candidate in Computational Media at UC Santa Cruz </p>
           </div> 
           <div class="row">
             <p class="forCommissions"> For commissions, prints and purchases contact me at </p>
@@ -123,42 +125,6 @@
     </div>
     
     
-  <!-- </div> -->
-
-  <!-- <div class="aboutImageAndText"> -->
-    <h3> Montana Fowler </h3>
-    <p id="brownDegrees"> Brown University <p>
-    <p id="brownDegrees"> Visual Art (AB) & Computer Science (AB) </p>
-    <p id="brownDegrees"> current PhD candidate in Computational Media at UC Santa Cruz </p>
-    
-    <div class="forComissionsScramble">
-      <p class="forCommissions"> For commissions, prints and purchases contact me at </p>
-      <p id="email" class="unscramble"> asdhkajfsbsdkj </p>
-      <button class="unscramble" id="unscrambleButton" onclick="unscrambleEmailFunction()">unscramble email</button>
-    </div>
-
-    <script>
-      var email = "montanacfowler@gmail.com";
-      console.log(document.getElementById("email").innerHTML);
-      if(email != document.getElementById("email").innerHTML) {
-        var shuffled = email.split('').sort(function(){return 0.5-Math.random()}).join('');
-        document.getElementById("email").innerHTML = shuffled;
-      }
-      
-
-      function unscrambleEmailFunction() {
-        document.getElementById("email").innerHTML = email;
-      }
-    </script>
-
-
-
-    <p> In your email, please use titles and ID numbers to reference my work. </p>
-
-    <a href="https://fineartamerica.com/profiles/montana-fowler.html"> order prints and products of mine from fineartamerica.com </a>
-  </div>
-
- </div>
 
 
 
