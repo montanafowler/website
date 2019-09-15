@@ -15,12 +15,17 @@
 	display: inline-block;
 	width: 100%;
 	height: 100%;
+	color:black;
+	text-align: center;
 }
 .aboutImageAndText {
 	display: inline-block;
 	width: 30%;
 	/*width: ;*/
 	vertical-align: middle;
+	color:black;
+		text-align: center;
+
 }
 img {
 	width: 50%;
@@ -30,6 +35,9 @@ img {
 
 h3 {
 	font-size: 20px;
+	text-align: center;
+	color:black;
+
 }
 
 p {
@@ -37,6 +45,9 @@ p {
 	margin: 0; 
 	/*margin-top: 10px;*/
 	font-style: italic;
+	text-align: center;
+	color: black;
+
 	/*vertical-align: middle;*/
 }
 
@@ -46,17 +57,26 @@ p {
 }*/
 #forComissionsScramble {
 	margin-top: 10px;
+	color:black;
+	text-align: center;
+
 }
 
 .unscramble {
 	display: inline-block;
 	margin-top: 0px;
+	color:black;
+	text-align: center;
+
 }
 
 #brownDegrees {
 	font-size: 14px;
 	font-style: normal;
 	margin: 0;
+	color:black;
+	text-align: center;
+
 	/*padding: 0; */
 }
 /*@media (max-width: 1200px) {
@@ -91,6 +111,29 @@ p {
 		padding: 5%;
 	}
 }*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
+
+
 @media (max-width: 700px) {
 	
 
@@ -103,12 +146,18 @@ p {
 		width: 100%;
 		height: auto;
 		padding: 5px;
+		color:black;
+		text-align: center;
+
 	}
 	.aboutImageAndText {
 		display: block;
 		width: 100%;
 		height: auto;
+		color:black;
 		/*width: ;*/
 		vertical-align: middle;
+		text-align: center;
+
 	}
 }

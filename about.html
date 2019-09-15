@@ -11,13 +11,23 @@
 
   <link href="css/responsiveGallery.css" rel="stylesheet">
   <link href="css/aboutAndContact.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="bootstrap-4.3.1-dist/css/bootstrap-grid.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+ -->
+
+ <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+
 
   <script src="jquery-3.4.1.min.js"></script>
   <script type="text/javascript" srd="require.js"></script>
   <script type="text/javascript" src="processCheckboxes.js"></script>  
   <script type="text/javascript" src="makeArrays.js"></script>  
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ -->  
+ <!-- <script type="bootstrap-4.3.1-dist/css/bootstrap-grid.css"></script> -->
+ <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+
 </head>
 
   
@@ -77,18 +87,45 @@
 
  </form>
 
- <div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p>
-</div>
 
- 
+
  <div class="aboutContent">
   <!-- <div class="aboutImage"> -->
-    <img src="images/aboutStudio.jpg" class="aboutImageAndText"></img>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/aboutStudio.jpg" class="aboutImageAndText"></img>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <h3> Montana Fowler </h3>
+          </div>
+          <div class="row">
+            <p id="brownDegrees"> Brown University </p>
+          </div>
+          <div class="row">
+            <p id="brownDegrees"> Visual Art (AB) & Computer Science (AB) </p>
+          </div> 
+          <div class="row">
+            <p id="brownDegrees"> current PhD candidate in Computational Media at UC Santa Cruz </p>
+          </div> 
+          <div class="row">
+            <p class="forCommissions"> For commissions, prints and purchases contact me at </p>
+            <p id="email" class="unscramble"> asdhkajfsbsdkj </p>
+            <button class="unscramble" id="unscrambleButton" onclick="unscrambleEmailFunction()">unscramble email</button>
+          </div> 
+          <div class="row">
+            <p> In your email, please use titles and ID numbers to reference my work. </p>
+            <a href="https://fineartamerica.com/profiles/montana-fowler.html"> order prints and products of mine from fineartamerica.com </a>
+          </div> 
+        </div>
+      </div>  
+    </div>
+    
+    
   <!-- </div> -->
 
-  <div class="aboutImageAndText">
+  <!-- <div class="aboutImageAndText"> -->
     <h3> Montana Fowler </h3>
     <p id="brownDegrees"> Brown University <p>
     <p id="brownDegrees"> Visual Art (AB) & Computer Science (AB) </p>
@@ -116,7 +153,7 @@
 
 
 
-    <p> In your email, please use titles and/or ID numbers to reference my work. </p>
+    <p> In your email, please use titles and ID numbers to reference my work. </p>
 
     <a href="https://fineartamerica.com/profiles/montana-fowler.html"> order prints and products of mine from fineartamerica.com </a>
   </div>
