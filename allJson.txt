@@ -766,7 +766,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["nature", "representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -792,7 +792,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["nature", "representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -818,7 +818,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["nature", "representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -1052,7 +1052,7 @@
 			"height": 4,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1221,7 +1221,7 @@
 			"height": 36,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -1234,7 +1234,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -1249,6 +1249,102 @@
 			"categories": ["representation"],
 			"show":"yes",
 			"location":"Comillas, Spain"
+		}, 
+		{
+			"title": "Pittsburgh, Pennsylvania",
+			"image_id":"all_98",
+			"materials": "acrylic on canvas",
+			"year": 2019,
+			"width": 20,
+			"height": 24,
+			"for_sale": "no",
+			"categories": ["representation", "nature"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Yellow Abstract",
+			"image_id":"all_99",
+			"materials": "acrylic on canvas",
+			"year": 2019,
+			"width": 36,
+			"height": 30,
+			"for_sale": "no",
+			"categories": ["abstraction"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Tea and Books",
+			"image_id":"all_100",
+			"materials": "acrylic on canvas",
+			"year": 2019,
+			"width": 12,
+			"height": 12,
+			"for_sale": "no",
+			"categories": ["representation"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		},
+		{
+			"title": "Rooftop",
+			"image_id":"all_101",
+			"materials": "acrylic on canvas",
+			"year": 2019,
+			"width": 20,
+			"height": 20,
+			"for_sale": "no",
+			"categories": ["representation", "portraiture"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Kirkwood",
+			"image_id":"all_102",
+			"materials": "acrylic and modeling paste on canvas",
+			"year": 2019,
+			"width": 18,
+			"height": 24,
+			"for_sale": "no",
+			"categories": ["representation", "nature"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Saturday Morning (Rex)",
+			"image_id":"all_103",
+			"materials": "acrylic on canvas",
+			"year": 2019,
+			"width": 16,
+			"height": 20,
+			"for_sale": "no",
+			"categories": ["representation", "nature"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Succulent",
+			"image_id":"all_104",
+			"materials": "acrylic and modeling paste on canvas",
+			"year": 2019,
+			"width": 18,
+			"height": 24,
+			"for_sale": "no",
+			"categories": ["representation", "nature"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Shade Figure",
+			"image_id":"all_105",
+			"materials": "acrylic on canvas",
+			"year": 2019,
+			"width": 20,
+			"height": 20,
+			"for_sale": "no",
+			"categories": ["representation", "portraiture"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
