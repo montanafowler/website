@@ -9,7 +9,48 @@
 
 */
 
+.aboutContent {
+	margin-top: 60px;
+}
 
+body, body * {
+	margin: 0
+	background: lightblue;
+  font-family: "Trebuchet MS";
+  text-align: center;
+}
+
+header, header * {
+
+  margin: 0
+  background: lightblue;
+  font-family: "Trebuchet MS";
+
+}
+.filterButtons {
+   align-content: center;
+   display: inline-block;
+   padding: 30px;
+
+}
+
+.filterButton {
+   display: inline-block;
+   padding-right: 30px;
+   padding-left: 30px;
+   align-content: center;
+}
+
+p, p * {
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+}
+
+h1, h1 * {
+  color: grey;
+  text-align: center;
+  font-family: "Trebuchet MS";
+}
 
 #aboutContent {
 	display: inline-block;
