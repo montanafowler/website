@@ -9,6 +9,10 @@
 
 */
 
+.unscramble {
+	margin-left: 10px;
+}
+
 .aboutContent {
 	margin-top: 60px;
 }
@@ -17,7 +21,7 @@ body, body * {
 	margin: 0
 	background: lightblue;
   font-family: "Trebuchet MS";
-  text-align: center;
+  
 }
 
 header, header * {

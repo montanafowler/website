@@ -91,8 +91,21 @@
 
 <script type="text/javascript">
   function unscrambleEmailFunction() {
-    document.getElementById("email").innerHTML = " montanacfowler@gmail.com";
+    document.getElementById("email").innerHTML = "\t montanacfowler@gmail.com";
   }
+
+  String.prototype.shuffle = function () {
+    var a = this.split(""),
+        n = a.length;
+
+    for(var i = n - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
+    return a.join("");
+}
 
 </script>
 
@@ -119,7 +132,15 @@
           </div> 
           <div class="row">
             <p class="forCommissions"> For commissions, prints and purchases contact me at </p>
-            <p id="email" class="unscramble"> asdhkajfsbsdkj </p>
+          </div>
+          <div class="row">
+            <p id="email" class="unscramble"> 
+              <script type="text/javascript"> 
+                var eml = "montanacfowler@gmail.com";
+                eml = eml.shuffle();
+                document.getElementById("email").innerHTML = eml;
+              </script>
+             </p>
             <button class="unscramble" id="unscrambleButton" onclick="unscrambleEmailFunction()">unscramble email</button>
           </div> 
           <div class="row">
