@@ -178,7 +178,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 		{
@@ -398,7 +398,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -411,7 +411,7 @@
 			"height": 6,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -465,7 +465,7 @@
 			"height": 30,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -493,7 +493,7 @@
 			"height": 36,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -506,7 +506,7 @@
 			"height": 36,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -519,7 +519,7 @@
 			"height": 36,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -532,7 +532,7 @@
 			"height": 36,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -844,7 +844,7 @@
 			"height": 6,
 			"for_sale": "no",
 			"categories": ["portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -857,7 +857,7 @@
 			"height": 6,
 			"for_sale": "no",
 			"categories": ["portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -870,7 +870,7 @@
 			"height": 6,
 			"for_sale": "no",
 			"categories": ["portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1078,7 +1078,7 @@
 			"height": 36,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1247,7 +1247,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		}, 
 		{

@@ -1,3 +1,5 @@
+var NUM_IMAGES = 105;
+
 function getImageIdFromFilepath(filepath) {
 	var filename = filepath.replace(/^.*[\\\/]/, '');
 	filename = filename.replace('.jpg', '');
@@ -26,7 +28,7 @@ function filterNewerForward(arr) {
 
 function makeAllArray() {
 	var arr = new Array();
-	var totalAllImages = 98;
+	var totalAllImages = NUM_IMAGES;
 	for(i = 0; i < totalAllImages; i++) {
 		arr[i] = "images/all/all_" + i + ".jpg";
 	}
@@ -152,6 +154,8 @@ function getText(checkedElements) {
             	var obj = JSON.parse(request.responseText);
             	var allObj = obj.all;
             	var allJSONArray = allObj.elements;
+            	console.log("JSON ARRAY LENGTH " + allJSONArray.length);
+            	NUM_IMAGES = allJSONArray.length;
 
             	for(i = 0; i < allJSONArray.length; i++) {
             		var imageId = allJSONArray[i].image_id;
@@ -164,6 +168,7 @@ function getText(checkedElements) {
             		var categories = allJSONArray[i].categories;
             		var show = allJSONArray[i].show;
             		var location = allJSONArray[i].location;
+            		console.log(imageId + " " + imageTitle);
 
             		if(document.getElementById(imageId) != null) {
             			// set all the attributes of the image with the meta data

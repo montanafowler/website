@@ -9,6 +9,7 @@
 
 */
 
+
 .unscramble {
 	margin-left: 10px;
 }
@@ -119,6 +120,16 @@ p {
 
 	/*padding: 0; */
 }
+
+.exhibitionsTitle {
+	font-size: 10px;
+}
+
+.subExhibitionInfo {
+	text-indent: 30px;
+}
+
+
 /*@media (max-width: 1200px) {
 	p {
 		font-size: 1.2vw;
