@@ -1573,6 +1573,18 @@
 			"categories": ["representation", "portraiture"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Abstract Door",
+			"image_id":"all_125",
+			"materials": "acrylic and modeling paste on canvas",
+			"year": 2019,
+			"width": 20,
+			"height": 24,
+			"for_sale": "yes",
+			"categories": ["abstraction"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
