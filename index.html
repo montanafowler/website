@@ -69,10 +69,20 @@
     > representation<br>
   </div>
 
+  <!-- filter by year -->
+  <select name="yearFilter" id="yearFilterDropdown" onChange="this.form.submit()" form="checkboxForm">
+  <option value="2017_to_present">2017 to present</option>
+  <option value="2017">2017</option>
+  <option value="2018">2018</option>
+  <option value="2019">2019</option>
+  </select>
+
   <!-- about -->
   <div class="filterButton"> 
     <a href="about.html">about</a>
   </div>
+
+
   </form>
 
   
@@ -113,12 +123,36 @@
       });
 
       console.log("count " + count);
+      console.log("checkedElements " + checkedElements);
+      var yearFilter = "2017_to_present";
+
       // if count is zero, none were checked so show all
       if(count == 0) {
-        checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation"];
+        checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation", "2017_to_present"];
       } 
 
+      var justYearFilter = count == 1 && checkedElements[0] != "abstraction" && checkedElements[0] != "exhibitions" && checkedElements[0] != "nature" && checkedElements[0] != "portraiture" && checkedElements[0] != "representation";
 
+      // if the year is the only filter, add everything to that filter
+      if(justYearFilter) {
+        console.log("just year filter");
+        var temp = checkedElements[0];
+        checkedElements = ["abstraction", "exhibitions", "nature", "portraiture", "representation", temp];
+        yearFilter = temp;
+
+      } else if (count != 0) {
+        for(i = 0; i < checkedElements.length; i++) {
+          // if it isn't a theme element & its a year
+          if(checkedElements[i] != "abstraction" && checkedElements[i] != "exhibitions" 
+            && checkedElements[i] != "nature" && checkedElements[i] != "portraiture" 
+            && checkedElements[i] != "representation") {
+            yearFilter = checkedElements[i];
+            break;
+          }
+        }
+      }
+
+      console.log("YEAR FILTER +++++++++++ " + yearFilter);
       var allImages = makeAllArray();
 
       
@@ -127,7 +161,7 @@
       // allImages = filterNewerForward(allImages);
 
       // make the first page not have so many photos so it loads faster
-      if(count == 0) {
+      if(count == 0 && yearFilter == "2017_to_present") {
         allImages = allImages.slice(0, 16);
       }
 
@@ -159,12 +193,26 @@
       //   tempArray = shuffleArray(makeArray(checkedElements[index]));
       //   photosToDisplay = photosToDisplay.concat(tempArray);
       //   tempSectionTitle += checkedElements[index] + " ";
-        
-        if(count > 0) {
+        console.log("checked elements #" + index + " " + checkedElements[index]);
+        if(count > 0 && !justYearFilter) {
+          // if the element is a theme not a year filter
+          if(checkedElements[index] == "abstraction" || checkedElements[index] == "exhibitions" || checkedElements[index] == "nature" || checkedElements[index] == "portraiture" || checkedElements[index] == "representation") {
+              document.getElementById(checkedElements[index] + "Checkbox").checked = true;
 
-          document.getElementById(checkedElements[index] + "Checkbox").checked = true;
+          } else {
+            // year filter
+
+            console.log("year filter!" + checkedElements[index]);
+            document.getElementById("yearFilterDropdown").value = checkedElements[index];
+          }
+        }
+
+        if(justYearFilter) {
+          console.log("just year filter!" + checkedElements[index]);
+            document.getElementById("yearFilterDropdown").value = checkedElements[index];
         }
          index++;
+        
        }
 
       // photosToDisplay = shuffleArray(photosToDisplay);

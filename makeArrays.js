@@ -4,7 +4,6 @@ function getImageIdFromFilepath(filepath) {
 	var filename = filepath.replace(/^.*[\\\/]/, '');
 	filename = filename.replace('.jpg', '');
 	filename = filename.replace('smaller_', '');
-	console.log("imageId: " + filename);
 	return filename;
 }
 
@@ -15,8 +14,6 @@ function filterNewerForward(arr) {
 		var imgId1 = getImageIdFromFilepath(arr[i + 1]);
 		var img1 = document.getElementById(imgId1);
 
-		console.log(imgId + " compare " + imgId1);
-		console.log(img.year + " " + img1.year);
 		if (img1.year > img.year) {
 			var temp = arr[i];
 			arr[i] = arr[i + 1];
@@ -144,6 +141,18 @@ function arrayRemove(arr, value) {
 
 function getText(checkedElements) {
     // read text from URL location
+    var yearFilter = "2017_to_present";
+    for(i = 0; i < checkedElements.length; i++) {
+    	// if it isn't a theme element & its a year
+    	if(checkedElements[i] != "abstraction" && checkedElements[i] != "exhibitions" 
+    		&& checkedElements[i] != "nature" && checkedElements[i] != "portraiture" 
+    		&& checkedElements[i] != "representation") {
+    		yearFilter = checkedElements[i];
+    		break;
+    	}
+    }
+    console.log("yearFilter ====== " + yearFilter);
+
     var request = new XMLHttpRequest();
     request.open('GET', 'https://raw.githubusercontent.com/montanafowler/website/master/allJson.txt', true);
     request.send(null);
@@ -168,7 +177,6 @@ function getText(checkedElements) {
             		var categories = allJSONArray[i].categories;
             		var show = allJSONArray[i].show;
             		var location = allJSONArray[i].location;
-            		console.log(imageId + " " + imageTitle);
 
             		if(document.getElementById(imageId) != null) {
             			// set all the attributes of the image with the meta data
@@ -213,8 +221,10 @@ function getText(checkedElements) {
     					// loop through categories to set hidden to true
     					for(j = 0; j < categories.length; j++) {
 				          for(k = 0; k < checkedElements.length; k++) {
-				            // category matches one we want to display
-				            if(categories[j] == checkedElements[k] && show == "yes") {
+				            // category matches one we want to display & year filter works
+
+				            if(categories[j] == checkedElements[k] && show == "yes" 
+				            	&& (yearFilter == "2017_to_present" || yearFilter == year)) {
 				              document.getElementById(imageId).hidden = false;
 				              document.getElementById(imageId + "_label").hidden = false;
 				              break;
