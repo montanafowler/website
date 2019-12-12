@@ -22,7 +22,7 @@ body, body * {
 	margin: 0
 	background: lightblue;
   font-family: "Trebuchet MS";
-  
+  text-align: center;
 }
 
 header, header * {
@@ -36,6 +36,7 @@ header, header * {
    align-content: center;
    display: inline-block;
    padding: 30px;
+   text-align: center;
 
 }
 
@@ -44,6 +45,7 @@ header, header * {
    padding-right: 30px;
    padding-left: 30px;
    align-content: center;
+   text-align: center;
 }
 
 p, p * {
@@ -86,7 +88,7 @@ p {
 	margin: 0; 
 	/*margin-top: 10px;*/
 	font-style: italic;
-	/*text-align: center;*/
+	text-align: center;
 	color: black;
 
 	/*vertical-align: middle;*/
