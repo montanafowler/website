@@ -28,6 +28,8 @@ h1, h1 * {
   color: grey;
   text-align: center;
   padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #aboutContent {
@@ -197,6 +199,8 @@ img {
 
 h2 {
 	margin: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #universityText {
