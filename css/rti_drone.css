@@ -123,7 +123,7 @@ h3 {
 }
 
 iframe {
-	padding-bottom: 5%;
+	padding-bottom: 30px;
 }
 
 .txt {
@@ -131,7 +131,8 @@ iframe {
 	align-self: center;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 30px;
+	margin-top: 0px;
 	/*align-content: center;*/
 }
 
@@ -141,7 +142,15 @@ figcaption {
 	padding-right: 10%;x
 }
 
-@media (max-width: 400px) {
+#table0 {
+	width: 40%;
+}
+
+#table1 {
+	width: 60%;
+}
+
+@media (max-width: 600px) {
 	img {
 		width: 97%;
 		padding-left: 0px;
@@ -151,6 +160,12 @@ figcaption {
 	}
 
 	figure {
+		width: 97%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#table0, #table1 {
 		width: 97%;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -208,13 +223,7 @@ h2 {
 	margin-top: 5px;
 }
 
-#table0 {
-	width: 40%;
-}
 
-#table1 {
-	width: 60%;
-}
 
 #references {
 	font-size: 15px;
