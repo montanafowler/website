@@ -4,11 +4,13 @@
 	margin-top: 60px;
 }
 
+.tab { margin-left: 40px; }
+
 
 body, body * {
 	margin: 0
 	background: lightblue;
-  text-align: center;
+  	text-align: center;
 }
 
 header, header * {
@@ -19,6 +21,7 @@ header, header * {
 
 p, p * {
   font-size: 20px;
+  text-indent: 20px;
 }
 
 h1, h1 * {
@@ -39,7 +42,7 @@ h1, h1 * {
 
 }
 img {
-	width: 80%;
+	width: 60%;
 	height: auto;
 	padding-top: 5%;
 	padding-bottom: 2%;
@@ -57,7 +60,7 @@ p {
 	margin: 0; 
 	/*margin-top: 10px;*/
 /*	font-style: italic;
-*/	text-align: center;
+*/	text-align: left;
 	color: black;
 
 	/*vertical-align: middle;*/
@@ -102,7 +105,7 @@ p {
 
 
 #teaserImage {
-	width: 80%;
+	width: 60%;
 }
 
 p {
@@ -132,7 +135,8 @@ iframe {
 
 figcaption {
 	font-size: 13px;
-
+	padding-left: 10%;
+	padding-right: 10%;x
 }
 
 @media (max-width: 400px) {
@@ -145,10 +149,51 @@ figcaption {
 	}
 
 	figure {
+		width: 97%;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
 }
+
+/*@media (max-width: 500px) {
+img {
+		width: 60%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	figure {
+		width: 70%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.tableImg {
+		width: 40%;
+	}
+}
+
+@media (max-width: 1000px) {
+	img {
+		width: 60%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	figure {
+		width: 70%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.tableImg {
+		width: 40%;
+	}
+}*/
 
 h2 {
 	margin: 0px;
@@ -157,6 +202,22 @@ h2 {
 #universityText {
 	font-size: 18px;
 	margin-top: 5px;
+}
+
+#table0 {
+	width: 40%;
+}
+
+#table1 {
+	width: 60%;
+}
+
+#references {
+	font-size: 15px;
+}
+
+i {
+	font-size: 15px;
 }
 /*@media (max-width: 1200px) {
 	p {
