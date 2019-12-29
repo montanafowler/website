@@ -170,6 +170,12 @@ figcaption {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+
+	iframe {
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
 }
 
 /*@media (max-width: 500px) {
