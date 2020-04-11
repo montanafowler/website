@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <h1>MONTANA FOWLER</h1>
+  <h1 hidden="true">MONTANA FOWLER</h1>
+  <img src="/Users/montana/Documents/Fun/website/images/written_words/new_title_vectorized.png" id="title_image"/>
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,51 +23,200 @@
 
 <body>
 
+<div class="header2">
+ <img 
+    class="written_filter_checkbox" 
+    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png" 
+    style="visibility: visible; inline: block;"
+    id="written_checkbox_unchecked_abstraction2"
+    /> 
+
+    <img 
+    class="written_filter_checkbox" 
+    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png" 
+    style="visibility: visible; inline: block;"
+    id="written_checkbox_unchecked_representation2"
+    /> 
+
+    <!-- filter by year -->
+  <select name="yearFilter2" id="yearFilterDropdown2" src="">
+  <option value="2017_to_present">2017 to present</option>
+  <option value="2017">2017</option>
+  <option value="2018">2018</option>
+  <option value="2019">2019</option>
+  </select>
+
+  </div>
+
+   <script>
+    function filterWrittenCheckboxes() {
+      var checkedElements = new Array();
+      var checkboxIds = new Array();
+      checkboxIds.push("written_checkbox_unchecked_abstraction2");
+      checkboxIds.push("written_checkbox_unchecked_representation2");
+      checkboxIds.push("yearFilterDropdown2");
+      var srcImageName;
+      for(var i = 0; i < checkboxIds.length; i++) {
+        srcImageName = document.getElementById(checkboxIds[i]).getAttribute("src");
+        console.log("srcImageName", srcImageName);
+        if (!srcImageName.includes("unchecked")) {
+          if (checkboxIds[i].includes("abstraction")) {
+            checkedElements.push("abstraction");
+          } else if (checkboxIds[i].includes("representation")) {
+            checkedElements.push("representation");
+          } else if (checkboxIds[i].includes("nature")) {
+            checkedElements.push("nature");
+          } else if (checkboxIds[i].includes("exhibitions")) {
+            checkedElements.push("exhibitions");
+          } else if (checkboxIds[i].includes("portraiture")) {
+            checkedElements.push("portraiture");
+          } else if (srcImageName == "") {
+            console.log("srcImageName is empty");
+            var dropdown = document.getElementById(checkboxIds[i]);
+            console.log("dropdown", dropdown);
+            checkedElements.push(dropdown.options[dropdown.selectedIndex].value);
+          }
+        }
+      }
+
+      console.log("checkedElements");
+      console.log(checkedElements);
+      
+      var allImages = makeAllArray(); 
+      var photosToDisplay = allImages;
+      allImages = shuffleArray(allImages);
+
+      // make the first page not have so many photos so it loads faster
+      if(count == 0 && yearFilter == "2017_to_present") {
+        allImages = allImages.slice(0, 16);
+      }
+
+      photosToDisplay = allImages;
+
+      console.log("about to call make section");
+      makeSection("", allImages);
+
+      var allText = getText(checkedElements);
+      console.log("done calling allText");
+    }
+
+    function flipWrittenCheckmark() {
+      console.log("clicked the image textbox");
+      console.log("event.target.id", event.target.id);
+
+        var currentImg = $("#" + event.target.id).attr("src");
+
+        console.log(currentImg);
+
+        if (currentImg.includes("unchecked")) {
+          currentImg = currentImg.replace("unchecked", "checked");
+          console.log(currentImg);
+        } else {
+          currentImg = currentImg.replace("checked", "unchecked");
+          console.log(currentImg);
+        }
+
+        $("#" + event.target.id).attr("src", currentImg);
+        filterWrittenCheckboxes();
+    }
+
+    function temp() {
+      console.log("temp function");
+    }
+
+    $(document).ready(function () {
+      $("#written_checkbox_unchecked_abstraction2").click(flipWrittenCheckmark);
+      $("#written_checkbox_unchecked_representation2").click(flipWrittenCheckmark);
+      document.getElementById("yearFilterDropdown2").onchange = function() { filterWrittenCheckboxes();};
+
+    })
+     
+
+   </script> 
+
 <form id="checkboxForm" action="" method="GET">
   <!-- checkboxes -->
   <div class="filterButton">
+    <input type="image" 
+    class="written_filter_checkbox" 
+    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png" 
+    value="abstraction"
+    name="abstraction_checked" 
+    alt="abstraction"
+    style="visibility: visible;"
+    id="written_checkbox_unchecked_abstraction"
+    />
+
+
+
+    <input 
+    type="image"
+    class="written_filter_checkbox" 
+    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"
+    id="written_checkbox_checked_abstraction"
+    style="visibility: hidden; width: 0px;"
+    name="abstraction_unchecked"/>
+    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_abstraction_vectorized.png"/>
+
+    
+
+    <!-- <label class="filterButtonContainer"> a
     <input type="checkbox" 
     id="abstractionCheckbox"
     name="showType" 
     value="abstraction" 
     class="filterButton"
     onChange="this.form.submit()"
-    > abstraction<br>
+    >
+    <span class="checkmark"></span> -->
+  </label>
   </div>
-  <div class="filterButton">
+  <!-- <div class="filterButton">
+    <img  class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
+    <img  class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
+    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_exhibitions_vectorized.png"/>
     <input type="checkbox" 
     id="exhibitionsCheckbox"
     name="showType" 
     value="exhibitions" 
     class="filterButton"
     onChange="this.form.submit()"
-    > exhibitions<br>
+    > e<br>
   </div>
   <div class="filterButton">
+    <img class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
+    <img hidden="true" class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
+    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_nature_vectorized.png"/>
     <input type="checkbox"
     id="natureCheckbox" 
     name="showType" 
     value="nature" 
     class="filterButton"
-    onChange="this.form.submit()"> nature<br>
+    onChange="this.form.submit()"> n<br>
   </div>
   <div class="filterButton">
+    <img class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
+    <img hidden="true" class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
+    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_portraiture_vectorized.png"/>
     <input type="checkbox"
     id="portraitureCheckbox" 
     name="showType" 
     value="portraiture" 
     class="filterButton"
     onChange="this.form.submit()"
-    > portraiture<br>
+    > p<br>
   </div>
   <div class="filterButton">
+    <img class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
+    <img hidden="true" class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
+    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_representation_vectorized.png"/>
     <input type="checkbox" 
     id="representationCheckbox"
     name="showType" 
     value="representation" 
     class="filterButton"
     onChange="this.form.submit()"
-    > representation<br>
+    > r<br> -->
   </div>
 
   <!-- filter by year -->
@@ -83,7 +233,7 @@
   </div>
 
   <div class="filterButton"> 
-    <a href="rti_drone_project.html">rti drone project</a>
+    <a href="https://mw20.museweb.net/paper/capturing-large-scale-artifacts-via-reflectance-transformation-imaging-with-a-drone/">rti drone project</a>
   </div>
 
 
@@ -121,10 +271,50 @@
 
       var checkedElements = new Array();
       var count = 0;
-      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-          checkedElements.push(value);
-          count++;
-      });
+
+      // new way of getting checked elements
+      // need to call this code whenever a checkbox is clicked!
+      var checkboxIds = new Array();
+      // checkboxIds.append("written_checkbox_unchecked_abstraction2");
+      // var srcImageName;
+      // for(var i = 0; i < checkboxIds.length; i++) {
+      //   srcImageName = document.getElementById(checkboxIds[i]).getAttribute("src");
+
+      //   if (!srcImageName.includes("unchecked")) {
+      //     if (checkboxIds[i].includes("abstraction")) {
+      //       checkedElements.append("abstraction");
+      //     } else if (checkboxIds[i].includes("representation")) {
+      //       checkedElements.append("representation");
+      //     } else if (checkboxIds[i].includes("nature")) {
+      //       checkedElements.append("nature");
+      //     } else if (checkboxIds[i].includes("exhibitions")) {
+      //       checkedElements.append("exhibitions");
+      //     } else if (checkboxIds[i].includes("portraiture")) {
+      //       checkedElements.append("portraiture");
+      //     }
+      //   }
+      // }
+
+      console.log("checkedElements");
+      console.log(checkedElements);
+
+      // var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+      //     console.log(parseInt(value));
+      //     if(parseInt(value) == NaN) {
+      //       checkedElements.push(value);
+      //     } else {
+      //       if (key.includes("_checked.x")) {
+      //         console.log("checked " + key);
+      //         checkedElements.push(key.replace("_checked.x", ""));
+      //         document.getElementById("written_checkbox_unchecked_abstraction").style.setProperty("visibility", "hidden");
+      //         document.getElementById("written_checkbox_unchecked_abstraction").style.setProperty("width", "0px");
+      //         document.getElementById("written_checkbox_checked_abstraction").style.setProperty("visibility", "visible");
+      //         document.getElementById("written_checkbox_checked_abstraction").style.setProperty("width", "auto");
+      //       }
+      //     }
+          
+      //     count++;
+      // });
 
       console.log("count " + count);
       console.log("checkedElements " + checkedElements);
@@ -201,7 +391,14 @@
         if(count > 0 && !justYearFilter) {
           // if the element is a theme not a year filter
           if(checkedElements[index] == "abstraction" || checkedElements[index] == "exhibitions" || checkedElements[index] == "nature" || checkedElements[index] == "portraiture" || checkedElements[index] == "representation") {
-              document.getElementById(checkedElements[index] + "Checkbox").checked = true;
+              //document.getElementById(checkedElements[index] + "Checkbox").checked = true;
+              console.log("setting visibility in checked loop");
+              document.getElementById("written_checkbox_unchecked_abstraction").style.setProperty("visibility", "hidden");
+              document.getElementById("written_checkbox_unchecked_abstraction").style.setProperty("width", "0px");
+              document.getElementById("written_checkbox_checked_abstraction").style.setProperty("visibility", "visible");
+              document.getElementById("written_checkbox_checked_abstraction").style.setProperty("width", "auto");
+              console.log("checked image: ");
+              console.log(document.getElementById("written_checkbox_checked_abstraction"));
 
           } else {
             // year filter
