@@ -9,7 +9,7 @@
 }
 
 .select-selected {
-  background-color: #340299;
+  background-color: white;
 }
 
 /*style the arrow inside the select element:*/
@@ -21,12 +21,12 @@
   width: 0;
   height: 0;
   border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
+  border-color: #000 transparent transparent transparent;
 }
 
 /*point the arrow upwards when the select box is open (active):*/
 .select-selected.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
+  border-color: transparent transparent #000 transparent;
   top: 7px;
 }
 
@@ -43,7 +43,7 @@
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color: white;
   top: 100%;
   left: 0;
   right: 0;
