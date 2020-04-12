@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="css/responsiveGallery.css" rel="stylesheet">
+  <link href="css/custom-select.css" rel="stylesheet">
   <script src="jquery-3.4.1.min.js"></script>
   <script type="text/javascript" srd="require.js"></script>
   <script type="text/javascript" src="processCheckboxes.js"></script>  
   <script type="text/javascript" src="makeArrays.js"></script>
   <link href='select2-4.0.13/dist/css/select2.min.css' rel='stylesheet' type='text/css'>
   <script src='select2-4.0.13/dist/js/select2.min.js'></script>
-
+  
 
   <div class="checkboxRow">
     
@@ -172,6 +173,8 @@
         </div>
       </div>
 
+
+
     <script type="text/javascript">
        $(document).ready(function(){
         $("#yearFilterDropdown").select2({
@@ -222,6 +225,40 @@
     </script>
 
   </div>
+
+
+   <div class="custom-select" style="width:200px; height: 30px;">
+  <select>
+    <option value="2017_to_present" style="">
+      <span>
+        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2017_to_present.png" /> 
+      </span>
+    </option>
+    <option value="2017">
+      <span>
+        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2017.png" /> 
+      </span>
+    </option>
+    <option value="2018">
+      <span>
+        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2018.png" /> 
+      </span>
+    </option>
+    <option value="2019">
+      <span>
+        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2019.png" /> 
+      </span>
+    </option>
+    <option value="2020">
+      <span>
+        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2020.png" /> 
+      </span>
+    </option>
+  </select>
+
+  <script src='custom-select.js'></script>
+</div>
+
 </head>
 
 
