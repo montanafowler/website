@@ -3,7 +3,7 @@ function getYearFromIndex(index) {
   if(index == 0) {
     return "2017_to_present";
   }
-  var year = 2016 + index;
+  var year = 2016 + parseInt(index);
   return year.toString();
 }
 
@@ -28,7 +28,7 @@ for (i = 0; i < x.length; i++) {
   console.log("value", value);
   year = getYearFromIndex(value);
   console.log("year", year);
-  span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + value + '.png" /></span>';
+  span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
   console.log("span", span);
   a.innerHTML = span;//selElmnt.options[selElmnt.selectedIndex].innerHTML;
 
@@ -37,7 +37,7 @@ for (i = 0; i < x.length; i++) {
   /*for each element, create a new DIV that will contain the option list:*/
   b = document.createElement("DIV");
   b.setAttribute("class", "select-items select-hide");
-  span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + value + '.png" /></span>';
+  span = '<span><img style="background-color: green; display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
   b.innerHTML = span;
   for (j = 1; j < selElmnt.length; j++) {
     /*for each option in the original select element,
@@ -47,9 +47,11 @@ for (i = 0; i < x.length; i++) {
     c.innerHTML = selElmnt.options[j].innerHTML;
     console.log("selElmnt.options[j]", selElmnt.options[j]);
     value = selElmnt.options[j].value;
-    span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + value + '.png" /></span>';
+    year = getYearFromIndex(value);
+    console.log("year", year);
+    span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
     c.innerHTML = span;
-    console.log("value2", value);
+    //console.log("value2", value);
     c.addEventListener("click", function(e) {
         /*when an item is clicked, update the original select box,
         and the selected item:*/
@@ -60,7 +62,10 @@ for (i = 0; i < x.length; i++) {
           console.log("this.innerHTML", this.innerHTML);
           console.log("s.options[i].innerHTML", s.options[i].innerHTML);
           console.log("s.options[i].value", value);
-          filename = "written_words_" + value + ".png";
+          value = s.options[i].value;
+          year = getYearFromIndex(value);
+          console.log("year", year);
+          filename = "written_words_" + year + ".png";
           console.log("filename", filename);
           console.log("this.innerHTML.includes(filename)", this.innerHTML.includes(filename));
           if (this.innerHTML.includes(filename)) {
