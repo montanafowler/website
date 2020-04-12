@@ -10,7 +10,7 @@
 }
 
 .written_word {
-  height: 30px;
+  height: 40px;
   width: auto;
   padding-right: 2px;
   padding-top: 2px;
@@ -21,10 +21,9 @@
 .written_filter_checkbox {
   height: 30px;
   width: auto;
-  padding-right: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 2px;
+  padding: 5px;
+
+  margin: auto;
 }
 
 
