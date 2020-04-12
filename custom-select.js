@@ -28,18 +28,18 @@ for (i = 0; i < x.length; i++) {
   console.log("value", value);
   year = getYearFromIndex(value);
   console.log("year", year);
-  span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
+  span = '<span><img style=" display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
   console.log("span", span);
   a.innerHTML = span;//selElmnt.options[selElmnt.selectedIndex].innerHTML;
-
   console.log("selElmnt.options[selElmnt.selectedIndex]", selElmnt.options[selElmnt.selectedIndex]);
   x[i].appendChild(a);
   /*for each element, create a new DIV that will contain the option list:*/
   b = document.createElement("DIV");
   b.setAttribute("class", "select-items select-hide");
-  span = '<span><img style="background-color: green; display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
-  b.innerHTML = span;
-  for (j = 1; j < selElmnt.length; j++) {
+  b.style = "background-color: yellow;";
+  // span = '<span><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + year + '.png" /></span>';
+  // b.innerHTML = span;
+  for (j = 0; j < selElmnt.length; j++) {
     /*for each option in the original select element,
     create a new DIV that will act as an option item:*/
     c = document.createElement("DIV");
