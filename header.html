@@ -82,17 +82,28 @@
       id="exhibitions_word"/>
 
     <!-- filter by year -->
-    <select name="yearFilter2" style="width: 180px; height: auto;" id="yearFilterDropdown2" src="">
-      <option value="2017_to_present" style="background-image:images/written_words/written_words_2017_to_present.png;">2017 to present</option>
+    <select name="yearFilter" style="width: 180px; height: auto;" id="yearFilterDropdown" src="">
+      <option value="2017_to_present">2017 to present</option>
       <option value="2017">2017</option>
       <option value="2018">2018</option>
       <option value="2019">2019</option>
       <option value="2020">2020</option>
     </select>
 
+    <!-- for sale dropdown -->
+    <select name="forSaleFilter" style="width: 180px; height: auto;" id="forSaleFilterDropdown" src="">
+      <option value="all">all</option>
+      <option value="for_sale">for sale</option>
+      <option value="not_for_sale">not for sale</option>
+    </select>
+
     <script type="text/javascript">
        $(document).ready(function(){
-        $("#yearFilterDropdown2").select2({
+        $("#yearFilterDropdown").select2({
+         templateResult: formatState
+        });
+
+        $("#forSaleFilterDropdown").select2({
          templateResult: formatState
         });
        });
@@ -111,6 +122,24 @@
         var $state = $(
 
          '<span ><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + txt + '.png" /> </span>'
+        );
+        return $state;
+       }
+
+       function formatStateForSaleFilter (state) {
+        if (!state.id) { return state.text; }
+
+        var txt = state.text;
+        if (state.text.includes(" ")) {
+          txt = txt.replace(" ", "_");
+          txt = txt.replace(" ", "_");
+          txt = txt.replace(" ", "_");
+        }
+        console.log("txt", txt);
+
+        var $state = $(
+
+         '<span ><img style="display: inline-block; height: 25px; width: auto; background-color: None;" src="images/written_words/written_words_' + txt + '.png" /> </span>'
         );
         return $state;
        }
