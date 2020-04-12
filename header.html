@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <img src="/Users/montana/Documents/Fun/website/images/written_words/new_title_vectorized.png" id="title_image"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/responsiveGallery.css" rel="stylesheet">
+  <script src="jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" srd="require.js"></script>
+  <script type="text/javascript" src="processCheckboxes.js"></script>  
+  <script type="text/javascript" src="makeArrays.js"></script>
+  <link href='select2-4.0.13/dist/css/select2.min.css' rel='stylesheet' type='text/css'>
+  <script src='select2-4.0.13/dist/js/select2.min.js'></script>
+
+
+  <div class="checkboxRow">
+    
+    <!-- Abstraction -->
+    <img 
+      class="written_filter_checkbox" 
+      src="images/written_words/written_words_unchecked_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="abstraction_checkbox"/> 
+    <img 
+      class="written_word" 
+      src="images/written_words/written_words_abstraction_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="abstraction_word"/>
+
+    <!-- Representation -->
+    <img 
+      class="written_filter_checkbox" 
+      src="images/written_words/written_words_unchecked_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="representation_checkbox"
+      /> 
+    <img 
+      class="written_word" 
+      src="images/written_words/written_words_representation_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="representation_word"/>
+
+    <!-- Nature -->
+    <img 
+      class="written_filter_checkbox" 
+      src="images/written_words/written_words_unchecked_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="nature_checkbox"
+      /> 
+    <img 
+      class="written_word" 
+      src="images/written_words/written_words_nature_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="nature_word"/>
+
+    <!-- Portraiture -->
+    <img 
+      class="written_filter_checkbox" 
+      src="images/written_words/written_words_unchecked_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="portraiture_checkbox"
+      /> 
+    <img 
+      class="written_word" 
+      src="images/written_words/written_words_portraiture_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="portraiture_word"/>
+
+      <!-- Exhibitions -->
+    <img 
+      class="written_filter_checkbox" 
+      src="images/written_words/written_words_unchecked_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="exhibitions_checkbox"
+      /> 
+    <img 
+      class="written_word" 
+      src="images/written_words/written_words_exhibitions_vectorized.png" 
+      style="visibility: visible; inline: block;"
+      id="exhibitions_word"/>
+
+    <!-- filter by year -->
+    <select name="yearFilter2" style="width: 180px; height: auto;" id="yearFilterDropdown2" src="">
+      <option value="2017_to_present" style="background-image:images/written_words/written_words_2017_to_present.png;">2017 to present</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+    </select>
+
+    <script type="text/javascript">
+       $(document).ready(function(){
+        $("#yearFilterDropdown2").select2({
+         templateResult: formatState
+        });
+       });
+       
+       function formatState (state) {
+        if (!state.id) { return state.text; }
+
+        var txt = state.text;
+        if (state.text.includes(" ")) {
+          txt = txt.replace(" ", "_");
+          txt = txt.replace(" ", "_");
+          txt = txt.replace(" ", "_");
+        }
+        console.log("txt", txt);
+
+        var $state = $(
+
+         '<span ><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + txt + '.png" /> </span>'
+        );
+        return $state;
+       }
+
+    </script>
+
+  </div>
+</head>
+
+
+</html>
