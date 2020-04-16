@@ -32,35 +32,17 @@ function getIndexFromYear(year, useYear) {
   return 2;
 }
 
-function getSaleValueFromIndex(index) {
-  if(index == 0) {
-    return "all";
-  } else if(index == 1) {
-    return "for_sale";
-  }
-  return "not_for_sale";
-}
-
-function getIndexFromSaleValue(saleValue) {
-  if(saleValue == "all") {
-    return 0;
-  } else if(saleValue == "for_sale") {
-    return 1;
-  }
-  return 2;
-}
-
 
 var x, i, j, selElmnt, a, b, c, value, span, year;
-console.log("custom-select.js");
 var useYear = true;
 /*look for any elements with the class "custom-select":*/
 x = document.getElementsByClassName("custom-select");
 for (i = 0; i < x.length; i++) {
   selElmnt = x[i].getElementsByTagName("select")[0];
-  console.log(x[i].id);
   if (x[i].id == "saleDropdownMenu") {
     useYear = false;
+  } else if (x[i].id == "yearDropdownMenu") {
+    useYear = true;
   }
 
   /*for each element, create a new DIV that will act as the selected item:*/
@@ -80,7 +62,7 @@ for (i = 0; i < x.length; i++) {
     /*for each option in the original select element,
     create a new DIV that will act as an option item:*/
     c = document.createElement("DIV");
-    c.style = "background-color: white;";
+    c.style = "background-color: white; border: 1px solid; border-color: #f0f0f0;";
     c.innerHTML = selElmnt.options[j].innerHTML;
     value = selElmnt.options[j].value;
     year = getYearFromIndex(value, useYear);
@@ -92,8 +74,19 @@ for (i = 0; i < x.length; i++) {
         var y, i, k, s, h, filename;
         s = this.parentNode.parentNode.getElementsByTagName("select")[0];
         h = this.parentNode.previousSibling;
+        if (h.id == "saleDropdownMenu") {
+          useYear = false;
+        } else if (h.id == "yearDropdownMenu") {
+          useYear = true;
+        }
         for (i = 0; i < s.length; i++) {
           value = s.options[i].value;
+          var hiddenKey = s.options[i].getAttribute("alt");
+          if (hiddenKey == "sale") {
+            useYear = false;
+          } else if (hiddenKey == "year") {
+            useYear = true;
+          }
           year = getYearFromIndex(value, useYear);
           filename = "written_words_" + year + ".png";
           if (this.innerHTML.includes(filename)) {
