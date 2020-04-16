@@ -16,248 +16,110 @@
   <script src='select2-4.0.13/dist/js/select2.min.js'></script>
   
 
-  <div class="checkboxRow">
+  <div class="checkboxRow" style="inline: block;">
     
     <!-- Abstraction -->
-    <img 
-      class="written_filter_checkbox" 
-      src="images/written_words/written_words_unchecked_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="abstraction_checkbox"/> 
-    <img 
-      class="written_word" 
-      src="images/written_words/written_words_abstraction_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="abstraction_word"/>
+    <div style="display: inline-block;">
+      <img 
+        class="written_filter_checkbox" 
+        src="images/written_words/written_words_unchecked_vectorized.png" 
+        
+        id="abstraction_checkbox"/> 
+      <img 
+        class="written_word" 
+        src="images/written_words/written_words_abstraction_vectorized.png" 
+        id="abstraction_word"/>
+    </div>
 
     <!-- Representation -->
-    <img 
-      class="written_filter_checkbox" 
-      src="images/written_words/written_words_unchecked_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="representation_checkbox"
-      /> 
-    <img 
-      class="written_word" 
-      src="images/written_words/written_words_representation_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="representation_word"/>
+    <div style="display: inline-block;">
+      <img 
+        class="written_filter_checkbox" 
+        src="images/written_words/written_words_unchecked_vectorized.png" 
+        id="representation_checkbox"
+        /> 
+      <img 
+        class="written_word" 
+        src="images/written_words/written_words_representation_vectorized.png" 
+        id="representation_word"/>
+    </div>
 
     <!-- Nature -->
-    <img 
-      class="written_filter_checkbox" 
-      src="images/written_words/written_words_unchecked_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="nature_checkbox"
-      /> 
-    <img 
-      class="written_word" 
-      src="images/written_words/written_words_nature_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="nature_word"/>
+    <div style="display: inline-block;">
+      <img 
+        class="written_filter_checkbox" 
+        src="images/written_words/written_words_unchecked_vectorized.png"id="nature_checkbox"
+        /> 
+      <img 
+        class="written_word" 
+        src="images/written_words/written_words_nature_vectorized.png" 
+        id="nature_word"/>
+    </div>
 
     <!-- Portraiture -->
-    <img 
-      class="written_filter_checkbox" 
-      src="images/written_words/written_words_unchecked_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="portraiture_checkbox"
-      /> 
-    <img 
-      class="written_word" 
-      src="images/written_words/written_words_portraiture_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="portraiture_word"/>
+    <div style="display: inline-block;">
+      <img 
+        class="written_filter_checkbox" 
+        src="images/written_words/written_words_unchecked_vectorized.png"
+        id="portraiture_checkbox"
+        /> 
+      <img 
+        class="written_word" 
+        src="images/written_words/written_words_portraiture_vectorized.png" 
+        id="portraiture_word"/>
+    </div>
 
       <!-- Exhibitions -->
-    <img 
-      class="written_filter_checkbox" 
-      src="images/written_words/written_words_unchecked_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="exhibitions_checkbox"
-      /> 
-    <img 
-      class="written_word" 
-      src="images/written_words/written_words_exhibitions_vectorized.png" 
-      style="visibility: visible; inline: block;"
-      id="exhibitions_word"/>
+    <div style="display: inline-block;">
+      <img 
+        class="written_filter_checkbox" 
+        src="images/written_words/written_words_unchecked_vectorized.png"
+        id="exhibitions_checkbox"
+        /> 
+      <img 
+        class="written_word" 
+        src="images/written_words/written_words_exhibitions_vectorized.png" 
+        id="exhibitions_word"/>
+    </div>
 
-    <!-- filter by year -->
-    <select name="yearFilter" style="width: 180px; height: auto;" id="yearFilterDropdown" src="">
-      <option value="2017_to_present">2017 to present</option>
-      <option value="2017">2017</option>
-      <option value="2018">2018</option>
-      <option value="2019">2019</option>
-      <option value="2020">2020</option>
-    </select>
+    <div class="custom-select" id="yearDropdownMenu" style="width:200px; height: 47px; display: inline-block;">
+      <select style="inline: block;">
+        <!-- 2017 to present -->
+        <option value="0"></option> 
+        <!-- 2017 -->
+        <option value="1"></option>
+        <!-- 2018 -->
+        <option value="2"></option>
+        <!-- 2019 -->
+        <option value="3"></option>
+        <!-- 2020 -->
+        <option value="4"></option>
+      </select>
 
-    <!-- for sale dropdown -->
-    <select name="forSaleFilter" style="width: 180px; height: auto;" id="forSaleFilterDropdown" src="">
-      <option value="all">all</option>
-      <option value="for_sale">for sale</option>
-      <option value="not_for_sale">not for sale</option>
-    </select>
+      
+    </div>
 
-    <style>
-      /* Style The Dropdown Button */
-      .dropbtn {
-        background-color: #4CAF50;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-      }
+    <div class="custom-select" id="saleDropdownMenu" style="width:200px; height: 47px; display: inline-block;">
+      <select style="inline: block;">
+        <!-- all -->
+        <option value="0"></option> 
+        <!-- for sale -->
+        <option value="1"></option>
+        <!-- not for sale -->
+        <option value="2"></option>
+      </select>
+    </div>
+    <script src='custom-select.js'></script>
+  
 
-      /* The container <div> - needed to position the dropdown content */
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-
-      /* Dropdown Content (Hidden by Default) */
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-
-      /* Links inside the dropdown */
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-
-      /* Change color of dropdown links on hover */
-      .dropdown-content a:hover {background-color: #f1f1f1}
-
-      /* Show the dropdown menu on hover */
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-      /* Change the background color of the dropdown button when the dropdown content is shown */
-      .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
-      }
-      </style>
-
-      <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a value="2017_to_present" style="">
-            <span>
-              <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2017_to_present.png" /> 
-            </span>
-          </a>
-          <a value="2017">
-            <span>
-              <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2017.png" /> 
-            </span>
-          </a>
-          <a value="2018"><span>
-              <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2018.png" /> 
-            </span>
-          </a>
-          <a value="2019"><span>
-              <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2019.png" /> 
-            </span></a>
-          <a value="2020"><span>
-              <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2020.png" /> 
-            </span></a>
-        </div>
-      </div>
-
-
-
-    <script type="text/javascript">
-       $(document).ready(function(){
-        $("#yearFilterDropdown").select2({
-         templateResult: formatState
-        });
-
-        $("#forSaleFilterDropdown").select2({
-         templateResult: formatState
-        });
-       });
-       
-       function formatState (state) {
-        if (!state.id) { return state.text; }
-
-        var txt = state.text;
-        if (state.text.includes(" ")) {
-          txt = txt.replace(" ", "_");
-          txt = txt.replace(" ", "_");
-          txt = txt.replace(" ", "_");
-        }
-        console.log("txt", txt);
-
-        var $state = $(
-
-         '<span ><img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_' + txt + '.png" /> </span>'
-        );
-        return $state;
-       }
-
-       function formatStateForSaleFilter (state) {
-        if (!state.id) { return state.text; }
-
-        var txt = state.text;
-        if (state.text.includes(" ")) {
-          txt = txt.replace(" ", "_");
-          txt = txt.replace(" ", "_");
-          txt = txt.replace(" ", "_");
-        }
-        console.log("txt", txt);
-
-        var $state = $(
-
-         '<span ><img style="display: inline-block; height: 25px; width: auto; background-color: None;" src="images/written_words/written_words_' + txt + '.png" /> </span>'
-        );
-        return $state;
-       }
-
-    </script>
+  <div style="display: inline-block;" width="50px">
+    <a href="about.html">
+         <img class="written_word_about" src="images/written_words/written_words_about.png" style="display: inline-block;">
+      </a>
+  </div> 
 
   </div>
-
-
-   <div class="custom-select" style="width:200px; height: 30px;">
-  <select>
-    <option value="0">
-      <span>
-        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2017_to_present.png" /> 
-      </span>
-    </option>
-    <option value="1">
-      <span>
-        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2017.png" /> 
-      </span>
-    </option>
-    <option value="2">
-      <span>
-        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2018.png" /> 
-      </span>
-    </option>
-    <option value="3">
-      <span>
-        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2019.png" /> 
-      </span>
-    </option>
-    <option value="4">
-      <span>
-        <img style="display: inline-block; height: 25px; width: auto;" src="images/written_words/written_words_2020.png" /> 
-      </span>
-    </option>
-  </select>
-
-  <script src='custom-select.js'></script>
-</div>
+  
 
 </head>
 

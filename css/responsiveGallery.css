@@ -18,6 +18,12 @@
   padding-left: 0px;
 }
 
+.written_word_about {
+  height: 20px;
+  width: auto;
+  padding: 10px;
+}
+
 .written_filter_checkbox {
   height: 30px;
   width: auto;

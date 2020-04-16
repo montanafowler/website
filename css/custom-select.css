@@ -2,6 +2,8 @@
 .custom-select {
   position: relative;
   font-family: Arial;
+  display: inline-block;
+  border: 1px;
 }
 
 .custom-select select {
@@ -10,6 +12,8 @@
 
 .select-selected {
   background-color: white;
+  display: inline-block;
+  border: 1px;
 }
 
 /*style the arrow inside the select element:*/
@@ -34,9 +38,9 @@
 .select-items div,.select-selected {
   color: #ffffff;
   padding: 8px 16px;
-  border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-  cursor: pointer;
+  border: 1px solid /*transparent*/;
+  border-color: #f0f0f0;/*transparent transparent rgba(0, 0, 0, 0.1) transparent;
+*/  cursor: pointer;
   user-select: none;
 }
 
