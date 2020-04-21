@@ -1,51 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <img src="/Users/montana/Documents/Fun/website/images/written_words/new_title_vectorized.png" id="title_image"/>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="css/responsiveGallery.css" rel="stylesheet">
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
+<head><!-- 
+  <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+   -->
   <script src="jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" srd="require.js"></script>
-  <script type="text/javascript" src="processCheckboxes.js"></script>  
-  <script type="text/javascript" src="makeArrays.js"></script>
-
-  
-  </head>
-
-  
+  <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+    });
+  </script> 
+  <div id="header"></div>
+</head>
 
 <body>
-
-<div class="header2">
- <img 
-    class="written_filter_checkbox" 
-    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png" 
-    style="visibility: visible; inline: block;"
-    id="written_checkbox_unchecked_abstraction2"
-    /> 
-
-    <img 
-    class="written_filter_checkbox" 
-    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png" 
-    style="visibility: visible; inline: block;"
-    id="written_checkbox_unchecked_representation2"
-    /> 
-
-    <!-- filter by year -->
-  <select name="yearFilter2" id="yearFilterDropdown2" src="">
-  <option value="2017_to_present">2017 to present</option>
-  <option value="2017">2017</option>
-  <option value="2018">2018</option>
-  <option value="2019">2019</option>
-  </select>
-
-  </div>
 
    <script>
     function filterWrittenCheckboxes() {
@@ -124,112 +92,16 @@
     }
 
     $(document).ready(function () {
-      $("#written_checkbox_unchecked_abstraction2").click(flipWrittenCheckmark);
-      $("#written_checkbox_unchecked_representation2").click(flipWrittenCheckmark);
-      document.getElementById("yearFilterDropdown2").onchange = function() { filterWrittenCheckboxes();};
+      // $("#written_checkbox_unchecked_abstraction2").click(flipWrittenCheckmark);
+      // $("#written_checkbox_unchecked_representation2").click(flipWrittenCheckmark);
+      // document.getElementById("yearFilterDropdown2").onchange = function() { filterWrittenCheckboxes();};
 
     })
      
 
    </script> 
 
-<form id="checkboxForm" action="" method="GET">
-  <!-- checkboxes -->
-  <div class="filterButton">
-    <input type="image" 
-    class="written_filter_checkbox" 
-    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png" 
-    value="abstraction"
-    name="abstraction_checked" 
-    alt="abstraction"
-    style="visibility: visible;"
-    id="written_checkbox_unchecked_abstraction"
-    />
 
-
-
-    <input 
-    type="image"
-    class="written_filter_checkbox" 
-    src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"
-    id="written_checkbox_checked_abstraction"
-    style="visibility: hidden; width: 0px;"
-    name="abstraction_unchecked"/>
-    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_abstraction_vectorized.png"/>
-
-    
-
-    <!-- <label class="filterButtonContainer"> a
-    <input type="checkbox" 
-    id="abstractionCheckbox"
-    name="showType" 
-    value="abstraction" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    >
-    <span class="checkmark"></span> -->
-  </label>
-  </div>
-  <!-- <div class="filterButton">
-    <img  class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
-    <img  class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
-    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_exhibitions_vectorized.png"/>
-    <input type="checkbox" 
-    id="exhibitionsCheckbox"
-    name="showType" 
-    value="exhibitions" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > e<br>
-  </div>
-  <div class="filterButton">
-    <img class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
-    <img hidden="true" class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
-    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_nature_vectorized.png"/>
-    <input type="checkbox"
-    id="natureCheckbox" 
-    name="showType" 
-    value="nature" 
-    class="filterButton"
-    onChange="this.form.submit()"> n<br>
-  </div>
-  <div class="filterButton">
-    <img class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
-    <img hidden="true" class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
-    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_portraiture_vectorized.png"/>
-    <input type="checkbox"
-    id="portraitureCheckbox" 
-    name="showType" 
-    value="portraiture" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > p<br>
-  </div>
-  <div class="filterButton">
-    <img class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_unchecked_vectorized.png"/>
-    <img hidden="true" class="written_filter_checkbox" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_checked_vectorized.png"/>
-    <img class="written_filter" src="/Users/montana/Documents/Fun/website/images/written_words/written_words_representation_vectorized.png"/>
-    <input type="checkbox" 
-    id="representationCheckbox"
-    name="showType" 
-    value="representation" 
-    class="filterButton"
-    onChange="this.form.submit()"
-    > r<br> -->
-  </div>
-
-  <!-- filter by year -->
-  <select name="yearFilter" id="yearFilterDropdown" onChange="this.form.submit()" form="checkboxForm">
-  <option value="2017_to_present">2017 to present</option>
-  <option value="2017">2017</option>
-  <option value="2018">2018</option>
-  <option value="2019">2019</option>
-  </select>
-
-  <!-- about -->
-  <div class="filterButton"> 
-    <a href="about.html">about</a>
-  </div>
 
   <div class="filterButton"> 
     <a href="https://mw20.museweb.net/paper/capturing-large-scale-artifacts-via-reflectance-transformation-imaging-with-a-drone/">rti drone project</a>
