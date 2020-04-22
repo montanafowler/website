@@ -1,3 +1,7 @@
+#price {
+  display: inline;
+}
+
 .tag {
   position: absolute;
   top: 0px;
@@ -116,6 +120,7 @@
 #locationCaption {
   display: inline;
   font-style: italic;
+  padding-right: 8px;
 }
 
 /* title of Modal Image */

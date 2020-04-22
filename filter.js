@@ -12,6 +12,7 @@ function makeModal() {
     var materialsCaption = document.getElementById("materialsCaption");
     var sizeCaption = document.getElementById("sizeCaption");
     var locationCaption = document.getElementById("locationCaption");
+    var priceCaption = document.getElementById("price");
 
     for (i = 0; i < photosToDisplay.length; i++) {
         var img = document.getElementById(getImageIdFromFilepath(photosToDisplay[i]));
@@ -25,6 +26,11 @@ function makeModal() {
             title.innerHTML = this.title;
             yearCaption.innerHTML = this.year;
             var imageId = getImageIdFromFilepath(this.id);
+            if (this.for_sale == "yes") {
+                var price = this.widthInches * this.heightInches * 0.5;
+                priceCaption.innerHTML = "$" + price.toString();
+            }
+
         }
     }
 
@@ -91,7 +97,7 @@ function filterWrittenCheckboxes() {
     if(checkedElements.length == 2 
         && yearFilter == "2017_to_present" 
         && saleTemp == "all") {
-      allImages = allImages.slice(0, 16);
+      allImages = allImages.slice(0, 20);
     }
 
     photosToDisplay = allImages;
