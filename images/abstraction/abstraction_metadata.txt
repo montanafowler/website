@@ -1,6 +1,0 @@
-{
-  "title": "flowers",
-  "materials": "acrylico en lienzo",
-  "date": 2018,
-  "category": ["nature", "abstract"]
-}
