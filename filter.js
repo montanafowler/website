@@ -39,6 +39,9 @@ function makeModal() {
 
 function filterWrittenCheckboxes() {
     document.getElementById("gallery").hidden = false;
+    document.getElementById("about_page").hidden = true;
+    document.getElementById("about_page").setAttribute("style", "opacity: 0%;");
+
     var checkedElements = new Array();
     var checkboxIds = new Array();
     checkboxIds.push("abstraction_checkbox");
@@ -125,8 +128,10 @@ function temp() {
 }
 
 function displayAboutPage() {
+    console.log("displayAboutPage");
     document.getElementById("gallery").hidden = true;
     document.getElementById("about_page").hidden = false;
+    document.getElementById("about_page").setAttribute("style", "opacity: 100%;");
 }
 
 $(document).ready(function () {
