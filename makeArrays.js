@@ -107,7 +107,8 @@ function makeSection(sectionName, array) {
   	var imageId = getImageIdFromFilepath(array[i]);
   	containerDiv = document.createElement('div');
   	containerDiv.setAttribute("class", "container");
-    containerDiv.innerHTML = '<img src="' + array[i] 
+  	containerDiv.innerHTML = '<img src="" class="tag" id="' + imageId + 'Tag" hidden=true />';
+    containerDiv.innerHTML += '<img src="' + array[i] 
     	+ '" id="' + imageId 
     	+ '" class="galleryImage"' 
     	+ ' title="temp title"'
@@ -120,8 +121,6 @@ function makeSection(sectionName, array) {
     	+ ' show="temp yes"'
     	+ ' location="temp location"'
     	+ ' hidden=true />';
-
-	
 
     var num = imageId.replace("all_", "");
     containerDiv.innerHTML += '<div class="sectionImageLabel" id="' + imageId + '_label" hidden=true>' + num + '</div>';
@@ -144,9 +143,9 @@ function arrayRemove(arr, value) {
 
 }
 
-function getText(checkedElements, yearFilter, saleTemp) {
+function getText(checkedElements, yearFilter, saleFilter) {
     console.log("yearFilter ====== " + yearFilter);
-    console.log("saleTemp", saleTemp);
+    console.log("saleFilter", saleFilter);
     if (checkedElements.length == 2) {
     	checkedElements.push("abstraction");
     	checkedElements.push("representation");
@@ -226,9 +225,22 @@ function getText(checkedElements, yearFilter, saleTemp) {
 				            // category matches one we want to display & year filter works
 
 				            if(categories[j] == checkedElements[k] && show == "yes" 
-				            	&& (yearFilter == "2017_to_present" || yearFilter == year)) {
+				            	&& (yearFilter == "2017_to_present" || yearFilter == year) 
+				            	&& (saleFilter == "all" 
+				            		|| (saleFilter == "for_sale" && for_sale == "yes")
+				            		|| (saleFilter == "not_for_sale" && 
+				            			(for_sale == "no" || for_sale == "sold")))) {
 				              document.getElementById(imageId).hidden = false;
 				              document.getElementById(imageId + "_label").hidden = false;
+				              if (for_sale == "sold") {
+				              	var tag = document.getElementById(imageId + "Tag");
+				              	tag.setAttribute("src", "images/written_words/sold_tag.png");
+				              	tag.hidden = false;
+				              } else if (for_sale == "yes") {
+				              	var tag = document.getElementById(imageId + "Tag");
+				              	tag.setAttribute("src", "images/written_words/for_sale_tag.png");
+				              	tag.hidden = false;
+				              }
 				              break;
 				            }
 				          }

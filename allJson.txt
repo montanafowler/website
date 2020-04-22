@@ -2,7 +2,7 @@
 	"all": {"elements":
 		[ {
 
-			"title": "15 minute painting",
+			"title": "15 minute painting no 1.",
 			"image_id":"all_0",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -14,7 +14,7 @@
 			"location":"Santa Cruz, CA"
 		},
 		 {
-			"title": "15 minute painting",
+			"title": "15 minute painting no 2",
 			"image_id":"all_1",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -92,13 +92,13 @@
 			"year": 2018,
 			"width": 48,
 			"height": 36,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Providence, RI"
 		},
 		{
-			"title": "sin título",
+			"title": "rosas",
 			"image_id":"all_8",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -110,19 +110,19 @@
 			"location":"Granada, Spain"
 		},
 		{
-			"title": "sin título",
+			"title": "nadadora",
 			"image_id":"all_9",
 			"materials": "acrylic on canvas",
 			"year": 2018,
 			"width": 15,
 			"height": 18,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Granada, Spain"
 		},
 		{
-			"title": "medusa",
+			"title": "medusa de valencia",
 			"image_id":"all_10",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -140,13 +140,13 @@
 			"year": 2018,
 			"width": 15,
 			"height": 18,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Granada, Spain"
 		},
 		{
-			"title": "sin título",
+			"title": "pink and green flores",
 			"image_id":"all_12",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -158,19 +158,19 @@
 			"location":"Granada, Spain"
 		},
 		{
-			"title": "sin título",
+			"title": "sky and leaves",
 			"image_id":"all_13",
 			"materials": "acrylic on canvas",
 			"year": 2018,
 			"width": 15,
 			"height": 18,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Granada, Spain"
 		},
 		{
-			"title": "sin título",
+			"title": "purple and pink flores",
 			"image_id":"all_14",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -182,7 +182,7 @@
 			"location":"Granada, Spain"
 		},
 		{
-			"title": "sin título",
+			"title": "big flores",
 			"image_id":"all_15",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -208,13 +208,13 @@
 		},
 
 		{
-			"title": "untitled",
+			"title": "sailboat",
 			"image_id":"all_17",
 			"materials": "acrylic on canvas",
 			"year": 2017,
-			"width": 36,
-			"height": 48,
-			"for_sale": "no",
+			"width": 30,
+			"height": 36,
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Comillas, Spain"
@@ -325,7 +325,7 @@
 		},
 
 		{
-			"title": "untitled",
+			"title": "untitled (Rex Spanish Painting)",
 			"image_id":"all_26",
 			"materials": "acrylic on canvas",
 			"year": 2017,
@@ -545,7 +545,7 @@
 			"height": 30,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1031,13 +1031,13 @@
 		},
 
 		{
-			"title": "untitled",
+			"title": "pink figure",
 			"image_id":"all_80",
 			"materials": "acrylic on canvas",
 			"year": 2019,
 			"width": 12,
 			"height": 12,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["portraiture"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1096,7 +1096,7 @@
 		},
 
 		{
-			"title": "sin título",
+			"title": "sin título (cama)",
 			"image_id":"all_85",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -1109,7 +1109,7 @@
 		},
 
 		{
-			"title": "sin título",
+			"title": "vaso",
 			"image_id":"all_86",
 			"materials": "acrylic on canvas",
 			"year": 2018,
@@ -1135,13 +1135,13 @@
 		},
 
 		{
-			"title": "sin título",
+			"title": "dude on a planet",
 			"image_id":"all_88",
 			"materials": "acrylic on canvas",
 			"year": 2018,
 			"width": 18,
 			"height": 15,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation"],
 			"show":"yes",
 			"location":"Granada, Spain"
@@ -1167,7 +1167,7 @@
 			"year": 2018,
 			"width": 18,
 			"height": 15,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation"],
 			"show":"yes",
 			"location":"Granada, Spain"
@@ -1182,7 +1182,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -1257,7 +1257,7 @@
 			"year": 2019,
 			"width": 20,
 			"height": 24,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1269,7 +1269,7 @@
 			"year": 2019,
 			"width": 36,
 			"height": 30,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["abstraction"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1317,7 +1317,7 @@
 			"year": 2019,
 			"width": 16,
 			"height": 20,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1329,7 +1329,7 @@
 			"year": 2019,
 			"width": 18,
 			"height": 24,
-			"for_sale": "no",
+			"for_sale": "yes",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1343,7 +1343,7 @@
 			"height": 20,
 			"for_sale": "no",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1353,7 +1353,7 @@
 			"year": 2019,
 			"width": 12,
 			"height": 12,
-			"for_sale": "sold",
+			"for_sale": "no",
 			"categories": ["representation", "portraiture"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1427,7 +1427,7 @@
 			"height": 12,
 			"for_sale": "yes",
 			"categories": ["portraiture", "representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1437,7 +1437,7 @@
 			"year": 2019,
 			"width": 12,
 			"height": 12,
-			"for_sale": "sold",
+			"for_sale": "no",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1485,7 +1485,7 @@
 			"year": 2019,
 			"width": 20,
 			"height": 24,
-			"for_sale": "sold",
+			"for_sale": "no",
 			"categories": ["abstraction"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1509,7 +1509,7 @@
 			"year": 2019,
 			"width": 20,
 			"height": 20,
-			"for_sale": "yes",
+			"for_sale": "no",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1521,7 +1521,7 @@
 			"year": 2019,
 			"width": 12,
 			"height": 12,
-			"for_sale": "sold",
+			"for_sale": "no",
 			"categories": ["representation", "portraiture"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1557,7 +1557,7 @@
 			"year": 2019,
 			"width": 48,
 			"height": 36,
-			"for_sale": "sold",
+			"for_sale": "no",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Providence, RI"
@@ -1577,6 +1577,18 @@
 		{
 			"title": "Abstract Door",
 			"image_id":"all_125",
+			"materials": "acrylic and modeling paste on canvas",
+			"year": 2019,
+			"width": 20,
+			"height": 24,
+			"for_sale": "yes",
+			"categories": ["abstraction"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "At the Counter",
+			"image_id":"all_126",
 			"materials": "acrylic and modeling paste on canvas",
 			"year": 2019,
 			"width": 20,
