@@ -98,12 +98,16 @@ function shuffleArray(array) {
 }
 
 function makeSection(sectionName, array) {
-  document.write('<p> ' + sectionName + '</p>');
-  document.write('<section id= "' + sectionName + '">');
+  var div = document.getElementById("gallery");
+  div.innerHTML="";
+  var containerDiv;
+  // document.write('<p> ' + sectionName + '</p>');
+  // document.write('<section id= "' + sectionName + '">');
   for(i = 0; i < array.length; i++) {
   	var imageId = getImageIdFromFilepath(array[i]);
-  	document.write('<div class="container">');
-    document.write('<img src="' + array[i] 
+  	containerDiv = document.createElement('div');
+  	containerDiv.setAttribute("class", "container");
+    containerDiv.innerHTML = '<img src="' + array[i] 
     	+ '" id="' + imageId 
     	+ '" class="galleryImage"' 
     	+ ' title="temp title"'
@@ -115,13 +119,14 @@ function makeSection(sectionName, array) {
     	+ ' categories=["abstraction"]'
     	+ ' show="temp yes"'
     	+ ' location="temp location"'
-    	+ ' hidden=true />');
+    	+ ' hidden=true />';
 
 	
 
     var num = imageId.replace("all_", "");
-    document.write('<div class="sectionImageLabel" id="' + imageId + '_label" hidden=true>' + num + '</div>')
-    document.write('</div>');
+    containerDiv.innerHTML += '<div class="sectionImageLabel" id="' + imageId + '_label" hidden=true>' + num + '</div>';
+    div.appendChild(containerDiv);
+    //document.write('</div>');
 
  //    $(imageId).hover(function(){
 	//   document.getElementById(imageId + "_label").css("opacity", "1");
@@ -129,7 +134,7 @@ function makeSection(sectionName, array) {
 	//   document.getElementById(imageId + "_label").css("opacity", "0");
 	// });
   }
-  document.write('</section>');
+  //document.write('</section>');
 }
 
 function arrayRemove(arr, value) {
@@ -139,19 +144,16 @@ function arrayRemove(arr, value) {
 
 }
 
-function getText(checkedElements) {
-    // read text from URL location
-    var yearFilter = "2017_to_present";
-    for(i = 0; i < checkedElements.length; i++) {
-    	// if it isn't a theme element & its a year
-    	if(checkedElements[i] != "abstraction" && checkedElements[i] != "exhibitions" 
-    		&& checkedElements[i] != "nature" && checkedElements[i] != "portraiture" 
-    		&& checkedElements[i] != "representation") {
-    		yearFilter = checkedElements[i];
-    		break;
-    	}
-    }
+function getText(checkedElements, yearFilter, saleTemp) {
     console.log("yearFilter ====== " + yearFilter);
+    console.log("saleTemp", saleTemp);
+    if (checkedElements.length == 2) {
+    	checkedElements.push("abstraction");
+    	checkedElements.push("representation");
+    	checkedElements.push("exhibitions");
+    	checkedElements.push("nature");
+    	checkedElements.push("portraiture");
+    }
 
     var request = new XMLHttpRequest();
     request.open('GET', 'https://raw.githubusercontent.com/montanafowler/website/master/allJson.txt', true);
