@@ -38,6 +38,7 @@ function makeModal() {
 }
 
 function filterWrittenCheckboxes() {
+    document.getElementById("gallery").hidden = false;
     var checkedElements = new Array();
     var checkboxIds = new Array();
     checkboxIds.push("abstraction_checkbox");
@@ -123,6 +124,11 @@ function temp() {
     console.log("temp function");
 }
 
+function displayAboutPage() {
+    document.getElementById("gallery").hidden = true;
+    document.getElementById("about_page").hidden = false;
+}
+
 $(document).ready(function () {
     $("#abstraction_checkbox").click(flipWrittenCheckmark);
     $("#representation_checkbox").click(flipWrittenCheckmark);
@@ -130,9 +136,12 @@ $(document).ready(function () {
     $("#portraiture_checkbox").click(flipWrittenCheckmark);
     $("#exhibitions_checkbox").click(flipWrittenCheckmark);
     $("#yearDropdownMenu").onclick = function () {
-        console.log("yearDropdown.onchange");
         filterWrittenCheckboxes();
     };
+    $("#saleDropdownMenu").onclick = function () {
+        filterWrittenCheckboxes();
+    };
+    $("#about_button").click(displayAboutPage);
 
 });
 
