@@ -29,6 +29,8 @@ function makeModal() {
             if (this.for_sale == "yes") {
                 var price = this.widthInches * this.heightInches * 0.5;
                 priceCaption.innerHTML = "$" + price.toString();
+            } else {
+              priceCaption.innerHTML = "";
             }
 
         }
