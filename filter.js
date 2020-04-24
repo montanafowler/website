@@ -45,8 +45,7 @@ function makeModal() {
 
 function filterWrittenCheckboxes() {
     document.getElementById("gallery").hidden = false;
-    document.getElementById("about_page").hidden = true;
-    document.getElementById("about_page").setAttribute("style", "opacity: 0%;");
+    document.getElementById("about_page").style.visibility = "hidden";
 
     var checkedElements = new Array();
     var checkboxIds = new Array();
@@ -136,8 +135,8 @@ function temp() {
 function displayAboutPage() {
     console.log("displayAboutPage");
     document.getElementById("gallery").hidden = true;
-    document.getElementById("about_page").hidden = false;
-    document.getElementById("about_page").setAttribute("style", "opacity: 100%;");
+    document.getElementById("about_page").style.visibility = "visible";
+    console.log("test");
 }
 
 $(document).ready(function () {
@@ -152,6 +151,7 @@ $(document).ready(function () {
     $("#saleDropdownMenu").onclick = function () {
         filterWrittenCheckboxes();
     };
+    console.log("aboutbutton hookup");
     $("#about_button").click(displayAboutPage);
 
 });

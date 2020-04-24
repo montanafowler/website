@@ -1,3 +1,30 @@
+.largeSpacer {
+	float: left;
+	display: block;
+	position: relative;
+	height: 30px; 
+	width: 100%; 
+	visibility: hidden;
+}
+
+.smallerSpacer {
+	float: left;
+	display: block;
+	position: relative;
+	width: 100%; 
+	height: 5px; 
+	visibility: hidden; 
+}
+
+.smallestSpacer {
+	float: left;
+	display: block;
+	position: relative;
+	width: 100%; 
+	height: 2px; 
+	visibility: hidden;
+}
+
 .heading {
 	width: 40%;
 	float: left;
@@ -27,6 +54,7 @@
 #about_page {
 	display: -webkit-flex;
 	display: flex;
+	width: 100%;
 }
 
 #about_image_container {
