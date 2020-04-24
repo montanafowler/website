@@ -1,4 +1,4 @@
-var NUM_IMAGES = 126; //When you add new images you have to change this one more than last file name
+var NUM_IMAGES = 147; //When you add new images you have to change this one more than last file name
 
 function getImageIdFromFilepath(filepath) {
 	var filename = filepath.replace(/^.*[\\\/]/, '');
