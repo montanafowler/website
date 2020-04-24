@@ -96,7 +96,7 @@ function filterWrittenCheckboxes() {
     if(checkedElements.length == 2 
         && yearFilter == "2017_to_present" 
         && saleTemp == "all") {
-      allImages = allImages.slice(0, 20);
+      allImages = allImages.slice(0, allImages.length / 2);
     }
 
     photosToDisplay = allImages;
