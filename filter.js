@@ -18,7 +18,7 @@ function makeModal() {
         var img = document.getElementById(getImageIdFromFilepath(photosToDisplay[i]));
         img.onclick = function () {
             modal.style.display = "block";
-            modalImg.src = this.src;
+            modalImg.src = "images/all_larger/" + getImageIdFromFilepath(this.id) + ".jpg";
             //captionText.innerHTML = this.alt;
             materialsCaption.innerHTML = this.materials;
             sizeCaption.innerHTML = this.widthInches + " x " + this.heightInches + " in.";
