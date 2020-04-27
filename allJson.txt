@@ -1850,6 +1850,18 @@
 			"categories": ["portraiture", "representation"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "Magnolia Bloom",
+			"image_id":"all_147",
+			"materials": "",
+			"year": 2020,
+			"width": 24,
+			"height": 20,
+			"for_sale": "yes",
+			"categories": ["nature", "representation"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
