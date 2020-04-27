@@ -1842,7 +1842,7 @@
 		{
 			"title": "Rooftop Red",
 			"image_id":"all_146",
-			"materials": "",
+			"materials": "acrylic on canvas",
 			"year": 2020,
 			"width": 24,
 			"height": 20,
@@ -1854,7 +1854,7 @@
 		{
 			"title": "Magnolia Bloom",
 			"image_id":"all_147",
-			"materials": "",
+			"materials": "acrylic and modeling paste on canvas",
 			"year": 2020,
 			"width": 24,
 			"height": 20,
