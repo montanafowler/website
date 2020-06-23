@@ -1037,7 +1037,7 @@
 			"year": 2019,
 			"width": 12,
 			"height": 12,
-			"for_sale": "yes",
+			"for_sale": "sold",
 			"categories": ["portraiture"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
