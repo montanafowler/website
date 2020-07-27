@@ -1862,6 +1862,18 @@
 			"categories": ["nature", "representation"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "monarch",
+			"image_id":"all_148",
+			"materials": "acrylic and tissue on canvas",
+			"year": 2020,
+			"width": 20,
+			"height": 16,
+			"for_sale": "yes",
+			"categories": ["nature", "representation"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
