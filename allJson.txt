@@ -1874,6 +1874,18 @@
 			"categories": ["nature", "representation"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "side by side",
+			"image_id":"all_149",
+			"materials": "acrylic and tissue on canvas",
+			"year": 2020,
+			"width": 12,
+			"height": 12,
+			"for_sale": "yes",
+			"categories": ["portraiture", "representation"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
