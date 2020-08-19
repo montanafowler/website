@@ -1898,6 +1898,18 @@
 			"categories": ["nature", "representation"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "triptic",
+			"image_id":"all_151",
+			"materials": "acrylic on canvas, each piece 10 x 30 in.",
+			"year": 2020,
+			"width": 30,
+			"height": 30,
+			"for_sale": "yes",
+			"categories": ["abstraction"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
