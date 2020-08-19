@@ -1900,7 +1900,7 @@
 			"location":"Santa Cruz, CA"
 		}, 
 		{
-			"title": "triptic",
+			"title": "triptych",
 			"image_id":"all_151",
 			"materials": "acrylic on canvas, each piece 10 x 30 in.",
 			"year": 2020,
