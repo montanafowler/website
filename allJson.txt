@@ -1774,7 +1774,7 @@
 			"year": 2020,
 			"width": 20,
 			"height": 20,
-			"for_sale": "yes",
+			"for_sale": "sold",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
