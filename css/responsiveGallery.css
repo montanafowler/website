@@ -249,7 +249,7 @@ section {
   padding-right: 10%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   section {
   -moz-column-count:    2;
   -webkit-column-count: 2;
@@ -258,7 +258,7 @@ section {
   padding-right: 10%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   section {
   -moz-column-count:    1;
   -webkit-column-count: 1;
