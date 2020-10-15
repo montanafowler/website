@@ -1476,7 +1476,7 @@
 			"height": 20,
 			"for_sale": "yes",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1608,7 +1608,7 @@
 			"height": 24,
 			"for_sale": "yes",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1630,9 +1630,9 @@
 			"year": 2020,
 			"width": 20,
 			"height": 20,
-			"for_sale": "yes",
+			"for_sale": "no",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
