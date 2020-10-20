@@ -118,7 +118,7 @@
 			"height": 18,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 		{
@@ -281,7 +281,7 @@
 			"height": 16,
 			"for_sale": "no",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -372,7 +372,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -437,7 +437,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -451,7 +451,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -779,7 +779,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["nature", "representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -935,7 +935,7 @@
 			"height": 6,
 			"for_sale": "no",
 			"categories": ["portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -961,7 +961,7 @@
 			"height": 20,
 			"for_sale": "no",
 			"categories": ["portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1065,7 +1065,7 @@
 			"height": 4,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1104,7 +1104,7 @@
 			"height": 15,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -1117,7 +1117,7 @@
 			"height": 18,
 			"for_sale": "yes",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -1143,7 +1143,7 @@
 			"height": 15,
 			"for_sale": "yes",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -1156,7 +1156,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -1169,7 +1169,7 @@
 			"height": 15,
 			"for_sale": "yes",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -1221,7 +1221,7 @@
 			"height": 16,
 			"for_sale": "no",
 			"categories": ["representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -1284,7 +1284,7 @@
 			"height": 30,
 			"for_sale": "yes",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1464,7 +1464,7 @@
 			"height": 12,
 			"for_sale": "yes",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1524,7 +1524,7 @@
 			"height": 20,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1620,7 +1620,7 @@
 			"height": 30,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1680,7 +1680,7 @@
 			"height": 11,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1704,7 +1704,7 @@
 			"height": 8,
 			"for_sale": "yes",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1764,7 +1764,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1788,7 +1788,7 @@
 			"height": 12,
 			"for_sale": "yes",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1848,7 +1848,7 @@
 			"height": 20,
 			"for_sale": "yes",
 			"categories": ["portraiture", "representation"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
