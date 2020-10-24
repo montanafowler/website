@@ -1342,7 +1342,7 @@
 			"year": 2019,
 			"width": 18,
 			"height": 24,
-			"for_sale": "yes",
+			"for_sale": "sold",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
