@@ -164,7 +164,7 @@
 			"year": 2018,
 			"width": 15,
 			"height": 18,
-			"for_sale": "yes",
+			"for_sale": "sold",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Granada, Spain"
@@ -1330,7 +1330,7 @@
 			"year": 2019,
 			"width": 16,
 			"height": 20,
-			"for_sale": "yes",
+			"for_sale": "sold",
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
