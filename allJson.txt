@@ -1910,6 +1910,42 @@
 			"categories": ["abstraction"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "climbing together",
+			"image_id":"all_152",
+			"materials": "acrylic on canvas",
+			"year": 2021,
+			"width": 24,
+			"height": 30,
+			"for_sale": "yes",
+			"categories": ["portraiture", "nature", "representation"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "chance encounter",
+			"image_id":"all_153",
+			"materials": "flexible modeling paste and acrylic on canvas",
+			"year": 2021,
+			"width": 24,
+			"height": 30,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "inseparable",
+			"image_id":"all_154",
+			"materials": "acrylic on canvas",
+			"year": 2021,
+			"width": 8,
+			"height": 24,
+			"for_sale": "no",
+			"categories": ["representation", "nature"],
+			"show":"yes",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}

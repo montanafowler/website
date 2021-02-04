@@ -165,6 +165,7 @@ function getYearFromIndex(index, useYear) {
       return "2017_to_present";
     }
     var year = 2016 + parseInt(index);
+    console.log("getYearFromIndex index=" + index + " year=" + year);
     return year.toString();
   }
   if(index == 0) {
