@@ -1946,6 +1946,114 @@
 			"categories": ["representation", "nature"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "little brother",
+			"image_id":"all_155",
+			"materials": "acrylic and ink on canvas",
+			"year": 2021,
+			"width": 12,
+			"height": 12,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the good soul",
+			"image_id":"all_156",
+			"materials": "acrylic and acrylic pen on canvas",
+			"year": 2021,
+			"width": 12,
+			"height": 12,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the scholar",
+			"image_id":"all_157",
+			"materials": "acrylic and ink on canvas",
+			"year": 2021,
+			"width": 16,
+			"height": 20,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the middle child",
+			"image_id":"all_158",
+			"materials": "acrylic, collage, and ink on canvas",
+			"year": 2021,
+			"width": 16,
+			"height": 20,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the astronaut",
+			"image_id":"all_159",
+			"materials": "acrylic, collage, and ink on canvas",
+			"year": 2021,
+			"width": 18,
+			"height": 24,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the beer lover",
+			"image_id":"all_160",
+			"materials": "acrylic, collage, and ink on canvas",
+			"year": 2021,
+			"width": 18,
+			"height": 24,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "dog mom",
+			"image_id":"all_160",
+			"materials": "acrylic on canvas",
+			"year": 2021,
+			"width": 18,
+			"height": 24,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the architect",
+			"image_id":"all_162",
+			"materials": "acrylic, collage, and ink on canvas",
+			"year": 2021,
+			"width": 18,
+			"height": 30,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
+		}, 
+		{
+			"title": "the astronaut",
+			"image_id":"all_163",
+			"materials": "acrylic, collage, and ink on canvas",
+			"year": 2021,
+			"width": 20,
+			"height": 20,
+			"for_sale": "yes",
+			"categories": ["representation", "nature"],
+			"show":"no",
+			"location":"Santa Cruz, CA"
 		}
 
 		]}
