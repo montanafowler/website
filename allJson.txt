@@ -1956,7 +1956,7 @@
 			"height": 12,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1968,7 +1968,7 @@
 			"height": 12,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1980,7 +1980,7 @@
 			"height": 20,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1992,7 +1992,7 @@
 			"height": 20,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -2004,7 +2004,7 @@
 			"height": 24,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -2016,7 +2016,7 @@
 			"height": 24,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -2028,7 +2028,7 @@
 			"height": 24,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -2040,7 +2040,7 @@
 			"height": 30,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -2052,7 +2052,7 @@
 			"height": 20,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"no",
+			"show":"yes",
 			"location":"Santa Cruz, CA"
 		}
 
