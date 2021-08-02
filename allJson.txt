@@ -106,7 +106,7 @@
 			"height": 18,
 			"for_sale": "sold",
 			"categories": ["abstraction", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 		{
@@ -116,7 +116,7 @@
 			"year": 2018,
 			"width": 15,
 			"height": 18,
-			"for_sale": "yes",
+			"for_sale": "no",
 			"categories": ["representation", "nature"],
 			"show":"no",
 			"location":"Granada, Spain"
@@ -130,7 +130,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 		{
@@ -142,7 +142,7 @@
 			"height": 18,
 			"for_sale": "yes",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 		{
@@ -190,7 +190,7 @@
 			"height": 18,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Granada, Spain"
 		},
 
@@ -229,7 +229,7 @@
 			"height": 49,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -242,7 +242,7 @@
 			"height": 49,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -255,7 +255,7 @@
 			"height": 49,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -268,7 +268,7 @@
 			"height": 10,
 			"for_sale": "no",
 			"categories": ["representation", "nature"],
-			"show":"yes",
+			"show":"no",
 			"location":"Providence, RI"
 		},
 
@@ -662,7 +662,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["exhibitions"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -675,7 +675,7 @@
 			"height": 0,
 			"for_sale": "no",
 			"categories": ["exhibitions"],
-			"show":"yes",
+			"show":"no",
 			"location":"Comillas, Spain"
 		},
 
@@ -1594,7 +1594,7 @@
 			"year": 2019,
 			"width": 20,
 			"height": 24,
-			"for_sale": "yes",
+			"for_sale": "sold",
 			"categories": ["abstraction"],
 			"show":"yes",
 			"location":"Santa Cruz, CA"
@@ -1668,7 +1668,7 @@
 			"height": 20,
 			"for_sale": "yes",
 			"categories": ["abstraction"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
@@ -1728,7 +1728,7 @@
 			"height": 36,
 			"for_sale": "yes",
 			"categories": ["representation", "portraiture"],
-			"show":"yes",
+			"show":"no",
 			"location":"Santa Cruz, CA"
 		}, 
 		{
