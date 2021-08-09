@@ -1,7 +1,7 @@
-site: Montana Fowler Art
+site: Duet Jekyll Theme
 
-url:
-baseurl:
+url: 
+baseurl: 
 
 collections:
   pages:
@@ -13,12 +13,6 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-  painting-collections:
-    output: true
-    permalink: /painting-collections/:path/
-    order:
-        - painting-collections/2021-everyday-series.md
-        - painting-collections/2021-tree-series.md
 
 defaults:
   -
