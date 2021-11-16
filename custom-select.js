@@ -1,10 +1,10 @@
 
 function getYearFromIndex(index, useYear) {
   if(useYear) {
-    if(index == 0) {
+    if(index == 5) {
       return "2017_to_present";
     }
-    var year = 2016 + parseInt(index);
+    var year = 2021 - parseInt(index);
     return year.toString();
   }
   if(index == 0) {

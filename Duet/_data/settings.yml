@@ -8,8 +8,11 @@ header_settings:
 
 menu_settings:
   menu_items:
+    - title: 'Painting Collections'
+      url: '/painting-collections-home' #/painting-collections/2021-everyday-series'
     - title: 'Projects'
       url: '/projects/2018-06-30-demo-project'
+      # url: '/projects/2018-06-30-demo-project'
     - title: 'Blog'
       url: '/blog/'
     - title: 'About'

@@ -17,8 +17,8 @@ collections:
     output: true
     permalink: /painting-collections/:path/
     order:
-        - painting-collections/2021-everyday-series.md
-        - painting-collections/2021-tree-series.md
+        - painting-collections/2021-everyday-series
+        - painting-collections/2021-tree-series
 
 defaults:
   -

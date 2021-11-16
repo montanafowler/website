@@ -48,6 +48,7 @@ function makeModal() {
 function filterWrittenCheckboxes() {
     document.getElementById("gallery").hidden = false;
     document.getElementById("about_page").style.visibility = "hidden";
+    console.log("top of filter written checkboxes");
 
     var checkedElements = new Array();
     var checkboxIds = new Array();
@@ -59,7 +60,7 @@ function filterWrittenCheckboxes() {
     checkboxIds.push("selectedImagetrue");
     checkboxIds.push("selectedImagefalse");
     var srcImageName, saleTemp;
-    var yearFilter = "2017_to_present";
+    var yearFilter = "2021";
     for (var i = 0; i < checkboxIds.length; i++) {
         srcImageName = document.getElementById(checkboxIds[i]).getAttribute("src");
         //console.log("srcImageName", srcImageName);
@@ -89,17 +90,17 @@ function filterWrittenCheckboxes() {
 
     console.log("checkedElements");
     console.log(checkedElements);
-
     var allImages = makeAllArray(); 
     photosToDisplay = allImages;
     allImages = shuffleArray(allImages);
 
     // make the first page not have so many photos so it loads faster
-    if(checkedElements.length == 2 
-        && yearFilter == "2017_to_present" 
-        && saleTemp == "all") {
-      allImages = allImages.slice(0, allImages.length / 2);
-    }
+    // if(checkedElements.length == 2 
+    //     && yearFilter == "2021" 
+    //     && saleTemp == "all") {
+    //   //allImages = allImages.slice(0, allImages.length / 2);
+    // console.log("first load");
+    // }
 
     photosToDisplay = allImages;
 
