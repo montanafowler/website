@@ -14,28 +14,20 @@ layout: default
 </section>
 
 <section class="single">
-    
+
+    {{ page.content }}
+
+    <h3> collections </h3>
+
     <nav>
-    <ul>
+        <ul>
         {% for painting-collection in site.painting-collections %}
         <li>
             <a href="{{site.baseurl}}/painting-collections/{{painting-collection.slug}}/" class="{% if page.url contains painting-collection.slug %}current{% endif %}"> {{painting-collection.title}}</a>
             </li>
         {% endfor %}
         <ul>
-            </nav>
-
-            {% jekyllgram 6 %}
-              <a href="{{ photo.link }}" title="{{ photo.caption.text }}">
-                <img src="{{ photo.images.thumbnail.url }}" title="{{ photo.caption.text }}" />
-              </a>
-            {% endjekyllgram %}
-
-            {% include instagram.html username="montanafowler_cs_art" %}
-
-            <p> test test 2</p>
-
-    {{ page.content }}
+    </nav>
 
 </section>
 
