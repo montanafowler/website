@@ -8,16 +8,18 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Painting Collections'
+    - title: 'collections'
       url: '/painting-collections-home' #/painting-collections/2021-everyday-series'
     # - title: 'Projects'
     #   url: '/projects/2018-06-30-demo-project'
       # url: '/projects/2018-06-30-demo-project'
     # - title: 'Blog'
     #   url: '/blog/'
-    - title: 'About'
+    - title: 'videos'
       url: '/about'
-    - title: 'Contact'
+    - title: 'about'
+      url: '/about'
+    - title: 'contact'
       url: '/contact'
 
 footer_settings:
@@ -69,9 +71,9 @@ color_settings:
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#F2784B'
+  accent_color: '#A1376C'
   border_color: '#dddddd'
-  overlay_background_color: '#F2784B'
+  overlay_background_color: '#A1376C'
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
