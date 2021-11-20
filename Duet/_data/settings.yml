@@ -15,8 +15,10 @@ menu_settings:
       # url: '/projects/2018-06-30-demo-project'
     # - title: 'Blog'
     #   url: '/blog/'
-    - title: 'videos'
-      url: '/about'
+    # - title: 'videos'
+    #   url: '/about'
+    # - title: 'exhibitions'
+    #   url: '/about'
     - title: 'about'
       url: '/about'
     - title: 'contact'
@@ -171,6 +173,60 @@ font_settings:
 advanced_settings:
   ajax_loading: true
   analytics_code: ""
-  custom_styles: ""
+  custom_styles: "@media(min-width:768px) {
+
+    .container-1 {
+      display:flex;
+      justify-content: center;
+      align-items:center;
+    }
+
+    .box-image-left {
+      order:1;
+      flex-basis: 40%;
+      padding: 30px;
+    }
+
+    .box-image-right {
+      order:2;
+      flex-basis: 40%;
+      padding: 30px;
+    }
+
+    .box-description-left{
+      order:1;
+      flex-basis: 40%;
+      padding: 10px;
+      text-align: right;
+    }
+  }
+  
+  .box-image-left {
+  order:1;
+  flex-basis: 40%;
+  padding-right: 50px;
+      padding-left: 50px;
+      padding-top: 100px;
+  }
+
+  .box-image-right {
+    order:2;
+    flex-basis: 40%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+  
+  .box-description-right{
+    order:2;
+    flex-basis: 40%;
+    padding: 10px;
+  }
+
+  .box-description-left{
+    order:1;
+    flex-basis: 40%;
+    padding: 10px;
+  }"
   header_js: ""
   footer_js: ""
