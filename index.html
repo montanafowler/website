@@ -1,280 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="author" content="Montana Fowler">
-      <meta name="description" content="painter">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="images/favicon_io/site.webmanifest">
-      <img src="images/written_words/new_title_vectorized.png" id="title_image"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="css/responsiveGallery.css" rel="stylesheet">
-      <link href="css/custom-select.css" rel="stylesheet">
-      <link href="css/aboutAndContact.css" rel="stylesheet">
-      <script src="jquery-3.4.1.min.js"></script>
-      <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/a53b48a7dada1d1df2268f45c/b317f01abee03c76805efd2c0.js");</script>
-      <script type="text/javascript" srd="require.js"></script>
-      <script type="text/javascript" src="processCheckboxes.js"></script>  
-      <script type="text/javascript" src="makeArrays.js"></script>
-      <div class="checkboxRow" style="inline: block;">
-         <div class="shop_about" style="display: inline-block;" width="50px">
-            <a href="http://eepurl.com/hfaNjz">
-            <img id="newsletter_button" class="written_word_about" src="images/written_words/newsletter5.png" style="display: inline-block;">
-            </a>
-         </div>
-      	<div class="shop_about" style="display: inline-block;" width="50px">
-            <a href="https://www.instagram.com/montanafowler_cs_art/">
-            <img id="instagram_button" class="written_word_about" src="images/written_words/instagram.jpg" style="display: inline-block;">
-            </a>
-         </div>
-         <div class="shop_about" style="display: inline-block;" width="50px">
-            <a href="https://www.etsy.com/shop/MontanaFowlerArt">
-            <img id="etsy_button" class="written_word_about" src="images/written_words/etsy_shop.png" style="display: inline-block;">
-            </a>
-         </div>
-         <div class="shop_about" style="display: inline-block;" width="50px">
-            <img id="about_button" class="written_word_about" src="images/written_words/written_words_about.png" style="display: inline-block;">
-         </div>
-      </div>
-      <div class="checkboxRow" style="inline: block;">
+---
+layout: default
+title: A beautiful two-column Jekyll theme
+description: A beautiful, minimal two-column portfolio theme built for Jekyll. Duet makes your work look simply awesome.
+featured_image: /images/social.jpg
+---
 
-         <!-- Abstraction -->
-         <div style="display: inline-block;">
-            <img 
-               class="written_filter_checkbox" 
-               src="images/written_words/written_words_unchecked_vectorized.png"
-               id="abstraction_checkbox"/> 
-            <img 
-               class="written_word" 
-               src="images/written_words/written_words_abstraction_vectorized.png" 
-               id="abstraction_word"/>
-         </div>
-         <!-- Representation -->
-         <div style="display: inline-block;">
-            <img 
-               class="written_filter_checkbox" 
-               src="images/written_words/written_words_unchecked_vectorized.png" 
-               id="representation_checkbox"
-               /> 
-            <img 
-               class="written_word" 
-               src="images/written_words/written_words_representation_vectorized.png" 
-               id="representation_word"/>
-         </div>
-         <!-- Nature -->
-         <div style="display: inline-block;">
-            <img 
-               class="written_filter_checkbox" 
-               src="images/written_words/written_words_unchecked_vectorized.png"id="nature_checkbox"
-               /> 
-            <img 
-               class="written_word" 
-               src="images/written_words/written_words_nature_vectorized.png" 
-               id="nature_word"/>
-         </div>
-         <!-- Portraiture -->
-         <div style="display: inline-block;">
-            <img 
-               class="written_filter_checkbox" 
-               src="images/written_words/written_words_unchecked_vectorized.png"
-               id="portraiture_checkbox"
-               /> 
-            <img 
-               class="written_word" 
-               src="images/written_words/written_words_portraiture_vectorized.png" 
-               id="portraiture_word"/>
-         </div>
-         <!-- Exhibitions -->
-         <div style="display: inline-block;">
-            <img 
-               class="written_filter_checkbox" 
-               src="images/written_words/written_words_unchecked_vectorized.png"
-               id="exhibitions_checkbox"
-               /> 
-            <img 
-               class="written_word" 
-               src="images/written_words/written_words_exhibitions_vectorized.png" 
-               id="exhibitions_word"/>
-         </div>
-         <div class="custom-select" id="yearDropdownMenu" style="width:200px; height: 44px; display: inline-block;">
-            <select style="inline: block;">
-               <!-- 2017 to present -->
-               <option value="5" alt="year"></option>
-               <!-- 2017 -->
-               <option value="4" alt="year"></option>
-               <!-- 2018 -->
-               <option value="3" alt="year"></option>
-               <!-- 2019 -->
-               <option value="2" alt="year"></option>
-               <!-- 2020 -->
-               <option value="1" alt="year"></option>
-               <!-- 2021 -->
-               <option value="0" alt="year"></option>
-            </select>
-         </div>
-         <div class="custom-select" id="saleDropdownMenu" style="width:200px; height: 44px; display: inline-block;">
-            <select style="inline: block;">
-               <!-- all -->
-               <option value="0" alt="sale"></option>
-               <!-- for sale -->
-               <option value="1" alt="sale"></option>
-            </select>
-         </div>
-         <!--  <script src='custom-select.js'></script> -->
-         
-      </div>
-   </head>
-   <body>
-      <section id="gallery" style="padding-top: 20px;"></section>
-      <div id="about_page">
-         <div id="about_image_container">
-            <img src="images/aboutStudio.jpg" class="aboutImage"><img>
-         </div>
-         <div id="about_words_container">
-            <!-- About -->
-            <img class="heading" src="images/written_words/aboutPageWritten/0About.png"/>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" style="" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- UCSC -->
-            <img class="subheading" src="images/written_words/aboutPageWritten/1UCSantaCruz.png"/>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- bullets for ucsc -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/2currentPhDStudent.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/3inComputationalMedia.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer"src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/4CreativeCodingLab.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            </div>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- Brown -->
-            <img class="subheading" src="images/written_words/aboutPageWritten/6brownUniversity.png"/>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- brown bullets -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/7visualArtABAnd.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/8ComputerScienceAB.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- roberta joslin award -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/8dRobertaJoslinAward.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/8einVisualArt.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- senior prize -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/8fSeniorPrizeIn.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/8gComputerScience.png"/>
-            </div>
-            <!-- large spacer -->
-            <img class="largeSpacer" src="images/written_words/aboutPageWritten/6brownUniversity.png"/>
-            <!-- for prints, purchases & commissions -->
-            <div class="bulletDiv" style="padding-left: 0px;">
-               <img class="bullet" src="images/written_words/aboutPageWritten/9forPrintsPurchasesAnd.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/10commissionsContactMe.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/11atMontanacfowlergmailcom.png"/>
-            </div>
-            <!-- large spacer -->
-            <img class="largeSpacer" src="images/written_words/aboutPageWritten/6brownUniversity.png"/>
-            <!-- exhibitions -->
-            <img class="subheading" src="images/written_words/aboutPageWritten/12ExhibitionsHeader.png"/>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- loma prieta craft faire -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/13LomaPrietaCraftFaire.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/14December2019.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- loma prieta location -->
-            <div class="bulletDiv" style="padding-left: 30px;">
-               <img class="bullet" src="images/written_words/aboutPageWritten/15LomaPrietaCommunityCenter.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/16LosGatosCA.png"/>
-            </div>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- senior capstone -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/17SeniorCapstoneShow.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/18May2019.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- capstone location -->
-            <div class="bulletDiv" style="padding-left: 30px;">
-               <img class="bullet" src="images/written_words/aboutPageWritten/19ListArtCenterFirstFloorGallery.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/20ProvidenceRI.png"/>
-            </div>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- solo exhibition -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/21SoloExhibitionDecember2018.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- capstone location -->
-            <div class="bulletDiv" style="padding-left: 30px;">
-               <img class="bullet" src="images/written_words/aboutPageWritten/22ListArtCenterFirstFloorGallery2.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/23ProvidenceRI2.png"/>
-            </div>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- juega exposición -->
-            <div class="bulletDiv">
-               <img class="bullet" src="images/written_words/aboutPageWritten/24juegaExposiciondeArte.png"/>
-               <img class="bullet" src="images/written_words/aboutPageWritten/25Mayo2018.png"/>
-            </div>
-            <!-- spacer smaller x 2 -->
-            <img class="smallestSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- capstone location -->
-            <div class="bulletDiv" style="padding-left: 30px;">
-               <img class="bullet" src="images/written_words/aboutPageWritten/26CasadePorrasGranadaEspana.png"/>
-            </div>
-            <!-- spacer smaller -->
-            <img class="smallerSpacer" src="images/written_words/aboutPageWritten/5advisorAngusForbes.png"/>
-            <!-- rti paper -->
-            <div class="bulletDiv" style="height: 20px; width: auto;"> 
-               <a href="https://mw20.museweb.net/paper/capturing-large-scale-artifacts-via-reflectance-transformation-imaging-with-a-drone/">
-               <img class="bullet" src="images/written_words/rti_drone_paper.png"/>
-               </a>
-            </div>
-         </div>
-      </div>
-      </div>
-      <div id="main-content" class="main">
-         <div id="sidebar" class="sidebar"></div>
-         <div id="content" class="content">
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-               <span class="close">&times;</span>
-               <img class="modal-content" id="modalImg">
-               <div id="topLine">
-                  <div id="title"></div>
-                  <div id="yearCaption"></div>
-               </div>
-               <div id="caption">
-                  <div id="materialsCaption"></div>
-                  <div id="sizeCaption"></div>
-                  <div id="locationCaption"></div>
-                  <div id="price"></div>
-               </div>
-            </div>
-            <script type="text/javascript" src="filter.js"> </script>
-         </div>
-      </div>
-   </body>
-</html>
+<section class="intro">
+
+	<div class="wrap">
+
+		<!-- <h1>A beautiful, minimal two-column
+		portfolio theme built for Jekyll.</h1>
+		<p>Duet makes your work look simply awesome.</p> -->
+		<img src="/images/portrait/2021_portrait-0.jpg">
+		<!-- <img src="/images/portrait/2021_portrait-1.jpg">
+		<img src="/images/portrait/2021_portrait-2.jpg">
+		<img src="/images/portrait/2021_portrait-3.jpg">
+		<img src="/images/portrait/2021_portrait-4.jpg"> -->
+
+		<p> Montana is an acrylic painter based in Montreal, QC.  She works in intuitive layers to see where trusting her gut will take her in any given piece.  </p>
+
+		<p> Currently, Montana's <a href="https://www.etsy.com/shop/MontanaFowlerArt">Etsy Shop</a> is closed.  The best ways to stay up to date on her work are to <a href="https://montanafowler.us2.list-manage.com/subscribe?u=a53b48a7dada1d1df2268f45c&id=e5121f1348">subscribe to her newsletter</a>, or follow her on <a href="https://www.instagram.com/montanafowler_cs_art/">Instagram (@montanafowler_cs_art)</a>. </p>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for painting-collection in site.painting-collections reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ painting-collection.url | relative_url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ painting-collection.featured_image | relative_url }}" alt="{{ painting-collection.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ painting-collection.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ painting-collection.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
