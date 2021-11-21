@@ -9,9 +9,7 @@ layout: painting-collection
 ![Montana Fowler Art Tree Series](/website/images/2021/tree-series/series-cover.jpg)
 
 ### February 2021
-I began this series in December, when I realized I needed to work with a limited color palette to finally create a cohesive series of paintings that all went well together.  All of my paintings I made in 2020 were lovely in their distinct personalities, but they didn't feel connected to each other.  Over the course of this year, I'll release those paintings individually.  
-
-Each of these pieces in my tree series began as abstract paintings and slowly evolved into trees with mixed media techniques.  I used collage, acrylic ink, spray paint, and acrylic paint pens on top of many layers of acrylic paint.
+I began this series in December 2020.  Each of these pieces in my tree series began as abstract paintings and slowly evolved into trees with mixed media techniques.  I used collage, acrylic ink, spray paint, and acrylic paint pens on top of many layers of acrylic paint.  The trees' sillouettes come from photos I took of trees in Wilder Ranch State Park in Santa Cruz, CA.
 
 <!-- Beer Lover Painting -->
 <div class="container-1">
