@@ -7,7 +7,7 @@ featured_image:
 
 <!-- {% include contact-form.html %} -->
 
-<img src="/images/portrait/2021_portrait-3.jpg" alt="MontanaFowlerArt" width="300"/>
+<img src="/website/images/portrait/2021_portrait-3.jpg" alt="MontanaFowlerArt" width="300"/>
 
 to contact montana you can  
 

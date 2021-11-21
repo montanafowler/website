@@ -5,7 +5,7 @@ description:
 featured_image: /images/portrait/2021_portrait-2.jpg
 ---
 
-![Montana Fowler Art](/images/portrait/2021_portrait-2.jpg)
+![Montana Fowler Art](/website/images/portrait/2021_portrait-2.jpg)
 
 
 Montana grew up in the Santa Cruz Mountains in California, USA.  She then attended Brown University in Providence, RI, USA.  There she double majored in computer science and visual art.  

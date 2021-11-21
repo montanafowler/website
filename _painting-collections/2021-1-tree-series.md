@@ -6,7 +6,7 @@ featured_image: /images/2021/tree-series/the_astronaut_18x24.jpg
 layout: painting-collection
 ---
 
-![](/images/2021/tree-series/series-cover.jpg)
+![Montana Fowler Art Tree Series](/website/images/2021/tree-series/series-cover.jpg)
 
 ### February 2021
 I began this series in December, when I realized I needed to work with a limited color palette to finally create a cohesive series of paintings that all went well together.  All of my paintings I made in 2020 were lovely in their distinct personalities, but they didn't feel connected to each other.  Over the course of this year, I'll release those paintings individually.  
@@ -16,7 +16,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- Beer Lover Painting -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/images/2021/tree-series/beer_lover_18x24.jpg">
+    <img src="/website/images/2021/tree-series/beer_lover_18x24.jpg">
   </div>
   <div class="box-description-right">
     <h4>Beer Lover (2021)</h4>
@@ -29,7 +29,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- Dog Mom Painting -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/images/2021/tree-series/dog_mom_18x24.jpg">
+    <img src="/website/images/2021/tree-series/dog_mom_18x24.jpg">
   </div>
   <div class="box-description-left">
     <h4>Dog Mom (2021)</h4>
@@ -42,7 +42,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- Little Brother Painting -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/images/2021/tree-series/little_brother_12x12.jpg">
+    <img src="/website/images/2021/tree-series/little_brother_12x12.jpg">
   </div>
   <div class="box-description-right">
     <h4>Little Brother (2021)</h4>
@@ -55,7 +55,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- The Architect Painting -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/images/2021/tree-series/the_architect_18x30.jpg">
+    <img src="/website/images/2021/tree-series/the_architect_18x30.jpg">
   </div>
   <div class="box-description-left">
     <h4>The Architect (2021)</h4>
@@ -68,7 +68,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- the Astronaut Painting -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/images/2021/tree-series/the_astronaut_18x24.jpg">
+    <img src="/website/images/2021/tree-series/the_astronaut_18x24.jpg">
   </div>
   <div class="box-description-right">
     <h4>The Astronaut (2021)</h4>
@@ -81,7 +81,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- the Good Soul Painting -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/images/2021/tree-series/the_good_soul_12x12.jpg">
+    <img src="/website/images/2021/tree-series/the_good_soul_12x12.jpg">
   </div>
   <div class="box-description-left">
     <h4>The Good Soul (2021)</h4>
@@ -94,7 +94,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- the Manager Painting -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/images/2021/tree-series/the_manager_20x20.jpg">
+    <img src="/website/images/2021/tree-series/the_manager_20x20.jpg">
   </div>
   <div class="box-description-right">
     <h4>The Manager (2021)</h4>
@@ -107,7 +107,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- the Middle Child Painting -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/images/2021/tree-series/the_middle_child_16x20.jpg">
+    <img src="/website/images/2021/tree-series/the_middle_child_16x20.jpg">
   </div>
   <div class="box-description-left">
     <h4>The Middle Child (2021)</h4>
@@ -120,7 +120,7 @@ Each of these pieces in my tree series began as abstract paintings and slowly ev
 <!-- the Manager Painting -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/images/2021/tree-series/the_scholar_16x20.jpg">
+    <img src="/website/images/2021/tree-series/the_scholar_16x20.jpg">
   </div>
   <div class="box-description-right">
     <h4>The Scholar (2021)</h4>

@@ -6,4 +6,4 @@ featured_image: /images/demo/demo-landscape.jpg
 layout: painting-collections-homepage
 ---
 
-![](/images/art-supplies/inks.jpg)
+![](/website/images/art-supplies/inks.jpg)
