@@ -46,7 +46,7 @@ I began this series in December 2020.  Each of these pieces in my tree series be
     <h4>Little Brother (2021)</h4>
     <p>acrylic and ink on canvas -  
     	12x12" <br>
-    now lives in Chicago, IL</p>
+     lives in Santa Cruz, CA</p>
   </div>
 </div>
 
