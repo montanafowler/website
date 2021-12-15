@@ -1,6 +1,6 @@
 ---
-title: Work in Progress (November 2021)
-subtitle: 
+title: Work-in-Progress
+subtitle: November 2021
 description: 
 featured_image: /images/2021/november-update/IMG_1749_small.jpg
 layout: painting-collection

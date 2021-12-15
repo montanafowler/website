@@ -18,4 +18,6 @@ m o n t a n a c f o w l e r at g m a i l dot c o m
 
 you can also <a href="https://montanafowler.us2.list-manage.com/subscribe?u=a53b48a7dada1d1df2268f45c&id=e5121f1348"> subscribe to her newsletter as the best way to stay up to date with her work </a>
 
+> "I love my friend, Montana, and the artist, Montana. The newsletter connects them." -CR
+
 <!-- We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service. -->

@@ -14,7 +14,7 @@ At Brown, Montana fell in love with painting while studying under <a href="https
 
 At the University of California, Santa Cruz, Montana received her masters degree in Computational Media from the Creative Coding Lab in September of 2021.  She then moved to Montreal to begin her next adventure!
 
-Artistially, Montana is primarily interested in following her intuition.  Her recent work begins abstract and either turns into a figurative piece or remains abstract.  At the moment, she is investigating how trusting herself will come through in her work.  After deciding to change her entire life and move to Canada in 2021, she is feeling a freedom and confidence that she hopes to convey in her work.
+Artistically, Montana is primarily interested in following her intuition.  Her recent work begins abstract and either turns into a figurative piece or remains abstract.  At the moment, she is investigating how trusting herself will come through in her work.  After deciding to change her entire life and move to Canada in 2021, she is feeling a freedom and confidence that she hopes to convey in her work.
 
 Currently, Montana's <a href="https://www.etsy.com/shop/MontanaFowlerArt">Etsy Shop</a> is closed.  The best ways to stay up to date on her work are to <a href="https://montanafowler.us2.list-manage.com/subscribe?u=a53b48a7dada1d1df2268f45c&id=e5121f1348">subscribe to her newsletter</a>, or follow her on <a href="https://www.instagram.com/montanafowler_cs_art/">Instagram (@montanafowler_cs_art)</a>.
 
@@ -35,5 +35,5 @@ List Art Center, Providence, RI, USA
 **Solo Show**  *December 2018*  
 List Art Center, Providence, RI, USA
 
-**Juega**  *December 2018*  
+**Juega**  *May 2018*  
 Casa de Porras, Granada, Spain

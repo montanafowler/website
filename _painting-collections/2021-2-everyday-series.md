@@ -1,6 +1,6 @@
 ---
-title: Everyday Series (2021)
-subtitle: a series of seven 8x8" acrylic paintings
+title: Everyday Series
+subtitle: June 2021
 description: everyday series description.
 featured_image: /images/2021/everyday-series/5_Friday.jpg
 layout: painting-collection

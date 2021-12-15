@@ -1,6 +1,6 @@
 ---
-title: Tree Series (2021)
-subtitle: a series of tree paintings inspired by the trees in Wilder Ranch State Park
+title: Tree Series
+subtitle: February 2021
 description: 
 featured_image: /images/2021/tree-series/the_astronaut_18x24.jpg
 layout: painting-collection

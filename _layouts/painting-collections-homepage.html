@@ -18,7 +18,7 @@ layout: default
     <ul>
         {% for painting-collection in site.painting-collections %}
         <li>
-            <a href="{{site.baseurl}}/painting-collections/{{painting-collection.slug}}/" class="{% if page.url contains painting-collection.slug %}current{% endif %}"> {{painting-collection.title}}</a>
+            <a href="{{site.baseurl}}/painting-collections/{{painting-collection.slug}}/" class="{% if page.url contains painting-collection.slug %}current{% endif %}"> {{painting-collection.title}} ({{painting-collection.subtitle}})</a>
             </li>
         {% endfor %}
         <ul>
