@@ -4,11 +4,22 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+
 .gallery {
 	visibility: hidden;
 	position: relative;
 	max-width: 90%;
 	margin: 20px auto;
+
+	@media(min-width:800px) {
+		max-width: 60%;
+		margin: auto;
+	}
+
+	@media(min-width:1000px) {
+		max-width: 40%;
+		margin: auto;
+	}
 
 	@include mq(tabletp) {
 		margin: 30px auto;
@@ -40,6 +51,9 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Carousel
 
 .gallery--carousel {
+
+	
+
 
 	.gallery__wrap {
 
