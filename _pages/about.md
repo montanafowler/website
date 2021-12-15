@@ -10,7 +10,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 
 Montana grew up in the Santa Cruz Mountains in California, USA.  She then attended Brown University in Providence, RI, USA.  There she double majored in computer science and visual art.  
 
-At Brown, Montana fell in love with painting while studying under <a href="https://wendyedwardspainting.com">Wendy Edwards</a>, <a href="https://jerrymischak.com">Jerry Mischak</a>, and <a href="https://www.ayanaevans.com">Ayana Evans</a>.  Her first exhibition was at Casa de Porras in Granada, Spain when she studied abroad and took a course with Spanish artist, <a href="https://www.instagram.com/telasanimadasdealhambra/">Alhambra (@telasanimadasdealhambra)</a> in 2018.  She has also enjoyed learning from Santa Cruz artist, <a href="https://www.carrieclayden.com">Carrie Clayden</a>.
+At Brown, Montana fell in love with painting while studying under <a href="https://wendyedwardspainting.com">Wendy Edwards</a>, <a href="https://jerrymischak.com">Jerry Mischak</a>, and <a href="https://www.ayanaevans.com">Ayana Evans</a>.  Her first exhibition was at Casa de Porras in Granada, Spain when she studied abroad and took a course with Spanish artist, <a href="https://www.instagram.com/telasanimadasdealhambra/">Alhambra García Caballero (@telasanimadasdealhambra)</a> in 2018.  She has also enjoyed learning from Santa Cruz artist, <a href="https://www.carrieclayden.com">Carrie Clayden</a>.
 
 At the University of California, Santa Cruz, Montana received her masters degree in Computational Media from the Creative Coding Lab in September of 2021.  She then moved to Montreal to begin her next adventure!
 
