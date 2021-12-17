@@ -128,16 +128,16 @@ While studying abroad in Granada, Spain, Montana took a painting course at Casa 
 la terraza, Granada, Spain
 
 <div class="gallery" data-columns="1">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-0.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-1.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-2.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-3.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-4.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-5.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-6.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-7.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-8.JPG">
-	<img src="/website/images/exhibitions/2018-5-granada/terraza-9.JPG">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-0.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-1.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-2.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-3.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-4.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-5.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-6.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-7.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-8.jpg">
+	<img src="/website/images/exhibitions/2018-5-granada/terraza-9.jpg">
 </div>
 
 To open the exhibition at Casa de Porras, an opening reception was held on the terrace of Montana's host mom's house.  It was a beautiful event with a rainbow and stunning views.
