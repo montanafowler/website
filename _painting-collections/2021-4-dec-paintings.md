@@ -1,5 +1,5 @@
 ---
-title: A Fresh Start
+title: The Fresh Start Collection
 subtitle: December 2021
 description: 
 featured_image: /images/2021/december-shop/loud/loud-1.jpg
@@ -7,7 +7,7 @@ layout: painting-collection
 ---
 After moving to Montreal in September of 2021, Montana felt refreshed restarting her art practice in a new place.  She only brought her brushes and a few art tools with an intention to start with less.  Leaving behind all the unfinished paintings gave her a clear head to begin a new body of work.  
 
-In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021 studio notes video</a>, she explained how her art shows her what she's going through at any given time.  Each piece in the <i>A Fresh Start</i> collection addresses an aspect of starting a new life in a new city: the peace, growth, energy & knowledge.
+In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021 studio notes video</a>, she explained how her art shows her what she's going through at any given time.  Each piece in <i>The Fresh Start Collection</i> addresses an aspect of starting a new life in a new city: the peace, growth, energy & knowledge.
 
 
 <!-- Rosewater -->
