@@ -31,19 +31,6 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 	<p class="description-margin-zero">$200 USD  |  $253 CAD</p>
 </div>
 
-<!-- Spring Forward -->
-<div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-3.jpg">
-	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-4.jpg">
-	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-5.png">
-</div>
-<div style="padding-bottom: 100px">
-	<h4>Spring Forward (2021)</h4>
-	<p class="description-margin-zero">acrylic on canvas</p>
-	<p class="description-margin-zero">24 x 18"</p>
-	<p class="description-margin-zero">$216 USD  |  $273 CAD</p>
-</div>
-
 <!-- Loud -->
 <div class="gallery" data-columns="1">
 	<img src="/website/images/2021/december-shop/loud/loud-2.jpg">
@@ -76,7 +63,6 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 <h3> Available Work </h3>
 <div class="gallery" data-columns="3">
 	<img src="/website/images/2021/december-shop/wiser/wiser-2.jpg">
-	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-2.jpg">
 	<img src="/website/images/2021/december-shop/rosewater/rosewater-0.jpg">
 	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
 </div>
@@ -85,6 +71,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 
 I've had the most wonderful collectors purchase my work over the years.  I'm so grateful to them for giving my pieces new homes.
 <div class="gallery" data-columns="3">
+	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-2.jpg">
 	<img src="/website/images/sold/sold-0.jpg">
 	<img src="/website/images/sold/sold-1.png">
 	<img src="/website/images/sold/sold-2.jpg">

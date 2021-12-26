@@ -32,7 +32,7 @@ In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021
     <h4>Spring Forward (2021)</h4>
     <p class="description-margin-zero">acrylic on canvas</p>
     <p class="description-margin-zero">24 x 18"</p>
-    <p class="description-margin-zero">$216 USD  |  $273 CAD</p>
+    <p class="description-margin-zero">SOLD</p>
   </div>
 </div>
 
