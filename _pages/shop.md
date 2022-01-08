@@ -18,6 +18,40 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 <p>All of the pricing includes free shipping to the US and Canada.  If you'd like shipping outside the US and Canada, Montana can get a shipping quote for you before you make the purchase.</p>
 </div>
 
+<!-- Minty -->
+<div class="gallery" data-columns="1">
+	<img src="/website/images/2022/January/minty/minty-0.jpg">
+	<img src="/website/images/2022/January/minty/minty-2.jpg">
+	<img src="/website/images/2022/January/minty/minty-3.jpg">
+	<img src="/website/images/2022/January/minty/minty-4.jpg">
+	<img src="/website/images/2022/January/minty/minty-5.jpg">
+	<img src="/website/images/2022/January/minty/minty-6.jpg">
+	<img src="/website/images/2022/January/minty/minty-7.jpg">
+</div>
+<div style="padding-bottom: 100px">
+	<h4>Minty (2022)</h4>
+	<p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
+	<p class="description-margin-zero">24 x 30"</p>
+	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+</div>
+
+<!-- Perennial -->
+<div class="gallery" data-columns="1">
+	<img src="/website/images/2022/January/perennial/perennial-0.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-1.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-2.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-4.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-5.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-6.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-7.jpg">
+</div>
+<div style="padding-bottom: 100px">
+	<h4>Perennial (2022)</h4>
+	<p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
+	<p class="description-margin-zero">24 x 24"</p>
+	<p class="description-margin-zero">$288 USD  |  $364 CAD</p>
+</div>
+
 <!-- Rosewater -->
 <div class="gallery" data-columns="1">
 	<img src="/website/images/2021/december-shop/rosewater/rosewater-3.jpg">
@@ -62,6 +96,8 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 <!-- Gallery -->
 <h3> Available Work </h3>
 <div class="gallery" data-columns="3">
+	<img src="/website/images/2022/January/perennial/perennial-3.jpg">
+	<img src="/website/images/2022/January/minty/minty-1.jpg">
 	<img src="/website/images/2021/december-shop/wiser/wiser-2.jpg">
 	<img src="/website/images/2021/december-shop/rosewater/rosewater-0.jpg">
 	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
