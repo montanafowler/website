@@ -1,18 +1,31 @@
 
 /**
 
+shop
+
+*/
+
+.paypal-button {
+  padding-top: 15px; 
+  padding-left: 5%; 
+
+  @media(min-width:500px) {
+    padding-left: 10%; 
+  }
+
+  @media(min-width:550px) {
+    padding-left: 15%; 
+  }
+
+  @media(min-width:550px) {
+    padding-left: 15%; 
+  }
+}
+
+
+/**
+
 painting collections homepage css
-
-<div class="collections-item">
-  <h4><a href="{{site.baseurl}}/painting-collections/{{painting-collection.slug}}/" class="{% if page.url contains painting-collection.slug %}current{% endif %}"> {{painting-collection.title}} ({{painting-collection.subtitle}})</a></h4>
-
-  <div class="collections-item__image">
-      <img src="{{ painting-collection.collection_featured_image | relative_url }}" alt="{{ painting-collection.title }}">
-  </div>
-
-  <div class="collections-item__description">
-      
-  </div>
 
 */
 
