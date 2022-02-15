@@ -1,15 +1,13 @@
 ---
 title: Tree Series
 subtitle: February 2021
-description: 
+description: I began this series in December 2020.  Each of these pieces in my tree series began as abstract paintings and slowly evolved into trees with mixed media techniques.  I used collage, acrylic ink, spray paint, and acrylic paint pens on top of many layers of acrylic paint.  The trees' sillouettes come from photos I took of trees in Wilder Ranch State Park in Santa Cruz, CA.
 featured_image: /images/2021/tree-series/the_astronaut_18x24.jpg
 layout: painting-collection
+collection_featured_image: /images/2021/tree-series/the_astronaut_18x24.jpg
 ---
 
 ![Montana Fowler Art Tree Series](/website/images/2021/tree-series/series-cover.jpg)
-
-### February 2021
-I began this series in December 2020.  Each of these pieces in my tree series began as abstract paintings and slowly evolved into trees with mixed media techniques.  I used collage, acrylic ink, spray paint, and acrylic paint pens on top of many layers of acrylic paint.  The trees' sillouettes come from photos I took of trees in Wilder Ranch State Park in Santa Cruz, CA.
 
 <!-- Beer Lover Painting -->
 <div class="container-1">
