@@ -51,12 +51,11 @@ painting collections homepage css
 
 .collections-item {
   position: relative;
-  max-width: 95%;
-  margin: 20px auto;
+  max-width: 100%;
+  margin: auto;
 
   @media(min-width:800px) {
-    max-width: 80%;
-    margin: auto;
+    max-width: 90%;
   }
 }
 
@@ -64,16 +63,15 @@ painting collections homepage css
 .collections-item__image {
   position: relative;
   max-width: 100%;
-  margin: 20px auto;
+  margin: auto;
+  padding: 20px;
 
   @media(min-width:800px) {
-    max-width: 80%;
-    margin: auto;
+    max-width: 100%;
   }
 
   @media(min-width:1000px) {
-    max-width: 70%;
-    margin: auto;
+    max-width: 100%;
   }
 }
 

@@ -4,7 +4,7 @@ subtitle: January 2022
 description: Here lies a growing collection of wintry paintings...
 featured_image: /images/2022/January/minty/minty-1.jpg
 layout: painting-collection
-collection_featured_image: /images/2021/tree-series/the_astronaut_18x24.jpg
+collection_featured_image: /images/2022/January/minty/minty-0.jpg
 ---
 <!-- Minty -->
 <div class="container-1">

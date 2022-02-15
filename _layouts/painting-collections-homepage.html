@@ -25,9 +25,8 @@ layout: default
                         <img src="{{ painting-collection.collection_featured_image | relative_url }}" alt="{{ painting-collection.title }}">
                     </div>
 
-                    <div class="collections-item__description">
-                        test test description
-
+                    <div class="collections-item__description" style="padding-bottom: 50px;">
+                        <p>{{ painting-collection.description }} </p>
                     </div>
                 </div>
             {% endfor %}
