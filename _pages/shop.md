@@ -2,24 +2,11 @@
 title: Shop
 featured_image: /images/portrait/2021_portrait-2.jpg
 ---
-<!-- TBD put close ups here -->
-<!-- <div class="gallery" data-columns="1">
-	<img src="/website/images/shop-banner/2021-shop-banner-0.png">
-	<img src="/website/images/shop-banner/2021-shop-banner-1.png">
-	<img src="/website/images/shop-banner/2021-shop-banner-2.png">
-	<img src="/website/images/shop-banner/2021-shop-banner-3.png">
-</div> -->
+<p></p>
 
-<div style="padding-bottom: 50px; margin-top: 0px;">
-<p> While Montana's <a href="https://www.etsy.com/shop/MontanaFowlerArt">Etsy Shop</a> is closed, some paintings are available to purchase by contacting her directly.  Send her an email at <b>montana c fowler at g mail dot com</b> to inquire about a piece.</p>
-
-<p> Every piece is on a canvas with a gallery thickness of 1.5 inches.</p>
-
-<p>All of the pricing includes free shipping to the US and Canada.  If you'd like shipping outside the US and Canada, Montana can get a shipping quote for you before you make the purchase.</p>
-</div>
 
 <!-- Minty -->
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="1" style="padding-top: 0px;">
 	<img src="/website/images/2022/January/minty/minty-0.jpg">
 	<img src="/website/images/2022/January/minty/minty-2.jpg">
 	<img src="/website/images/2022/January/minty/minty-3.jpg">
@@ -33,6 +20,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 	<p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
 	<p class="description-margin-zero">24 x 30"</p>
 	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -58,6 +46,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 	<p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
 	<p class="description-margin-zero">24 x 24"</p>
 	<p class="description-margin-zero">$288 USD  |  $364 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -79,6 +68,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 	<p class="description-margin-zero">acrylic on canvas</p>
 	<p class="description-margin-zero">20 x 20"</p>
 	<p class="description-margin-zero">$200 USD | $253 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -102,6 +92,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 	<p class="description-margin-zero">acrylic on canvas</p>
 	<p class="description-margin-zero">24 x 18"</p>
 	<p class="description-margin-zero">$216 USD | $273 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -125,6 +116,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 	<p class="description-margin-zero">acrylic on canvas</p>
 	<p class="description-margin-zero">30 x 24"</p>
 	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
