@@ -2,7 +2,6 @@
 title: Shop
 featured_image: /images/portrait/2021_portrait-2.jpg
 ---
-<p></p>
 
 
 <!-- Minty -->
@@ -128,6 +127,8 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 
 </div>
 
+> "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia
+
 <!-- Gallery -->
 <h3> Available Work </h3>
 <div class="gallery" data-columns="3">
@@ -141,7 +142,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 <h3> Sold <3 </h3>
 
 I've had the most wonderful collectors purchase my work over the years.  I'm so grateful to them for giving my pieces new homes.
-<div class="gallery" data-columns="3">
+<div class="gallery" data-columns="1">
 	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-2.jpg">
 	<img src="/website/images/sold/sold-0.jpg">
 	<img src="/website/images/sold/sold-1.png">
