@@ -1,7 +1,7 @@
 ---
 title: Everyday Series
 subtitle: June 2021
-description: In 2021, I completed my 100 Day Sketchbook project where I developed a daily art practice.  Making art every day, even if just for a few minutes, taught me that showing up makes all the difference.  Out of that 100 Sketchbook Day Project came these seven 8x8" mini abstract paintings, and it felt fitting to name them after the days of the week. 
+description: In 2021, Montana completed her 100 Day Sketchbook project where she developed a daily art practice.  Making art every day, even if just for a few minutes, taught her that showing up makes all the difference.  Out of that 100 Sketchbook Day Project came these seven 8x8" mini abstract paintings, and it felt fitting to name them after the days of the week. 
 featured_image: /images/2021/everyday-series/5_Friday.jpg
 layout: painting-collection
 collection_featured_image: /images/2021/everyday-series/series-cover.jpg

@@ -1,7 +1,7 @@
 ---
 title: Wintry Creations
 subtitle: January 2022
-description: For her first Canadian winter, Montana kept warm by dedicating herself to her paintings.  Through an isolating lockdown and having COVID, her art practice carried her through to the other side.
+description: For her first Canadian winter, Montana kept warm by dedicating herself to her paintings.  Through an isolating lockdown and having COVID, her art practice carried her through to the first signs of spring.
 featured_image: /images/2022/January/minty/minty-1.jpg
 layout: painting-collection
 collection_featured_image: /images/2022/January/minty/minty-0.jpg
