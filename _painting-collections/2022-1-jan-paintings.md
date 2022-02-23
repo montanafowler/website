@@ -26,7 +26,7 @@ collection_featured_image: /images/2022/January/minty/minty-0.jpg
   </div>
   </div>
 </div>
-<p>Throughout the creation of this piece, Montana kept exploring creating mints.  Slightly greener, slightly bluer, slightly lighter, slightly darker... This piece's twisting marks with a catalyst wedge palette knife turned into a playful, bright composition.  When Montana looks at this piece, she sees the layering of leaves as if you're looking at a hedge.  The highlights come forward while the darks push back, creating a bumpy, layered, turquoise scene. </p>
+Throughout the creation of this piece, Montana kept exploring creating mints.  Slightly greener, slightly bluer, slightly lighter, slightly darker... This piece's twisting marks with a catalyst wedge palette knife turned into a playful, bright composition.  When Montana looks at **Minty**, she sees the layering of leaves as if you're looking at a hedge.  The highlights come forward while the darks push back, creating a bumpy, layered, turquoise scene. 
 
 <!-- Perennial -->
 <div class="container-1">
@@ -48,6 +48,8 @@ collection_featured_image: /images/2022/January/minty/minty-0.jpg
     </div>
   </div>
 </div>
+**Perennial**'s muted magentas and cadmium yellows were inspired by an old sketchbook palette of Montana's.  She was drawn to created magenta's with a tinge of raw umber to give them an earthier tone compared to the brighter magentas in her previous work.  The raw honesty of **Perennial** gives it this crisp, unfiltered look.  The marks are heavily exposed because light ones lie directly next to dark ones, giving most of the marks a crisp, contrasting edge rather than a blended one.
+
 
 <!-- Swimming -->
 <div class="container-1">
@@ -69,6 +71,7 @@ collection_featured_image: /images/2022/January/minty/minty-0.jpg
     </div>
   </div>
 </div>
+**Swimming** and **Seeking** were created together, stacked on top of each other in all sorts of orientations.  If you align their edges together, you'll discover marks that cross the two canvases, connecting them.  They both have a soft appearance due to the subtle shifts between blues.  Weeks were spent creating new teal values, layering them to push the contrast, the midtones & the highlights.  Both had brighter yellow, pinking backgrounds that still poke through in small moments in each piece.
 
 <!-- Seeking -->
 <div class="container-1">
@@ -90,3 +93,4 @@ collection_featured_image: /images/2022/January/minty/minty-0.jpg
     </div>
   </div>
 </div>
+While in Montreal's intensive winter 2021-2022 lockdown, making these paintings kept Montana **Swimming** and **Seeking**.  As she felt lost and isolated, creating these paintings kept her discovering.
