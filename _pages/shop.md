@@ -1,6 +1,7 @@
 ---
 title: Shop
 featured_image: /images/portrait/2021_portrait-2.jpg
+layout: shop
 ---
 <div class="paypal-button" style="padding-bottom: 50px;">
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
