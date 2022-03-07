@@ -12,15 +12,15 @@ layout: default
 
 <section class="single">
 
-<!--     {{ page.content }}
- -->
-    <h1> TEST BELOW </h1>
-    <p> {{site.paintings}} </p>
+    {{ page.content }}
 
-      {% for painting in site.paintings %}
+    <h1> TEST BELOW </h1>
+<!--     <p> {{site.paintings}} </p>
+ -->
+      <!-- {% for painting in site.paintings %}
             
                 <p> hello {{painting.title}} </p>
-      {% endfor %}
+      {% endfor %} -->
 
     
         <!-- <ul> -->
@@ -42,13 +42,28 @@ layout: default
                   <img src="/website/images/2022/January/swimming/swimming-7.jpg">
 
                   <img src="/website/images/2022/January/swimming/swimming-8.jpg"> -->
+                  {% if painting.price != "SOLD" %}
                   <p> gallery</p>
+                  <div class="gallery" data-columns="1">
                   {% for image in site.static_files %}
-                      <p> {{image.path}} </p>
-                      {% if image.path contains {{painting.images-folder}}'/shop-carousel/' %}
-                          <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+<!--                       <p> {{image.path}} </p>
+                      <p> {{painting.images-folder}} </p>
+
+                      <p> {{painting.images-folder}}/shop-carousel/</p> -->
+                      
+                      {% if image.path contains {{painting.images-folder}} %}
+                        <!-- <p> true 1 </p> -->
+                          {% if image.path contains "shop-carousel" %}
+                            
+                            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                            {% endif %}
+                            <!-- <p> base url {{site.baseurl}} </p>
+                            <p> image path {{image.path}} </p>
+                            <p> TRUE </p> -->
+                          
                       {% endif %}
                   {% endfor %}
+                </div>
                   <!-- images-folder: /images/2022/January/minty
  -->
                 <!-- </div> -->
@@ -66,6 +81,7 @@ layout: default
                     </form>
                     </div>
                   </div>
+                  {% endif %}
             {% endfor %}
 <!--         </ul>
  -->    

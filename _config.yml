@@ -49,13 +49,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-
   -
     scope:
       path: ""
       type: "paintings"
     values:
-      layout: "page"
+      layout: "collection-painting-left"
 
 markdown: kramdown
 
