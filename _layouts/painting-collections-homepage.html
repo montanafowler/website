@@ -26,9 +26,11 @@ layout: default
                     </div>
                     </a>
                     <div class="collections-item__description" style="padding-bottom: 50px;">
-                        <p>{{ painting-collection.description }} </p>
+                        <p>{{ painting-collection.description }}  </p>
+                        <p><a href="{{site.baseurl}}/painting-collections/{{painting-collection.slug}}/" class="{% if page.url contains painting-collection.slug %}current{% endif %}">See Collection —></a> </p>
                     </div>
                 </div>
+                <div style="height: 40px; width: 100%;"></div>
             {% endfor %}
         <ul>
     </nav>
