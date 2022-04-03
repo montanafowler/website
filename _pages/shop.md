@@ -182,7 +182,7 @@ layout: shop
 
 </div>
 
-> "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia
+<!-- > "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia -->
 
 <!-- Gallery -->
 <!-- <h3> Available Work </h3>
@@ -194,7 +194,29 @@ layout: shop
 	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
 </div> -->
 
-<h3> Sold <3 </h3>
+<h3> FAQ </h3>
+
+<h4>How much does shipping cost?</h4>
+Shipping is free to the US & Canada.  For international shipping, inquire by sending Montana an email at montana c fowler at g m a i l dot com.
+
+<h4>How safe is shipping?</h4>
+Montana carefully packages paintings herself with glassine paper to protect the surfaces.  She reuses packaging materials she collects from her online orders or her neighbors to reduce the environmental impact of the packaging. She has successfully mailed over 10 pieces to their new homes across the US from Oregon to Massachusetts.  
+
+<h4>What if the painting is damaged during shipping?</h4>
+If the painting is damaged during shipping, Montana will issue a full refund for the piece.
+
+<h4>What if I need more images or information about the piece before deciding to purchase?</h4>
+Reach out to Montana over email, and she will be happy to chat on the phone, provide more documentation like videos or additional images.  She cares about her collectors finding the right piece for them and their space.  If you're a local collector, she is happy to bring the painting to your space for you to see it in context before deciding to buy it.
+
+<h4>The paypal button isn't working for me, what do I do?</h4>
+If you're accessing the website from a browser window within an app like Instagram, first try on an internet app or desktop browser.  If it still isn't working, Montana is happy to help.  Reach out to her at montana c fowler at g m ai l dot com.
+
+<div style="height: 50px; width: 100%;"></div>
+
+
+
+
+<!-- <h3> Sold <3 </h3>
 
 I've had the most wonderful collectors purchase my work over the years.  I'm so grateful to them for giving my pieces new homes.
 <div class="gallery" data-columns="1">
@@ -218,4 +240,4 @@ I've had the most wonderful collectors purchase my work over the years.  I'm so 
 	<img src="/website/images/sold/sold-16.jpg">
 	<img src="/website/images/sold/sold-17.jpg">
 	<img src="/website/images/sold/sold-18.jpg">
-</div>
+</div> -->
