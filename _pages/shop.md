@@ -209,7 +209,7 @@ Montana carefully packages paintings herself with glassine paper to protect the 
 If the painting is damaged during shipping, Montana will issue a full refund for the piece.
 
 <h4>What if I need more images or information about the piece before deciding to purchase?</h4>
-Reach out to Montana over email, and she will be happy to chat on the phone, provide more documentation like videos or additional images.  She cares about her collectors finding the right piece for them and their space.  If you're a local collector, she is happy to bring the painting to your space for you to see it in context before deciding to buy it.
+Reach out to Montana over email, and she will be happy to chat on the phone, provide more documentation like videos or additional images.  She cares about her collectors finding the right piece for them and their space.
 
 <h4>The paypal button isn't working for me, what do I do?</h4>
 If you're accessing the website from a browser window within an app like Instagram, first try on an internet app or desktop browser (safari, chrome).  If it still isn't working, Montana is happy to help.  Reach out to her at montana c fowler at g m ai l dot com.
