@@ -3,6 +3,9 @@ title: Shop
 featured_image: /images/portrait/2021_portrait-2.jpg
 layout: shop
 ---
+
+Montana first got experience selling her work online by running her [Etsy shop]('https://www.etsy.com/shop/MontanaFowlerArt') for a year and a half during the pandemic.  She has safely shipped over ten paintings (and over 100 prints) to new homes. She is experienced in packaging paintings safely.  Additional FAQs are answered at the bottom of this page.  If you have further questions about a potential purchase, feel free to email montana c fowler at g mail dot com to ask! 
+
 <div class="paypal-button" style="padding-bottom: 50px;">
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -200,7 +203,7 @@ layout: shop
 Shipping is free to the US & Canada.  For international shipping, inquire by sending Montana an email at montana c fowler at g m a i l dot com.
 
 <h4>How safe is shipping?</h4>
-Montana carefully packages paintings herself with glassine paper to protect the surfaces.  She reuses packaging materials she collects from her online orders or her neighbors to reduce the environmental impact of the packaging. She has successfully mailed over 10 pieces to their new homes across the US from Oregon to Massachusetts.  
+Montana carefully packages paintings herself with glassine paper to protect the surfaces.  She reuses packaging materials she collects from her online orders or her neighbors to reduce the environmental impact of the packaging. She has successfully mailed over 10 pieces to their new homes across the US from Oregon to Massachusetts, and many states in between.  
 
 <h4>What if the painting is damaged during shipping?</h4>
 If the painting is damaged during shipping, Montana will issue a full refund for the piece.
@@ -209,7 +212,7 @@ If the painting is damaged during shipping, Montana will issue a full refund for
 Reach out to Montana over email, and she will be happy to chat on the phone, provide more documentation like videos or additional images.  She cares about her collectors finding the right piece for them and their space.  If you're a local collector, she is happy to bring the painting to your space for you to see it in context before deciding to buy it.
 
 <h4>The paypal button isn't working for me, what do I do?</h4>
-If you're accessing the website from a browser window within an app like Instagram, first try on an internet app or desktop browser.  If it still isn't working, Montana is happy to help.  Reach out to her at montana c fowler at g m ai l dot com.
+If you're accessing the website from a browser window within an app like Instagram, first try on an internet app or desktop browser (safari, chrome).  If it still isn't working, Montana is happy to help.  Reach out to her at montana c fowler at g m ai l dot com.
 
 <div style="height: 50px; width: 100%;"></div>
 

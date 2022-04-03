@@ -57,6 +57,11 @@ painting collections homepage css
   @media(min-width:800px) {
     max-width: 90%;
   }
+
+  p, a {
+    max-width: 90%;
+    margin: auto;
+  }
 }
 
 
