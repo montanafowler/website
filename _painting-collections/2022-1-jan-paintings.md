@@ -71,7 +71,7 @@ Throughout the creation of this piece, Montana kept exploring creating mints.  S
     </div>
   </div>
 </div>
-**Swimming** and **Seeking** were created together, stacked on top of each other in all sorts of orientations.  If you align their edges together, you'll discover marks that cross the two canvases, connecting them.  They both have a soft appearance due to the subtle shifts between blues.  Weeks were spent creating new teal values, layering them to push the contrast, the midtones & the highlights.  Both had brighter yellow, pinking backgrounds that still poke through in small moments in each piece.
+**Swimming** and **Seeking** were created together, stacked on top of each other in all sorts of orientations.  If you align their edges together, you'll discover marks that cross the two canvases, connecting them.  They both have a soft appearance due to the subtle shifts between blues.  Weeks were spent creating new teal values, layering them to push the contrast, the midtones & the highlights.  Both had brighter yellow, pink backgrounds that still poke through in small moments in each piece.
 
 <!-- Seeking -->
 <div class="container-1">
