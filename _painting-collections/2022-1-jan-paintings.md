@@ -9,7 +9,7 @@ collection_featured_image: /images/2022/January/minty/minty-0.jpg
 <!-- Minty -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/website/images/2022/January/minty/minty-1.jpg">
+    <img src="/website/images/2022/January/minty/minty-9.jpg">
   </div>
   <div class="box-description-right">
     <h4>Minty (2022)</h4>
@@ -31,7 +31,7 @@ Throughout the creation of this piece, Montana kept exploring creating mints.  S
 <!-- Perennial -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/website/images/2022/January/perennial/perennial-3.jpg">
+    <img src="/website/images/2022/January/perennial/perennial-9.jpg">
   </div>
   <div class="box-description-left">
     <h4>Perennial (2022)</h4>
@@ -54,7 +54,7 @@ Throughout the creation of this piece, Montana kept exploring creating mints.  S
 <!-- Swimming -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/website/images/2022/January/swimming/swimming-2.jpg">
+    <img src="/website/images/2022/January/swimming/swimming-10.jpg">
   </div>
   <div class="box-description-right">
     <h4>Swimming (2022)</h4>
@@ -76,7 +76,7 @@ Throughout the creation of this piece, Montana kept exploring creating mints.  S
 <!-- Seeking -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/website/images/2022/January/seeking/seeking-1.jpg">
+    <img src="/website/images/2022/January/seeking/seeking-6.jpg">
   </div>
   <div class="box-description-left">
     <h4>Seeking (2022)</h4>

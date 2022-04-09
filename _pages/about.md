@@ -1,21 +1,29 @@
 ---
-title: About Montana
-subtitle: Montana is an acrylic painter living in Montreal, Quebec.
+title: About
+subtitle:
 description:
 featured_image: /images/portrait/2021_portrait-2.jpg
 ---
 
-![Montana Fowler Art](/website/images/portrait/2021_portrait-2.jpg)
+<!-- <img src="/website/images/portrait/concussion.jpg" style="width: 70%"></>
+ --><!-- <div class="gallery" data-columns="2" style="width: 80%">
+	<img src="/website/images/portrait/concussion2.jpg">
+	<img src="/website/images/portrait/ateliers3333.jpg">
+</div> -->
+<div class="row">
+    <img class="about-img" src="/website/images/portrait/concussion2.jpg" alt="Montana Fowler Art" >
+    <img class="about-img" src="/website/images/portrait/ateliers3333.jpg" alt="Montana Fowler Ateliers3333">
+</div>
 
-### artist statement
+#### artist statement
 
 Through her style of unblended mark-making, Montana creates acrylic paintings depicting landscapes of belonging. A member of both artist and software developer communities, Montana is curious about why we place limitations on ourselves to belong.  The more we dive into experiences unexpected for our communities, the more we realize the lines we draw for ourselves are blurred.
 
-In her pieces, Montana visually investigates a tension between loose, chaotic imperfection and a cohesive composition.  She’ll always remember prof. Ayana Evans telling her that a good painting looks just as interesting up close as it does far away.  She spends time close to the canvas making small marks and subtle color shifts, while also taking time to stand back and make decisions for larger moves. Limited color palettes gel the marks created by her variety of tools: palette knives, brushes, crayons & pastels. In her layering process, she enjoys the boldness required to cover an old mark with a new one, often finding the boldest decisions have the best effect on the piece.  
+In her pieces, Montana visually investigates a tension between loose, chaotic imperfection and a cohesive composition.  She’ll always remember <a href="https://www.ayanaevans.com">prof. Ayana Evans</a> telling her that a good painting looks just as interesting up close as it does far away.  She spends time close to the canvas making small marks and subtle color shifts, while also taking time to stand back and make decisions for larger moves. Limited color palettes gel the marks created by her variety of tools: palette knives, brushes, crayons & pastels. In her layering process, she enjoys the boldness required to cover an old mark with a new one, often finding the boldest decisions have the best effect on the piece.  
 
-While Montana has felt the positive effects of being bold in her life, recently she discovered how vulnerability also builds strength. This led her to strive to create pieces with where honest marks form a cohesive image.  When we find somewhere we belong, we can be vulnerable, loose and unfinished while also being bold, cohesive and strong.  In her visual investigation into the limitations we place on ourselves, Montana believes that we discover a real sense of belonging when we don’t listen to any rules at all.
+While Montana has felt the positive effects of being bold in her life, she also understands how vulnerability also builds strength. This led her to strive to create pieces with where honest marks form a cohesive image.  When we find somewhere we belong, we can be vulnerable, loose and unfinished while also being bold, cohesive and strong.  In her visual investigation into the limitations we place on ourselves, Montana believes that we discover a real sense of belonging when we don’t listen to any rules at all.
 
-### bio
+#### bio
 Montana grew up in the Santa Cruz Mountains in California, USA.  She then attended [Brown University](https://www.brown.edu) in Providence, RI, USA.  There she double majored in computer science and visual art.  
 
 At Brown, Montana fell in love with painting while studying under <a href="https://wendyedwardspainting.com">Wendy Edwards</a>, <a href="https://jerrymischak.com">Jerry Mischak</a>, and <a href="https://www.ayanaevans.com">Ayana Evans</a>.  Her first exhibition was at Casa de Porras in Granada, Spain when she studied abroad and took a course with Spanish artist, <a href="https://www.instagram.com/telasanimadasdealhambra/">Alhambra García Caballero</a> in 2018.  She has also enjoyed learning from Santa Cruz artist, <a href="https://www.carrieclayden.com">Carrie Clayden</a>.
@@ -28,7 +36,9 @@ In September of 2021 she moved to Montreal after receiving her masters degree.  
 
 The best ways to stay up to date on her work are to <a href="https://montanafowler.us2.list-manage.com/subscribe?u=a53b48a7dada1d1df2268f45c&id=e5121f1348">subscribe to her newsletter</a>, or follow her on <a href="https://www.instagram.com/montanafowler_cs_art/">Instagram (@montanafowler_cs_art)</a>.
 
-### exhibitions
+
+
+#### exhibitions
 
 **Santa Cruz Visual Artists Network Show** *Feb to March 2021*  
 R. Blitzer Gallery, Santa Cruz, CA, USA
@@ -48,8 +58,12 @@ List Art Center, Providence, RI, USA
 **Juega**  *May 2018*  
 Casa de Porras, Granada, Spain
 
-### awards
+#### awards
 
 **Roberta Joslin Award in Visual Art** *June 2019*  
 Brown University, Providence, RI, USA
+
+<img src="/website/images/portrait/college-studio.jpg" style="width: 40%"></>
+
+<p style="text-align: center;">Montana's college studio in December 2018</p>
 

@@ -4,6 +4,21 @@
 
 // - - - - - - - - - - - - - - - - - -
 
+// about css
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.about-img {
+  display: inline-block;
+  
+    width: 36%; 
+}
+
+/* Clear floats after image containers */
+.row {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Basics
 

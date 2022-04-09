@@ -17,11 +17,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 
 <!-- Swimming -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
-	<img src="/website/images/2022/January/swimming/swimming-1.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-4.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-6.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-7.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-8.jpg">
+	<img src="/website/images/2022/January/swimming/swimming-10.jpg">
 </div>
 <div style="padding-bottom: 100px">
     <h4>Swimming (2022)</h4>
@@ -40,11 +36,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 
 <!-- Seeking -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
-	<img src="/website/images/2022/January/seeking/seeking-0.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-2.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-3.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-4.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-5.jpg">
+	<img src="/website/images/2022/January/seeking/seeking-6.jpg">
 </div>
 <div style="padding-bottom: 100px">
     <h4>Seeking (2022)</h4>
@@ -64,13 +56,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 
 <!-- Minty -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
-	<img src="/website/images/2022/January/minty/minty-0.jpg">
-	<img src="/website/images/2022/January/minty/minty-2.jpg">
-	<img src="/website/images/2022/January/minty/minty-3.jpg">
-	<img src="/website/images/2022/January/minty/minty-4.jpg">
-	<img src="/website/images/2022/January/minty/minty-5.jpg">
-	<img src="/website/images/2022/January/minty/minty-6.jpg">
-	<img src="/website/images/2022/January/minty/minty-7.jpg">
+	<img src="/website/images/2022/January/minty/minty-9.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Minty (2022)</h4>
@@ -90,13 +76,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 
 <!-- Perennial -->
 <div class="gallery" data-columns="1">
-	<img src="/website/images/2022/January/perennial/perennial-0.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-1.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-2.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-4.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-5.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-6.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-7.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-9.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Perennial (2022)</h4>
@@ -114,11 +94,30 @@ Montana first got experience selling her work online by running her [Etsy shop](
 	</div>
 </div>
 
+<!-- Wiser -->
+<div class="gallery" data-columns="1">
+	<img src="/website/images/2021/december-shop/wiser/wiser-7.jpg">
+</div>
+<div style="padding-bottom: 100px">
+	<h4>Wiser (2021)</h4>
+	<p class="description-margin-zero">acrylic on canvas</p>
+	<p class="description-margin-zero">30 x 24"</p>
+	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
+	<div class="paypal-button">
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="RAPGFXMD9L4KY">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+
+</div>
+
 <!-- Rosewater -->
 <div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-3.jpg">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-4.jpg">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-5.jpg">
+	<img src="/website/images/2021/december-shop/rosewater/rosewater-0.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Rosewater (2021)</h4>
@@ -139,10 +138,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 
 <!-- Loud -->
 <div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/loud/loud-2.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-3.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-4.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-5.png">
+	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Loud (2021)</h4>
@@ -161,29 +157,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 	
 </div>
 
-<!-- Wiser -->
-<div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/wiser/wiser-3.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-4.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-5.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-0.png">
-</div>
-<div style="padding-bottom: 100px">
-	<h4>Wiser (2021)</h4>
-	<p class="description-margin-zero">acrylic on canvas</p>
-	<p class="description-margin-zero">30 x 24"</p>
-	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
-	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
-	<div class="paypal-button">
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="RAPGFXMD9L4KY">
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
 
-</div>
 
 <!-- > "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia -->
 
