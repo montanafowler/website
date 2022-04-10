@@ -14,6 +14,7 @@ featured_image: /images/portrait/2021_portrait-2.jpg
     <img class="about-img" src="/website/images/portrait/concussion2.jpg" alt="Montana Fowler Art" >
     <img class="about-img" src="/website/images/portrait/ateliers3333.jpg" alt="Montana Fowler Ateliers3333">
 </div>
+<a href="/website/about-fr">français</a>
 
 #### artist statement
 
