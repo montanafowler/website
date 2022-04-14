@@ -25,6 +25,8 @@ Montana étudie visuellement la tension entre l’imperfection libre et chaotiqu
 
 Si Montana a ressenti les effets positifs de l'audace, elle comprend également que la vulnérabilité est aussi une source de force. Cela l'a amenée à créer des pièces où les marques honnêtes forment une image cohérente. Lorsque nous trouvons notre place, nous pouvons être vulnérables, libre et inachevés tout en étant audacieux, cohérents et forts. À travers son enquête visuelle sur les limites qu’on s’impose, Montana trouve qu’on découvre un véritable sentiment d'appartenance lorsque on n’obéit à aucune règle.
 
+traduit par mon amie Penelope Shao <3
+
 #### biographie
 
 Montana a grandi dans les montagnes de Santa Cruz en Californie, aux États-Unis. Elle a ensuite fréquenté [l'université Brown](https://www.brown.edu) à Providence, RI, aux États-Unis. Elle y a obtenu une double licence en informatique et en arts visuels.
