@@ -3,6 +3,9 @@ title: Shop
 featured_image: /images/portrait/2021_portrait-2.jpg
 layout: shop
 ---
+
+Montana first got experience selling her work online by running her [Etsy shop]('https://www.etsy.com/shop/MontanaFowlerArt') for a year and a half during the pandemic.  She has safely shipped over ten paintings (and over 100 prints) to new homes. She is experienced in packaging paintings safely.  Additional FAQs are answered at the bottom of this page.  If you have further questions about a potential purchase, feel free to email montana c fowler at g mail dot com to ask! 
+
 <div class="paypal-button" style="padding-bottom: 50px;">
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -12,19 +15,35 @@ layout: shop
 </form>
 </div>
 
+
+<!-- Rocky Road -->
+<div class="gallery" data-columns="1" style="padding-top: 0px;">
+	<img src="/website/images/2022/January/rocky-road/rocky-road-0.jpg">
+</div>
+<div style="padding-bottom: 100px">
+    <h4>Rocky Road (2022)</h4>
+    <p class="description-margin-zero">acrylic & pastel on canvas</p>
+    <p class="description-margin-zero">30 x 24"</p>
+    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+    <div class="paypal-button">
+	    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="GK286YDCXLGXC">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+    </div>
+  </div>
+
 <!-- Swimming -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
-	<img src="/website/images/2022/January/swimming/swimming-1.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-4.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-6.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-7.jpg">
-	<img src="/website/images/2022/January/swimming/swimming-8.jpg">
+	<img src="/website/images/2022/January/swimming/swimming-10.jpg">
 </div>
 <div style="padding-bottom: 100px">
     <h4>Swimming (2022)</h4>
     <p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
     <p class="description-margin-zero">24 x 24"</p>
-    <p class="description-margin-zero">288 USD  |  $364 CAD</p>
+    <p class="description-margin-zero">$288 USD  |  $364 CAD</p>
     <div class="paypal-button">
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -37,11 +56,7 @@ layout: shop
 
 <!-- Seeking -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
-	<img src="/website/images/2022/January/seeking/seeking-0.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-2.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-3.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-4.jpg">
-	<img src="/website/images/2022/January/seeking/seeking-5.jpg">
+	<img src="/website/images/2022/January/seeking/seeking-6.jpg">
 </div>
 <div style="padding-bottom: 100px">
     <h4>Seeking (2022)</h4>
@@ -58,16 +73,9 @@ layout: shop
     </div>
   </div>
 
-
 <!-- Minty -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
-	<img src="/website/images/2022/January/minty/minty-0.jpg">
-	<img src="/website/images/2022/January/minty/minty-2.jpg">
-	<img src="/website/images/2022/January/minty/minty-3.jpg">
-	<img src="/website/images/2022/January/minty/minty-4.jpg">
-	<img src="/website/images/2022/January/minty/minty-5.jpg">
-	<img src="/website/images/2022/January/minty/minty-6.jpg">
-	<img src="/website/images/2022/January/minty/minty-7.jpg">
+	<img src="/website/images/2022/January/minty/minty-9.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Minty (2022)</h4>
@@ -87,13 +95,7 @@ layout: shop
 
 <!-- Perennial -->
 <div class="gallery" data-columns="1">
-	<img src="/website/images/2022/January/perennial/perennial-0.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-1.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-2.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-4.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-5.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-6.jpg">
-	<img src="/website/images/2022/January/perennial/perennial-7.jpg">
+	<img src="/website/images/2022/January/perennial/perennial-9.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Perennial (2022)</h4>
@@ -111,11 +113,30 @@ layout: shop
 	</div>
 </div>
 
+<!-- Wiser -->
+<div class="gallery" data-columns="1">
+	<img src="/website/images/2021/december-shop/wiser/wiser-7.jpg">
+</div>
+<div style="padding-bottom: 100px">
+	<h4>Wiser (2021)</h4>
+	<p class="description-margin-zero">acrylic on canvas</p>
+	<p class="description-margin-zero">30 x 24"</p>
+	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
+	<div class="paypal-button">
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="RAPGFXMD9L4KY">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+
+</div>
+
 <!-- Rosewater -->
 <div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-3.jpg">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-4.jpg">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-5.jpg">
+	<img src="/website/images/2021/december-shop/rosewater/rosewater-0.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Rosewater (2021)</h4>
@@ -136,10 +157,7 @@ layout: shop
 
 <!-- Loud -->
 <div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/loud/loud-2.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-3.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-4.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-5.png">
+	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
 </div>
 <div style="padding-bottom: 100px">
 	<h4>Loud (2021)</h4>
@@ -158,31 +176,9 @@ layout: shop
 	
 </div>
 
-<!-- Wiser -->
-<div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/wiser/wiser-3.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-4.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-5.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-0.png">
-</div>
-<div style="padding-bottom: 100px">
-	<h4>Wiser (2021)</h4>
-	<p class="description-margin-zero">acrylic on canvas</p>
-	<p class="description-margin-zero">30 x 24"</p>
-	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
-	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
-	<div class="paypal-button">
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="RAPGFXMD9L4KY">
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
 
-</div>
 
-> "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia
+<!-- > "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia -->
 
 <!-- Gallery -->
 <!-- <h3> Available Work </h3>
@@ -194,7 +190,29 @@ layout: shop
 	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
 </div> -->
 
-<h3> Sold <3 </h3>
+<h3> FAQ </h3>
+
+<h4>How much does shipping cost?</h4>
+Shipping is free to the US & Canada.  For international shipping, inquire by sending Montana an email at montana c fowler at g m a i l dot com.
+
+<h4>How safe is shipping?</h4>
+Montana carefully packages paintings herself with glassine paper to protect the surfaces.  She reuses packaging materials she collects from her online orders or her neighbors to reduce the environmental impact of the packaging. She has successfully mailed over 10 pieces to their new homes across the US from Oregon to Massachusetts, and many states in between.  
+
+<h4>What if the painting is damaged during shipping?</h4>
+If the painting is damaged during shipping, Montana will issue a full refund for the piece.
+
+<h4>What if I need more images or information about the piece before deciding to purchase?</h4>
+Reach out to Montana over email, and she will be happy to chat on the phone, provide more documentation like videos or additional images.  She cares about her collectors finding the right piece for them and their space.
+
+<h4>The paypal button isn't working for me, what do I do?</h4>
+If you're accessing the website from a browser window within an app like Instagram, first try on an internet app or desktop browser (safari, chrome).  If it still isn't working, Montana is happy to help.  Reach out to her at montana c fowler at g m ai l dot com.
+
+<div style="height: 50px; width: 100%;"></div>
+
+
+
+
+<!-- <h3> Sold <3 </h3>
 
 I've had the most wonderful collectors purchase my work over the years.  I'm so grateful to them for giving my pieces new homes.
 <div class="gallery" data-columns="1">
@@ -218,4 +236,4 @@ I've had the most wonderful collectors purchase my work over the years.  I'm so 
 	<img src="/website/images/sold/sold-16.jpg">
 	<img src="/website/images/sold/sold-17.jpg">
 	<img src="/website/images/sold/sold-18.jpg">
-</div>
+</div> -->
