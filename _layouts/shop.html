@@ -16,75 +16,33 @@ layout: default
 
 
     <h1> TEST BELOW </h1>
-<!--     <p> {{site.paintings}} </p>
- -->
-      <!-- {% for painting in site.paintings %}
-            
-                <p> hello {{painting.title}} </p>
-      {% endfor %} -->
-
-    
-        <!-- <ul> -->
-            {% for painting in site.paintings reversed %}
-            
-                <!-- <div class="collections-item">
-                    <div class="collections-item__image">
-                        <img src="{{ painting-collection.collection_featured_image | relative_url }}" alt="{{ painting-collection.title }}">
-                    </div>
-                    <div class="collections-item__description" style="padding-bottom: 50px;">
-                        <p>{{ painting-collection.description }} </p>
-                    </div>
-
-                </div> -->
-                <!-- <div class="gallery" data-columns="1" style="padding-top: 0px;"> -->
-                  <!-- <img src="/website/images/2022/January/swimming/swimming-1.jpg">
-                  <img src="/website/images/2022/January/swimming/swimming-4.jpg">
-                  <img src="/website/images/2022/January/swimming/swimming-6.jpg">
-                  <img src="/website/images/2022/January/swimming/swimming-7.jpg">
-
-                  <img src="/website/images/2022/January/swimming/swimming-8.jpg"> -->
-                  {% if painting.price != "SOLD" %}
-                  <p> gallery</p>
-                  <div class="gallery" data-columns="1">
-                  {% for image in site.static_files %}
-<!--                       <p> {{image.path}} </p>
-                      <p> {{painting.images-folder}} </p>
-
-                      <p> {{painting.images-folder}}/shop-carousel/</p> -->
-                      
-                      {% if image.path contains {{painting.images-folder}} %}
-                        <!-- <p> true 1 </p> -->
-                          {% if image.path contains "shop-carousel" %}
-                            
-                            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-                            {% endif %}
-                            <!-- <p> base url {{site.baseurl}} </p>
-                            <p> image path {{image.path}} </p>
-                            <p> TRUE </p> -->
-                          
-                      {% endif %}
-                  {% endfor %}
-                </div>
-                  <!-- images-folder: /images/2022/January/minty
- -->
-                <!-- </div> -->
-                <div style="padding-bottom: 100px">
-                    <h4>{{ painting.title }} ({{ painting.year }})</h4>
-                    <p class="description-margin-zero">{{painting.materials}}</p>
-                    <p class="description-margin-zero">{{painting.size}}</p>
-                    <p class="description-margin-zero">{{painting.price}}</p>
-                    <div class="paypal-button">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="{{paypal-button-id}}">
-                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                    </div>
-                  </div>
+    {% for painting in site.paintings reversed %}
+      <!-- if the painting is not sold -->
+      {% if painting.price != "SOLD" %}
+          <div class="gallery" data-columns="1">
+          {% for image in site.static_files %}
+              {% if image.path contains {{painting.images-folder}} %}
+                  {% if image.path contains "shop-carousel" %}
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
                   {% endif %}
-            {% endfor %}
-<!--         </ul>
- -->    
+              {% endif %}
+          {% endfor %}
+        </div>
+        <div style="padding-bottom: 100px">
+            <h4>{{ painting.title }} ({{ painting.year }})</h4>
+            <p class="description-margin-zero">{{painting.materials}}</p>
+            <p class="description-margin-zero">{{painting.size}}</p>
+            <p class="description-margin-zero">{{painting.price}}</p>
+            <div class="paypal-button">
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="{{paypal-button-id}}">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            </div>
+          </div>
+      {% endif %}
+    {% endfor %}
 
 </section>
