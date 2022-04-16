@@ -94,3 +94,26 @@ Throughout the creation of this piece, Montana kept exploring creating mints.  S
   </div>
 </div>
 While in Montreal's intensive winter 2021-2022 lockdown, making these paintings kept Montana **Swimming** and **Seeking**.  As she felt lost and isolated, creating these paintings kept her discovering.
+
+
+<!-- Rocky Road -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/January/rocky-road/rocky-road.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Rocky Road (2022)</h4>
+    <p class="description-margin-zero">acrylic & pastel on canvas</p>
+    <p class="description-margin-zero">30 x 24"</p>
+    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="GK286YDCXLGXC">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    </div>
+  </div>
+</div>
+While in Montreal's intensive winter 2021-2022 lockdown, making these paintings kept Montana **Swimming** and **Seeking**.  As she felt lost and isolated, creating these paintings kept her discovering.
