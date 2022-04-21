@@ -99,7 +99,7 @@ While in Montreal's intensive winter 2021-2022 lockdown, making these paintings 
 <!-- Rocky Road -->
 <div class="container-1">
   <div class="box-image-right">
-    <img src="/website/images/2022/January/rocky-road/rocky-road.jpg">
+    <img src="/website/images/2022/January/rocky-road/rocky-road-0.jpg">
   </div>
   <div class="box-description-left">
     <h4>Rocky Road (2022)</h4>
