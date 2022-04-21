@@ -116,4 +116,4 @@ While in Montreal's intensive winter 2021-2022 lockdown, making these paintings 
     </div>
   </div>
 </div>
-While in Montreal's intensive winter 2021-2022 lockdown, making these paintings kept Montana **Swimming** and **Seeking**.  As she felt lost and isolated, creating these paintings kept her discovering.
+Rocky Road was a darker palette for me, but I decided to embrace it.  Working in dark colors can be quite rich.  I worked in all different shades of raw umbers, dark blues, and purples.  To me, Rocky Road walks the line between being both dark and playful.  In my process, I find it’s best to follow my intuition with color palettes and compositions. When I think too much, I end up losing the magic. Rocky Road wanted to be a darker painting, so I let it be one. Its pops of bright colors and loosely, fit-together rocky shapes give it a chunky, fun feel. 
