@@ -22,9 +22,7 @@ collections:
   paintings:
     output: true
     permalink: /paintings/:path/
-    order:
-        - paintings/2022_1-minty
-        - paintings/2022_2-perennial
+    
 defaults:
   -
     scope:

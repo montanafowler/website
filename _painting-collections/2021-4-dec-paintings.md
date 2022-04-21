@@ -9,6 +9,8 @@ collection_featured_image: /images/2021/december-shop/rosewater/rosewater-3.jpg
 In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021 studio notes video</a>, she explained how her art shows her what she's going through at any given time.  Each piece in <i>The Fresh Start Collection</i> addresses an aspect of starting a new life in a new city: the peace, growth, energy & knowledge. 
 
 
+
+
 <!-- Rosewater -->
 <div class="container-1">
   <div class="box-image-left">

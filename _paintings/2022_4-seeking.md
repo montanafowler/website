@@ -5,7 +5,7 @@ description: minty description.
 featured_image: /images/2022/January/minty/minty-1.jpg
 price: $360 USD  |  $455 CAD
 paypal-button-id: QZSWZA7M5QVHG
-collection: Wintry Creations
+painting-collection: Wintry Creations
 images-folder: /images/2022/January/seeking
 layout: painting-collection-left
 materials: acrylic, pencil & crayon on canvas

@@ -13,6 +13,7 @@ layout: default
 <section class="single">
 
     {{ page.content }}
+    
     {% for painting in site.paintings reversed %}
       <!-- if the painting is not sold -->
       {% if painting.price != "SOLD" %}
@@ -42,7 +43,7 @@ layout: default
       {% endif %}
     {% endfor %}
 
-    
+
 <h3> FAQ </h3>
 
 <h4>How much does shipping cost?</h4>
