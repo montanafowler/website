@@ -15,6 +15,44 @@ Montana first got experience selling her work online by running her [Etsy shop](
 </form>
 </div>
 
+<!-- Mystery Spot -->
+<div class="gallery" data-columns="1" style="padding-top: 0px;">
+	<img src="/website/images/2022/Spring/mystery-spot.jpg">
+</div>
+<div style="padding-bottom: 100px">
+    <h4>Mystery Spot (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & pastel on canvas</p>
+    <p class="description-margin-zero">24 x 24"</p>
+    <p class="description-margin-zero">$288 USD  |  $364 CAD</p>
+    <div class="paypal-button">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="NUAV7JB4KP7S8">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+  </div>
+</div>
+
+<!-- Hideout -->
+<div class="gallery" data-columns="1" style="padding-top: 0px;">
+	<img src="/website/images/2022/Spring/hideout-2.jpg">
+</div>
+<div style="padding-bottom: 100px">
+    <h4>Hideout (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & pastel on canvas</p>
+    <p class="description-margin-zero">24 x 30"</p>
+    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="9S6K5XZ8SDHLY">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  </div>
+</div>
+
 
 <!-- Rocky Road -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
