@@ -177,15 +177,7 @@ During the Popup Market hours, this collection page will be disabled to prevent 
     <h4>Sunrise (2022)</h4>
     <p class="description-margin-zero">watercolor & crayon on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
-    <div class="paypal-button-left">
-      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="YMC4VEQ3E5SRL">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-    </div>
+    <p class="description-margin-zero">SOLD</p>
   </div>
 </div>
 
@@ -220,16 +212,8 @@ During the Popup Market hours, this collection page will be disabled to prevent 
     <h4>Good Friends (2022)</h4>
     <p class="description-margin-zero">ink & crayon on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <p class="description-margin-zero">SOLD </p>
     <div class="paypal-button-left">
-      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="G38K6L7FADUNE">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
     </div>
   </div>
 </div>
@@ -609,14 +593,7 @@ During the Popup Market hours, this collection page will be disabled to prevent 
     <h4>Here (2022)</h4>
     <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
     <p class="description-margin-zero">7 x 5" in 10 x 8" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <p class="description-margin-zero">SOLD</p>
     <div class="paypal-button-left">
-      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="CMGN5XVQGQQAA">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-    </div>
   </div>
 </div>
