@@ -394,7 +394,7 @@ During the Popup Market hours, this collection page will be disabled to prevent 
     <h4>Passing Through (2022)</h4>
     <p class="description-margin-zero">acrylic, crayon & ink on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <p class="description-margin-zero">SOLD</p>
     <div class="paypal-button-left">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
