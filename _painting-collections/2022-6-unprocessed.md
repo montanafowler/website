@@ -9,6 +9,12 @@ collection_featured_image: /images/2022/100DayProject/2022_20.jpg
 
 free shipping to the US & Canada <3
 
+NOTE: Presale is from 6/4/22 10PM to 6/5/22 11am Eastern
+
+During the Popup Market hours, this collection page will be disabled to prevent duplicate sales.
+
+<!-- collection closed.  It will be reopened when the inventory is updated after the market ends at 6pm eastern on 6/5 -->
+
 <!-- 2022_9 -->
 <div class="container-1">
   <div class="box-image-left">
