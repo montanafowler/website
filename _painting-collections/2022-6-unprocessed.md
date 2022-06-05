@@ -155,15 +155,7 @@ During the Popup Market hours, this collection page will be disabled to prevent 
     <h4>Ongoing (2022)</h4>
     <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
-    <div class="paypal-button">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="NPKS6EWZG75ZJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-  </div>
+    <p class="description-margin-zero">SOLD</p>
   </div>
 </div>
 
