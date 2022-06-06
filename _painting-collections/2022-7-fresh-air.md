@@ -7,13 +7,8 @@ layout: painting-collection
 collection_featured_image: /images/2022/Fresh-Air/offset.jpg
 ---
 
-<!-- free shipping to the US & Canada <3
+free shipping to the US & Canada <3
 
-NOTE: Presale is from 6/4/22 10PM to 6/5/22 11am Eastern
-
-During the Popup Market hours, this collection page will be disabled to prevent duplicate sales.s -->
-
-collection closed.  It will be reopened when the inventory is updated after the market ends at 6pm eastern on 6/5
 
 <!-- 2022_37 -->
 <div class="container-1">
@@ -25,14 +20,14 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">acrylic & pastel on canvas</p>
     <p class="description-margin-zero">16 x 16"</p>
     <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
-<!--     <div class="paypal-button">
+    <div class="paypal-button">
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="K9JELN8TQH5EU">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-  </div> -->
+  </div>
   </div>
 </div>
 
@@ -46,14 +41,14 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
     <p class="description-margin-zero">16 x 16"</p>
     <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
-<!--     <div class="paypal-button-left">
+    <div class="paypal-button-left">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="U7397CGDY9YBQ">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -67,14 +62,14 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
     <p class="description-margin-zero">16 x 16"</p>
     <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
-<!--     <div class="paypal-button">
+    <div class="paypal-button">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="K42DNAUGAZ9NC">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -89,13 +84,13 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">16 x 16"</p>
     <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
     <div class="paypal-button-left">
-<!--       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="TJVJ6YZWMNK4U">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -110,14 +105,14 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">acrylic, pencil & pastel on canvas board in wood frame</p>
     <p class="description-margin-zero">20 x 16"</p>
     <p class="description-margin-zero">$160 USD  |  $200 CAD</p>
-<!--     <div class="paypal-button">
+    <div class="paypal-button">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="PY9KL9KL4MS4J">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -131,14 +126,14 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
     <p class="description-margin-zero">24 x 24"</p>
     <p class="description-margin-zero">$288 USD  |  $364 CAD</p>
-<!--     <div class="paypal-button-left">
+    <div class="paypal-button-left">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="32JEEKNCE77JC">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -153,14 +148,14 @@ collection closed.  It will be reopened when the inventory is updated after the 
     <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
     <p class="description-margin-zero">24 x 30"</p>
     <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
-<!--     <div class="paypal-button">
+    <div class="paypal-button">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="32JEEKNCE77JC">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-    </div> -->
+    </div>
   </div>
 </div>
 
