@@ -64,6 +64,9 @@ Casa de Porras, Granada, Spain
 **Roberta Joslin Award in Visual Art** *June 2019*  
 Brown University, Providence, RI, USA
 
+**Senior Prize in Computer Science** *June 2019*  
+Brown University, Providence, RI, USA
+
 <img src="/website/images/portrait/college-studio.jpg" style="width: 40%"></>
 
 <p style="text-align: center;">Montana's college studio in December 2018</p>
