@@ -8,7 +8,7 @@ layout: links
 
 <img src="/website/images/portrait/2021_portrait-5.jpg" alt="MontanaFowlerArt" width="200"/>
 
-<h3 style="text-align: center;">Montana will be at the <b>Montreal Makers Market August 13-14th 11-17h</b> at <a href="https://goo.gl/maps/JmaKTcHQap1ZHypE7" style="text-decoration: underline;">St. Jean Berchmans Church, 5945 Cartier St, Montreal, QC H2G 1S7</a>.</h3>
+<h3 style="text-align: center;">I will be at the <b>Montreal Makers Market August 13-14th 11-17h</b> at <a href="https://goo.gl/maps/JmaKTcHQap1ZHypE7" style="text-decoration: underline;">St. Jean Berchmans Church, 5945 Cartier St, Montreal, QC H2G 1S7</a>.</h3>
 
 ---------------
 <h3 style="text-align: center; text-decoration: underline;"> <a href="https://montanafowler.github.io/website/index.html">my website</a></h3>
