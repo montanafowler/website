@@ -15,6 +15,265 @@ Montana first got experience selling her work online by running her [Etsy shop](
 </form>
 </div>
 
+<!-- 2022_37 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Fresh-Air/2022_37.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>My Day (2022)</h4>
+    <p class="description-margin-zero">acrylic & pastel on canvas</p>
+    <p class="description-margin-zero">16 x 16"</p>
+    <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="K9JELN8TQH5EU">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  </div>
+</div>
+
+<!-- 2022_38 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Fresh-Air/2022_38.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Knotted (2022)</h4>
+    <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
+    <p class="description-margin-zero">16 x 16"</p>
+    <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="U7397CGDY9YBQ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+<!-- 2022_39 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Fresh-Air/2022_39.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Glimpse (2022)</h4>
+    <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
+    <p class="description-margin-zero">16 x 16"</p>
+    <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
+    <div class="paypal-button">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="K42DNAUGAZ9NC">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+<!-- 2022_40 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Fresh-Air/2022_40.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Stir (2022)</h4>
+    <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
+    <p class="description-margin-zero">16 x 16"</p>
+    <p class="description-margin-zero">$128 USD  |  $160 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TJVJ6YZWMNK4U">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 2022_41 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Fresh-Air/2022_41.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Noticed (2022)</h4>
+    <p class="description-margin-zero">acrylic, pencil & pastel on canvas board in wood frame</p>
+    <p class="description-margin-zero">20 x 16"</p>
+    <p class="description-margin-zero">$160 USD  |  $200 CAD</p>
+    <div class="paypal-button">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PY9KL9KL4MS4J">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+<!-- 2022_42 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Fresh-Air/2022_42.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>And The Stars (2022)</h4>
+    <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
+    <p class="description-margin-zero">24 x 24"</p>
+    <p class="description-margin-zero">$288 USD  |  $364 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="32JEEKNCE77JC">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+
+<!-- 2022_43 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Fresh-Air/2022_43.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Cloudy (2022)</h4>
+    <p class="description-margin-zero">acrylic, pencil & pastel on canvas</p>
+    <p class="description-margin-zero">24 x 30"</p>
+    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+    <div class="paypal-button">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="32JEEKNCE77JC">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- 2022_12 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/100DayProject/2022_12.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Twist (2022)</h4>
+    <p class="description-margin-zero">acrylic & ink on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Z8LS9G5WWQNT8">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+<!-- 2022_13 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/100DayProject/2022_13.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Salty  (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Z3GU7589KVZZE">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  </div>
+</div>
+
+<!-- 2022_30 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/100DayProject/2022_30.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Wander (2022)</h4>
+    <p class="description-margin-zero">acrylic & pastel on paper</p>
+    <p class="description-margin-zero">10 x 8" in 14 x 11" mat</p>
+    <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="79ZLJRJFKNNDE">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+<!-- 2022_19 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/100DayProject/2022_19.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Unannounced  (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ED4KVJGRPQD46">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- 2022_32 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/100DayProject/2022_32.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Unconditional (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & pastel on paper</p>
+    <p class="description-margin-zero">8 x 10" in 11 x 14" mat</p>
+    <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="N9QDHNE98YRMN">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
 <!-- Mystery Spot -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
 	<img src="/website/images/2022/Spring/mystery-spot.jpg">
@@ -31,6 +290,48 @@ Montana first got experience selling her work online by running her [Etsy shop](
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
+  </div>
+</div>
+
+<!-- 2022_34 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/100DayProject/2022_34.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Say So Much (2022)</h4>
+    <p class="description-margin-zero">acrylic & pastel on paper</p>
+    <p class="description-margin-zero">10 x 8" in 14 x 11" mat</p>
+    <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="6ZKW8ZTXWRXY8">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+  </div>
+</div>
+
+<!-- 2022_35 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/100DayProject/2022_35.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Collide (2022)</h4>
+    <p class="description-margin-zero">acrylic & ink on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TZ4XWYCN45MR4">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
   </div>
 </div>
 
@@ -120,7 +421,6 @@ Montana first got experience selling her work online by running her [Etsy shop](
 	<p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
 	<p class="description-margin-zero">24 x 30"</p>
 	<p class="description-margin-zero">$360 USD  |  $455 CAD</p>
-	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -140,7 +440,6 @@ Montana first got experience selling her work online by running her [Etsy shop](
 	<p class="description-margin-zero">acrylic, pencil & crayon on canvas</p>
 	<p class="description-margin-zero">24 x 24"</p>
 	<p class="description-margin-zero">$288 USD  |  $364 CAD</p>
-	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -181,7 +480,6 @@ Montana first got experience selling her work online by running her [Etsy shop](
 	<p class="description-margin-zero">acrylic on canvas</p>
 	<p class="description-margin-zero">20 x 20"</p>
 	<p class="description-margin-zero">$200 USD | $253 CAD</p>
-	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -202,7 +500,6 @@ Montana first got experience selling her work online by running her [Etsy shop](
 	<p class="description-margin-zero">acrylic on canvas</p>
 	<p class="description-margin-zero">24 x 18"</p>
 	<p class="description-margin-zero">$216 USD | $273 CAD</p>
-	<p class="description-margin-zero" style="font-style: italic;">free shipping to the US & Canada, inquire for international shipping (montanacfowler at g m a i l . c o m)</p>
 	<div class="paypal-button">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -215,23 +512,7 @@ Montana first got experience selling her work online by running her [Etsy shop](
 </div>
 
 
-
-<!-- > "I chose a painting for my mom for Christmas since I loved the style and the dog in it looked similar to her dog. It arrived really quickly with a note, and it was even wrapped in a dog-themed wrapping paper. My mom loved it and it now has a home in the dining room above the dog’s spot!" - Olivia -->
-
-<!-- Gallery -->
-<!-- <h3> Available Work </h3>
-<div class="gallery" data-columns="3">
-	<img src="/website/images/2022/January/perennial/perennial-3.jpg">
-	<img src="/website/images/2022/January/minty/minty-1.jpg">
-	<img src="/website/images/2021/december-shop/wiser/wiser-2.jpg">
-	<img src="/website/images/2021/december-shop/rosewater/rosewater-0.jpg">
-	<img src="/website/images/2021/december-shop/loud/loud-1.jpg">
-</div> -->
-
 <h3> FAQ </h3>
-
-<h4>How much does shipping cost?</h4>
-Shipping is free to the US & Canada.  For international shipping, inquire by sending Montana an email at montana c fowler at g m a i l dot com.
 
 <h4>How safe is shipping?</h4>
 Montana carefully packages paintings herself with glassine paper to protect the surfaces.  She reuses packaging materials she collects from her online orders or her neighbors to reduce the environmental impact of the packaging. She has successfully mailed over 10 pieces to their new homes across the US from Oregon to Massachusetts, and many states in between.  
@@ -246,32 +527,3 @@ Reach out to Montana over email, and she will be happy to chat on the phone, pro
 If you're accessing the website from a browser window within an app like Instagram, first try on an internet app or desktop browser (safari, chrome).  If it still isn't working, Montana is happy to help.  Reach out to her at montana c fowler at g m ai l dot com.
 
 <div style="height: 50px; width: 100%;"></div>
-
-
-
-
-<!-- <h3> Sold <3 </h3>
-
-I've had the most wonderful collectors purchase my work over the years.  I'm so grateful to them for giving my pieces new homes.
-<div class="gallery" data-columns="1">
-	<img src="/website/images/2021/december-shop/spring-forward/spring-forward-2.jpg">
-	<img src="/website/images/sold/sold-0.jpg">
-	<img src="/website/images/sold/sold-1.png">
-	<img src="/website/images/sold/sold-2.jpg">
-	<img src="/website/images/sold/sold-3.jpg">
-	<img src="/website/images/sold/sold-4.jpg">
-	<img src="/website/images/sold/sold-5.jpg">
-	<img src="/website/images/sold/sold-6.jpg">
-	<img src="/website/images/sold/sold-7.jpg">
-	<img src="/website/images/sold/sold-8.jpg">
-	<img src="/website/images/sold/sold-9.jpg">
-	<img src="/website/images/sold/sold-10.jpg">
-	<img src="/website/images/sold/sold-11.jpg">
-	<img src="/website/images/sold/sold-12.jpg">
-	<img src="/website/images/sold/sold-13.jpg">
-	<img src="/website/images/sold/sold-14.jpg">
-	<img src="/website/images/sold/sold-15.jpg">
-	<img src="/website/images/sold/sold-16.jpg">
-	<img src="/website/images/sold/sold-17.jpg">
-	<img src="/website/images/sold/sold-18.jpg">
-</div> -->
