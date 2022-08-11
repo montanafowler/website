@@ -43,6 +43,9 @@ The best ways to stay up to date on her work are to <a href="https://montanafowl
 
 #### exhibitions
 
+**BBV Marché Pop-up & Vente Communautaire** *June 2022*  
+BBV Bed & Breakfast, Montreal, QC, Canada
+
 **Santa Cruz Visual Artists Network Show** *Feb to March 2021*  
 R. Blitzer Gallery, Santa Cruz, CA, USA
 
