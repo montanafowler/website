@@ -33,13 +33,18 @@ After graduating from Brown, Montana moved to California to get her masters degr
 
 While her graduate studies focused on digital art and teaching computer science, Montana continued to develop her acrylic painting practice.  One of her paintings was selected for [an open call at the Santa Cruz Museum of Art and History calling for local artists’ work responding to the pandemic](https://www.santacruzmah.org/blog/itut).  The show exhibited during the spring of 2021.  Additionally, in 2021 she completed her own 100 Day Project of working in her sketchbooks, exhibited in a group show of local artists at the [R. Blitzer Gallery](https://www.instagram.com/rblitzergallery/?hl=en), and developed a daily painting practice.  In 2021 she released three different painting collections: [the Tree Series]({{site.baseurl}}/painting-collections/2021-1-tree-series/), a series of paintings of trees in Wilder Ranch State Park; [the Everyday Series]({{site.baseurl}}/painting-collections/2021-2-tree-series/), a series of small abstract paintings about her daily painting practice; and [the Fresh Start Collection]({{site.baseurl}}/painting-collections/2021-4-dec-paintings/), a series of four paintings about her new life in Montreal.
 
-In September of 2021 she moved to Montreal after receiving her masters degree.  In Montreal, Montana works in her studio at [Ateliers3333](https://www.ateliers3333.com) every morning creating acrylic paintings on canvas, experiments in her sketchbooks, or works on paper for her 2022 100 Day Project. During the day, she works on creative tools as a software developer.  
+In September of 2021 she moved to Montreal after receiving her masters degree.  In Montreal, Montana works in her studio at [Ateliers3333](https://www.ateliers3333.com). In 2022 she released [a collection of winter creations]({{site.baseurl}}/painting-collections/2022-1-jan-paintings/), [a pair spring paintings]({{site.baseurl}}/painting-collections/2022-5-spring-paintings/), her [Unprocessed series]({{site.baseurl}}/painting-collections/2022-6-unprocessed/) from her 2022 100 Day Project of works on paper, and her [Fresh Air series]({{site.baseurl}}/painting-collections/2022-7-fresh-air/) of turquoise summer paintings. 
+
+Montana spends every morning creating acrylic paintings on canvas, experiments in her sketchbooks, or works on paper. During the day, she works on creative tools as a software developer.  
 
 The best ways to stay up to date on her work are to <a href="https://montanafowler.us2.list-manage.com/subscribe?u=a53b48a7dada1d1df2268f45c&id=e5121f1348">subscribe to her newsletter</a>, or follow her on <a href="https://www.instagram.com/montanafowler_cs_art/">Instagram (@montanafowler_cs_art)</a>.
 
 
 
 #### exhibitions
+
+**BBV Marché Pop-up & Vente Communautaire** *June 2022*  
+BBV Bed & Breakfast, Montreal, QC, Canada
 
 **Santa Cruz Visual Artists Network Show** *Feb to March 2021*  
 R. Blitzer Gallery, Santa Cruz, CA, USA
