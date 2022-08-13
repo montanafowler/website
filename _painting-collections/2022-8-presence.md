@@ -237,14 +237,14 @@ collection_featured_image: /images/2022/Presence/circles-cover.jpg
     <h4>Walk in Circles (2022)</h4>
     <p class="description-margin-zero">ink & acrylic on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <p class="description-margin-zero">SOLD, found a home in Montreal</p>
     <div class="paypal-button-left">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+   <!--  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="RB4NETPU8EMU6">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+</form> -->
   </div>
   <p class="description-margin-zero">Walk in circles draws your eye along in its round strokes.  The dark teal and mustard palette is unique in my work, and for this piece it gives it a summery tone.</p>
   </div>
