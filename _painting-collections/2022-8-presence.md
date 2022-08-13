@@ -123,19 +123,19 @@ collection_featured_image: /images/2022/Presence/circles-cover.jpg
     <img src="/website/images/2022/Presence/2022_61.jpg">
   </div>
   <div class="box-description-left">
-    <h4>Eclectic (2022)</h4>
+    <h4>Heading Out (2022)</h4>
     <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
     <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
     <div class="paypal-button-left">
       <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="8QA953498V4DY">
+<input type="hidden" name="hosted_button_id" value="PG8ULCVR7ZESS">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
     </div>
-     <p class="description-margin-zero">Eclectic has a smoothness to its shapes. Your eye follows the lines and waves through it like butter. Without harsh edges, it feels soft and bright.</p>
+     <p class="description-margin-zero">Heading Out has a smoothness to its shapes. Your eye follows the lines and waves through it like butter. Without harsh edges, it feels soft and bright.</p>
   </div>
 </div>
 
