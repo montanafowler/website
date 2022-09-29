@@ -9,7 +9,7 @@ layout: links
 <img src="/website/images/portrait/2021_portrait-5.jpg" alt="MontanaFowlerArt" width="200"/>
 
 
-<h3 style="text-align: center;"><b>Ateliers3333 Open Doors Event 9/30 5-8pm, 10/1 10am-4pm</b> at <a href="https://goo.gl/maps/nBJgXnMkgca8T9caA" style="text-decoration: underline;">3333 Crémazie Est #509</a>. It is a 10 minute walk from the Saint Michel metro stop (blue line).</h3>
+<h3 style="text-align: center;"><b>Ateliers3333 Open Doors Event 10/1 10am-4pm</b> at <a href="https://goo.gl/maps/nBJgXnMkgca8T9caA" style="text-decoration: underline;">3333 Crémazie Est #509</a>. It is a 10 minute walk from the Saint Michel metro stop (blue line).</h3>
 
 ---------------
 
