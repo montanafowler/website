@@ -39,7 +39,7 @@ In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021
     <h4>Spring Forward (2021)</h4>
     <p class="description-margin-zero">acrylic on canvas</p>
     <p class="description-margin-zero">24 x 18"</p>
-    <p class="description-margin-zero">SOLD</p>
+    <p class="description-margin-zero">SOLD, found a home in Los Angeles</p>
   </div>
 </div>
 
@@ -53,7 +53,7 @@ In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021
     <p class="description-margin-zero">acrylic on canvas</p>
     <p class="description-margin-zero">24 x 18"</p>
      <!-- <p class="description-margin-zero">$216 USD  |  $273 CAD</p> -->
-     <p class="description-margin-zero">Sale Pending</p>
+     <p class="description-margin-zero">SOLD, found a home in Montreal</p>
     <div class="paypal-button">
     <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
