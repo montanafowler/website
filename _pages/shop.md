@@ -15,6 +15,322 @@ Montana first got experience selling her work online by running her [Etsy shop](
 </form>
 </div>
 
+<!-- 2022_59 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_59.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Summer Night (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
+    <div class="paypal-button">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="59BVZYL9VBUAU">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">Naturally, the colors I am most drawn to are teal and magenta, but what sets Summer Night apart is its pops of orange.  The orange  acrylic ink underneath the layers of thicker paint brightens and warms the piece, without it, it wouldn't be as electric.</p>
+  </div>
+</div>
+
+
+
+<!-- 2022_61 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_61.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Heading Out (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PG8ULCVR7ZESS">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+     <p class="description-margin-zero">Heading Out has a smoothness to its shapes. Your eye follows the lines and waves through it like butter. Without harsh edges, it feels soft and bright.</p>
+  </div>
+</div>
+
+<!-- 2022_62 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_62.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Electric (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$38 USD  |  $48 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ARJAXBYW7AEMG">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+   <p class="description-margin-zero">Electric jumps off the page.  As my breakthrough piece after my creative slump in June, Electric inspires me to keep going.  There is always something new I haven't made yet.</p>
+  </div>
+</div>
+
+
+<!-- 2022_55 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_55.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Seaside (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="DVJKS6GWFMN3J">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+     <p class="description-margin-zero">Seaside leans into its simplicity with its layers primarily being made with acrylic ink.  The transparent pink magenta being layered over the teal makes it cooler, and the thicker orange lines are more straight than the linework in other pieces.</p>
+  </div>
+</div>
+
+
+
+<!-- 2022_47 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_47.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>There With You (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XQD4WW8VNDS64">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">There With You has a stability it the motion within it because the linework primarily stays horizontal.  It has a wide range of magenta shades with its pops of my favorite peach to contrast.</p>
+  </div>
+</div>
+
+<!-- 2022_45 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_45.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Ready Yet (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="5FADHWRS8K362">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">I love my red oxide acrylic ink.  In Ready Yet you can see the thin layer I started with with the white paper showing through the lines of the strke underneath the larger shapes.</p>
+  </div>
+</div>
+
+
+<!-- 2022_49 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_49.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Ever Since (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="MS7TRSA2FUBME">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">Ever Since, the third in the trio with Turn Here & Ready Yet, has this butterfly wing shape to it.  Even with larger shapes, it still feels like there is motion.</p>
+  </div>
+</div>
+
+<!-- 2022_50 -->
+<!-- <div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_50.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>On My Mind (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="EP3GQJDDAQTYS">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  <p class="description-margin-zero">On My Mind blends vertical marks together.  There are crayon marks driven through wet paint to create linear texture within the large shapes.</p>
+  </div>
+</div> -->
+<!-- 2022_54 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_54.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Halfway Down (2022)</h4>
+    <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="RCN9PJHU3N28Q">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  <p class="description-margin-zero">Halfway Down is heavily textured with large, all-consuming palette knife strokes.To break up the opaque shapes, it has a some transparent dark purple and white acrylic ink marks.</p>
+  </div>
+</div>
+
+<!-- 2022_51 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_51.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Roller Rink (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="T6BYFWMA92MZY">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">Roller Rink has a stand out palette.  A faint neon green acrylic ink background contrasts and compliments the main dark purple marks in the scene.</p>
+  </div>
+</div>
+
+<!-- 2022_52 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_52.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Meet Me There (2022)</h4>
+    <p class="description-margin-zero">ink & acrylic on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9TM3GSXVQ26HY">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  <p class="description-margin-zero">Meet Me There is all about the line work.  With some white crayon lines complimenting the thick pink acrylic ink.</p>
+  </div>
+</div>
+
+<!-- 2022_53 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_53.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>How It Feels (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on paper</p>
+    <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
+    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
+    <div class="paypal-button-left">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QUR2AL7E9YGWY">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">How it Feels is a calmer piece.  Its light peach blending into thin pink gives it an atmospheric look.</p>
+  </div>
+</div>
+
+
+<!-- 2022_63 -->
+<div class="container-1">
+  <div class="box-image-left">
+    <img src="/website/images/2022/Presence/2022_63.jpg">
+  </div>
+  <div class="box-description-right">
+    <h4>Pop (2022)</h4>
+    <p class="description-margin-zero">ink, acrylic & crayon on canvas</p>
+    <p class="description-margin-zero">30 x 24"</p>
+    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+    <div class="paypal-button">
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="NKASLLYB742L4">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </div>
+  <p class="description-margin-zero">Pop has been hanging around my studio for a long time.  I didn't know what she needed to be considered finished. It turned out that covering the cream with some lavender finally resolved the composition for me.</p>
+  </div>
+</div>
+
+<!-- 2022_64 -->
+<div class="container-1">
+  <div class="box-image-right">
+    <img src="/website/images/2022/Presence/2022_64.jpg">
+  </div>
+  <div class="box-description-left">
+    <h4>Step Back (2022)</h4>
+    <p class="description-margin-zero">acrylic & pastel on canvas</p>
+    <p class="description-margin-zero">30 x 24"</p>
+    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
+    <div class="paypal-button-left">
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="LDFUENUMQN6NW">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+    </div>
+    <p class="description-margin-zero">Step Back was a darker painting I made in June when life was darker despite the long summer days.  This piece is heavily textured with many different paintings underneath that I never felt satisfied enough to call finished.  The layers underneath are part of what gives Step Back an intense depth to its colors.</p>
+  </div>
+</div>
+
+
+
 <!-- 2022_37 -->
 <div class="container-1">
   <div class="box-image-left">
