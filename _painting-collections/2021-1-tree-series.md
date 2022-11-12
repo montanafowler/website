@@ -122,6 +122,6 @@ collection_featured_image: /images/2021/tree-series/series-cover.jpg
     <h4>The Scholar (2021)</h4>
     <p>acrylic and ink on canvas -  
     	16x20" <br>
-    currently unavailable</p>
+    lost at sea</p>
   </div>
 </div>
