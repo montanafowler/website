@@ -152,6 +152,74 @@
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 </div>
+<style type="text/css">
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+ background-color: #666;
+ color: white;
+}
+</style>
+
+<script>
+function turnOffButton(buttonID)
+{
+	console.log(document.getElementById(buttonID).className);
+    document.getElementById(buttonID).className = document.getElementById(buttonID).className.replace(" active", "");
+    console.log(document.getElementById(buttonID).className);
+}
+
+function showHideDiv(divToShowHide, secondaryDivToHide, buttonID, secondaryButton)
+{
+  if (divToShowHide.style.display === "none") {
+    divToShowHide.style.display = "block";
+    document.getElementById(buttonID).className += " active";
+
+    secondaryDivToHide.style.display = "none";
+    turnOffButton(secondaryButton);
+
+  } else {
+    divToShowHide.style.display = "none";
+    turnOffButton(buttonID);
+  }
+}
+
+function showHide(paperButtonClicked, canvasButtonClicked) {
+  var paperDiv = document.getElementById("works-on-paper-div");
+  var canvasDiv = document.getElementById("works-on-canvas-div");
+  if (paperButtonClicked)
+  {
+  	showHideDiv(paperDiv, canvasDiv, "works-on-paper-button", "works-on-canvas-button");
+  }
+
+  if (canvasButtonClicked)
+  {
+  	showHideDiv(canvasDiv, paperDiv, "works-on-canvas-button", "works-on-paper-button");
+  }
+  
+}
+</script>
+
+<p><button id="works-on-paper-button" class="btn" onclick="showHide(true, false)">Works on Paper</button>
+<button id="works-on-canvas-button" class="btn" onclick="showHide(false, true)">Works on Canvas</button></p>
+
+<div style="display: none;" id="works-on-paper-div">
+  works on paper.
+</div>
+
+<div style="display: none;" id="works-on-canvas-div">
+  works on canvas.
+</div>
 
 <!-- 2022_59 -->
 <div class="container-1">
