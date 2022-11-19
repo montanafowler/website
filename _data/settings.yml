@@ -226,12 +226,35 @@ advanced_settings:
     padding: 10px;
   }
 
-  .btnRow {
+  .shopBanner {
     display: flex;
-    width: 90%;
-    margin: auto; 
+    flex-wrap: nowrap;
+    width: 100%;
+    position: relative;
+    height: 20%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
   }
 
+  .btnRow {
+    display: flex;
+    z-index: 9;
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative; 
+  }
+
+  .shopBannerImage {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+  }
 
   /* Style the buttons */
   @media(min-width:768px) {
@@ -240,6 +263,11 @@ advanced_settings:
       width: 50%;
       margin: auto;
     }
+
+    .shopBanner {
+    
+    }
+
   }
 
   

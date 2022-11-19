@@ -59,9 +59,13 @@
 .box-image-right { order:2; flex-basis: 40%; padding-right: 50px; padding-left: 50px; padding-top: 100px; }
 .box-description-right{ order:2; flex-basis: 40%; padding: 10px; }
 .box-description-left{ order:1; flex-basis: 40%; padding: 10px; }
-.btnRow { display: flex; width: 90%; margin: auto; }
-
-/* Style the buttons */ @media(min-width:768px) { .btnRow { display: flex; width: 50%; margin: auto; } }
+.shopBanner { display: flex; flex-wrap: nowrap; width: 100%; position: relative; height: 20%; overflow: hidden; justify-content: center; align-items: center; }
+.btnRow { display: flex; z-index: 9; width: 90%; margin: auto; padding-top: 100px; padding-bottom: 100px; position: relative; }
+.shopBannerImage { width: 100%; height: auto; position: absolute; top: 0; left: 0; flex-shrink: 0; }
+/* Style the buttons */ @media(min-width:768px) { .btnRow { display: flex; width: 50%; margin: auto; }
+.shopBanner {
+}
+}
 
 .btn { border: none; outline: none; padding: 10px; margin: 10px; background-color: #f1f1f1; cursor: pointer; font-size: 24px; flex: 20%; }
 
