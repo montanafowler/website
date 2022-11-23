@@ -334,42 +334,6 @@
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
 
-
-		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Shop Header
-		function turnOffButton(buttonID)
-		{
-		    document.getElementById(buttonID).className = document.getElementById(buttonID).className.replace(" active", "");
-		}
-
-		function showHideDiv(divToShowHide, secondaryDivToHide, buttonID, secondaryButton)
-		{
-		  if (divToShowHide.style.display == "none") {
-		    divToShowHide.style.display = "block";
-		    document.getElementById(buttonID).className += " active";
-
-		    secondaryDivToHide.style.display = "none";
-		    turnOffButton(secondaryButton);
-
-		  } else {
-		    divToShowHide.style.display = "none";
-		    turnOffButton(buttonID);
-		  }
-		}
-
-		function showHide(paperButtonClicked, canvasButtonClicked) {
-		  var paperDiv = document.getElementById("works-on-paper-div");
-		  var canvasDiv = document.getElementById("works-on-canvas-div");
-		  if (paperButtonClicked)
-		  {
-		  	showHideDiv(paperDiv, canvasDiv, "works-on-paper-button", "works-on-canvas-button");
-		  }
-
-		  if (canvasButtonClicked)
-		  {
-		  	showHideDiv(canvasDiv, paperDiv, "works-on-canvas-button", "works-on-paper-button");
-		  }
-		}
-
 	}
 
 	// Run functions on load

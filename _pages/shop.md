@@ -8,18 +8,12 @@ layout: shop
 	<img class="shopBannerImage" id="verticalShopBannerImage" src="/website/images/shop-banner/vertical-1200x1600.jpg" style="display: none;">
 	<img class="shopBannerImage" id="horizontalShopBannerImage" src="/website/images/shop-banner/horizontal-1200x800.jpg">
 	<div class="btnRow">
-		<button id="works-on-canvas-button" class="btn active" onclick="showHide(false, true, false)">Works on Canvas</button>
-	    <button id="works-on-paper-button" class="btn" onclick="showHide(true, false, false)">Works on Paper</button>
+		<button id="works-on-canvas-button" class="btn active" onclick="showHide(false, true, false)">on canvas</button>
+	    <button id="works-on-paper-button" class="btn" onclick="showHide(true, false, false)">on paper</button>
 	</div>
 </div>
 
 Montana is experienced in packaging paintings safely for shipping. Works on paper come matted, ready to pop into 11x14" or 8x10" standard frames.  If you have further questions about a potential purchase, feel free to email montanacfowler at g mail to ask! 
-
-<div id="nothing-showing-div">
-
-
-</div>
-
 
 <div style="display: none;" id="works-on-paper-div">
 	<div class="paypal-button" style="padding-bottom: 50px;">
