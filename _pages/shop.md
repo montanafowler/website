@@ -706,6 +706,8 @@ Montana is experienced in packaging paintings safely for shipping. Works on pape
 Montana carefully packages paintings herself with glassine paper to protect the surfaces.  She reuses packaging materials she collects from her online orders or her neighbors to reduce the environmental impact of the packaging. She has successfully mailed over 10 pieces to their new homes across the US from Oregon to Massachusetts, and many states in between.  
 <h4>What if the painting is damaged during shipping?</h4>
 If the painting is damaged during shipping, Montana will issue a full refund for the piece.
+<h4>I live in Montreal, do I still have to pay for shipping?</h4>
+No! If you live in Montreal and want a painting delivered locally, contact Montana at montanacfowler at g mail.
 <h4>What if I need more images or information about the piece before deciding to purchase?</h4>
 Reach out to Montana over email, and she will be happy to chat on the phone, provide more documentation like videos or additional images.  She cares about her collectors finding the right piece for them and their space.
 <h4>The paypal button isn't working for me, what do I do?</h4>
