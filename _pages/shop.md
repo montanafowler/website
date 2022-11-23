@@ -3,72 +3,15 @@ title: Shop
 featured_image: /images/portrait/2021_portrait-2.jpg
 layout: shop
 ---
-<head>
-	<script>
-	    function turnOffButton(buttonID)
-	    {
-	    	console.log(document.getElementById(buttonID).className);
-	        document.getElementById(buttonID).className = document.getElementById(buttonID).className.replace(" active", "");
-	        console.log(document.getElementById(buttonID).className);
-	    }
-	    
-	    function showHideDiv(divToShowHide, secondaryDivToHide, buttonID, secondaryButton)
-	    {
-	      if (divToShowHide.style.display == "none") {
-	        divToShowHide.style.display = "block";
-	        document.getElementById(buttonID).className += " active";
-	    
-	        secondaryDivToHide.style.display = "none";
-	        turnOffButton(secondaryButton);
-	    
-	      } else {
-	        divToShowHide.style.display = "none";
-	        turnOffButton(buttonID);
-	      }
-	    }
-	    
-	    function showHide(paperButtonClicked, canvasButtonClicked, start) {
-	      var paperDiv = document.getElementById("works-on-paper-div");
-	      var canvasDiv = document.getElementById("works-on-canvas-div");
-	      if (paperButtonClicked)
-	      {
-	      	showHideDiv(paperDiv, canvasDiv, "works-on-paper-button", "works-on-canvas-button");
-	      }
-	    
-	      if (canvasButtonClicked)
-	      {
-	      	console.log(start);
-	      	console.log(canvasDiv.style.display);
-	      	if (!start || (start && canvasDiv.style.display == "none"))
-	      	{
-	      		showHideDiv(canvasDiv, paperDiv, "works-on-canvas-button", "works-on-paper-button");
-	      	}
-	      }
-	    }
-
-	    document.addEventListener("DOMContentLoaded", function(event) { 
-		    showHide(false, true, true)
-		 });
-
-	</script>
-</head>
 
 <div class="shopBanner">
 	<img class="shopBannerImage" id="verticalShopBannerImage" src="/website/images/shop-banner/vertical-1200x1600.jpg" style="display: none;">
 	<img class="shopBannerImage" id="horizontalShopBannerImage" src="/website/images/shop-banner/horizontal-1200x800.jpg">
 	<div class="btnRow">
-		<button id="works-on-canvas-button" class="btn"  onclick="showHide(false, true, false)">Works on Canvas</button>
+		<button id="works-on-canvas-button" class="btn active" onclick="showHide(false, true, false)">Works on Canvas</button>
 	    <button id="works-on-paper-button" class="btn" onclick="showHide(true, false, false)">Works on Paper</button>
 	</div>
 </div>
-
-<!-- select canvas button first so canvases are automatically showing -->
-<!-- <body onload="showHide(false, true);"></body> -->
-<!-- <script>
-  document.addEventListener("DOMContentLoaded", function(event) { 
-    showHide(false, true, true)
- });
-</script> -->
 
 Montana is experienced in packaging paintings safely for shipping. Works on paper come matted, ready to pop into 11x14" or 8x10" standard frames.  If you have further questions about a potential purchase, feel free to email montanacfowler at g mail to ask! 
 
@@ -444,7 +387,7 @@ Montana is experienced in packaging paintings safely for shipping. Works on pape
             </div>
         </div>
 </div>
-<div style="display: none;" id="works-on-canvas-div">
+<div style="display: block;" id="works-on-canvas-div">
 	<div class="paypal-button" style="padding-bottom: 50px;">
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
         <input type="hidden" name="cmd" value="_s-xclick">
