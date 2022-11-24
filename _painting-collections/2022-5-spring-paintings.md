@@ -4,7 +4,7 @@ subtitle: May 2022
 description: Spring in Montreal has Montana painting in greens... the new grass, the flowers... she made it through her first Canadian winter.  It was long, but everything tastes sweeter now.
 featured_image: /images/2022/Spring/hideout-wide.jpg
 layout: painting-collection
-collection_featured_image: /images/2022/Spring/hideout-wide.jpg
+collection_featured_image: /images/2022/Spring/mystery-wide.jpg
 ---
 <!-- Hideout -->
 <div class="container-1">

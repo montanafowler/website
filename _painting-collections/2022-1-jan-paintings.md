@@ -4,12 +4,12 @@ subtitle: January 2022
 description: For her first Canadian winter, Montana kept warm by dedicating herself to her paintings.  Through an isolating lockdown and having COVID, her art practice carried her through to the first signs of spring.
 featured_image: /images/2022/January/minty/minty-1.jpg
 layout: painting-collection
-collection_featured_image: /images/2022/January/minty/minty-0.jpg
+collection_featured_image: /images/2022/January/minty/minty-wide-2.jpg
 ---
 <!-- Minty -->
 <div class="container-1">
   <div class="box-image-left">
-    <img src="/website/images/2022/January/minty/minty-9.jpg">
+    <img src="/website/images/2022/January/minty/minty-9b.jpg">
   </div>
   <div class="box-description-right">
     <h4>Minty (2022)</h4>
