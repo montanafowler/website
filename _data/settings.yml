@@ -12,12 +12,14 @@ menu_settings:
       url: '/painting-collections-home' 
     - title: 'exhibitions'
       url: '/exhibitions'
+    - title: 'blog'
+      url: '/blog'
     - title: 'shop'
       url: '/shop'
     - title: 'about'
       url: '/about'
-    - title: 'contact'
-      url: '/contact'
+    # - title: 'contact'
+    #   url: '/contact'
 
 footer_settings:
   logo_image: 

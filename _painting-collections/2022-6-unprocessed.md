@@ -1,7 +1,7 @@
 ---
 title: Unprocessed
 subtitle: 100 Day Project 2022
-description: I need to make art to breathe.  2022 has been a darker year for me.  There have been times I’ve felt like my life was spiraling, or I felt very low.  A lot can change in 100 days.  When I look at these pieces, I see the days I needed color.  I see the softer worlds I wanted to climb into.  I see the hope that making gives me.  I see the growth I was discovering.  I see the exploration. Not enough time has passed for me to truly understand how this year has changed me.  I feel different.  I know I’m different, but the clarity isn’t here yet. Until then, I have plenty of pieces to help me untangle exactly what the f*** happened in 2022.
+description: I need to make art to breathe.  2022 has been a darker year for me.  There have been times I’ve felt like my life was spiraling, or I felt very low.  A lot can change in 100 days.  When I look at these pieces, I see the days I needed color.  I see the softer worlds I wanted to climb into.  I see the hope that making gives me.  I see the growth I was discovering.  I see the exploration. Not enough time has passed for me to truly understand how this year has changed me.  I feel different.  I know I’m different, but the clarity isn’t here yet. Until then, I have plenty of pieces to help me untangle exactly what happened in 2022.
 featured_image: /images/2022/100DayProject/2022_20.jpg
 layout: painting-collection
 collection_featured_image: /images/2022/100DayProject/2022_20.jpg
