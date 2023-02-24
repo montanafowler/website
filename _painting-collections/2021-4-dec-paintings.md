@@ -74,14 +74,14 @@ In Montana's <a href="https://www.youtube.com/watch?v=BC4NtPyHsms">November 2021
     <h4>Wiser (2021)</h4>
   <p class="description-margin-zero">acrylic on canvas</p>
   <p class="description-margin-zero">30 x 24"</p>
-  <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
-  <div class="paypal-button-left">
+  <p class="description-margin-zero">SOLD, found a home in NYC</p>
+  <!-- <div class="paypal-button-left">
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="RAPGFXMD9L4KY">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-  </div>
+  </div> -->
   </div>
 </div>
