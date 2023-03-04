@@ -17,4 +17,15 @@ layout: default
 
 	{{ page.content }}
 
+	<h3>keep reading...</h3>
+	<nav>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} ({{post.date | date_to_long_string }})</a>
+            </li>
+            {% endfor %}
+        <ul>
+    </nav>
+
 </section>
