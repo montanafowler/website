@@ -215,16 +215,7 @@ collection_featured_image: /images/2022/Presence/circles-cover.jpg
     <h4>Halfway Down (2022)</h4>
     <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
-    <div class="paypal-button">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="RCN9PJHU3N28Q">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-  </div>
-  <p class="description-margin-zero">Halfway Down is heavily textured with large, all-consuming palette knife strokes.To break up the opaque shapes, it has a some transparent dark purple and white acrylic ink marks.</p>
+    <p class="description-margin-zero">SOLD, found a home in Montreal</p>
   </div>
 </div>
 
@@ -341,15 +332,7 @@ collection_featured_image: /images/2022/Presence/circles-cover.jpg
     <h4>On My Mind (2022)</h4>
     <p class="description-margin-zero">acrylic, ink & crayon on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
-    <div class="paypal-button">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="EP3GQJDDAQTYS">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-  </div>
+    <p class="description-margin-zero">SOLD, found a home in Montreal</p>
   <p class="description-margin-zero">On My Mind blends vertical marks together.  There are crayon marks driven through wet paint to create linear texture within the large shapes.</p>
   </div>
 </div>
@@ -385,15 +368,7 @@ collection_featured_image: /images/2022/Presence/circles-cover.jpg
     <h4>Meet Me There (2022)</h4>
     <p class="description-margin-zero">ink & acrylic on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
-    <div class="paypal-button">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="9TM3GSXVQ26HY">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-  </div>
+    <p class="description-margin-zero">SOLD, found a home in Montreal</p>
   <p class="description-margin-zero">Meet Me There is all about the line work.  With some white crayon lines complimenting the thick pink acrylic ink.</p>
   </div>
 </div>
