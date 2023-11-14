@@ -427,15 +427,7 @@ collection_featured_image: /images/2022/Presence/circles-cover.jpg
     <h4>Step Back (2022)</h4>
     <p class="description-margin-zero">acrylic & pastel on canvas</p>
     <p class="description-margin-zero">30 x 24"</p>
-    <p class="description-margin-zero">$360 USD  |  $455 CAD</p>
-    <div class="paypal-button-left">
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="LDFUENUMQN6NW">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-    </div>
+    <p class="description-margin-zero">SOLD, found a home in NYC</p>
     <p class="description-margin-zero">Step Back was a darker painting I made in June when life was darker despite the long summer days.  This piece is heavily textured with many different paintings underneath that I never felt satisfied enough to call finished.  The layers underneath are part of what gives Step Back an intense depth to its colors.</p>
   </div>
 </div>
