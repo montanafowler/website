@@ -133,7 +133,7 @@ collection_featured_image: /images/2023/different-now/cover.jpg
 <div style="padding-bottom: 100px">
     <h4>relight (2023)</h4>
     <p class="description-margin-zero">acrylic, pastel & pencil on canvas</p>
-    <p class="description-margin-zero">20 x 24"</p>
+    <p class="description-margin-zero">24 x 36"</p>
     <p class="description-margin-zero">$432 USD  |  $596 CAD</p>
     <div class="paypal-button">
         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -157,7 +157,7 @@ collection_featured_image: /images/2023/different-now/cover.jpg
 <div style="padding-bottom: 100px">
     <h4>mine (2023)</h4>
     <p class="description-margin-zero">acrylic, pastel, collage & pencil on canvas</p>
-    <p class="description-margin-zero">20 x 24"</p>
+    <p class="description-margin-zero">24 x 36"</p>
     <p class="description-margin-zero">$432 USD  |  $596 CAD</p>
     <div class="paypal-button">
         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
