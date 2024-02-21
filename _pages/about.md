@@ -5,11 +5,6 @@ description:
 featured_image: /images/portrait/2021_portrait-2.jpg
 ---
 
-<!-- <img src="/website/images/portrait/concussion.jpg" style="width: 70%"></>
- --><!-- <div class="gallery" data-columns="2" style="width: 80%">
-	<img src="/website/images/portrait/concussion2.jpg">
-	<img src="/website/images/portrait/ateliers3333.jpg">
-</div> -->
 <div class="row">
     <img class="about-img" src="/website/images/portrait/concussion2.jpg" alt="Montana Fowler Art" >
     <img class="about-img" src="/website/images/portrait/ateliers3333.jpg" alt="Montana Fowler Ateliers3333">
@@ -18,15 +13,16 @@ featured_image: /images/portrait/2021_portrait-2.jpg
 
 #### artist statement
 
-Through her style of unblended mark-making, Montana creates acrylic, mixed-media paintings depicting landscapes of belonging. A member of both artist and software developer communities, Montana is curious about why we place limitations on ourselves to belong.  
+Through my style of unblended mark-making, I create acrylic, mixed-media paintings depicting landscapes of belonging. Aa a member of both artist and software developer communities, I am curious about why we place limitations on ourselves to belong.  
 
-In her pieces, Montana visually investigates a tension between loose, chaotic imperfection and a cohesive composition. In recent work, she discovered how to achieve this with fewer layers, finding that leaving exposed canvas with the first fluid layers adds a stillness to her pieces.  
-After two years of exclusively exploring abstraction, in 2023, Montana is adding figures into her work to find out how a subject would interact with her landscapes of belonging.  She is actively experimenting on how to bring in her charcoal sketches from life drawing sessions into her colorful, chaotic landscapes. 
+In my pieces, I visually investigates a tension between loose, chaotic imperfection and a cohesive composition. In recent work, I've discovered how to achieve this with fewer layers, finding that leaving exposed canvas with the first fluid layers adds a stillness.  
 
-When we find somewhere we belong, we can be vulnerable, loose and unfinished while also being bold, cohesive and strong.  In her visual investigation into the limitations we place on ourselves, Montana believes that we discover a real sense of belonging when we don’t listen to any rules at all.
+After years of exclusively exploring abstraction (and being in the closet) in 2023, I began adding figures into my work to find out how a subject would interact with my landscapes of belonging.  I am exploring how to bring charcoal sketches from life drawing sessions into my colorful, chaotic landscapes with collage and linework. 
+
+When we find somewhere we belong, we can be vulnerable, loose and unfinished while also being bold, cohesive and strong.  In my visual investigation into the limitations we place on ourselves, I believe  we discover a real sense of belonging when we don’t listen to any rules at all.
 
 #### bio
-Montana has been painting seriously for six years.  She grew up in the Santa Cruz Mountains in California, USA.  She then attended [Brown University](https://www.brown.edu) in Providence, RI, USA.  There she double majored in computer science and visual art.  
+Montana has been painting seriously for seven years.  She grew up in the Santa Cruz Mountains in California, USA.  She then attended [Brown University](https://www.brown.edu) in Providence, RI, USA.  There she double majored in computer science and visual art.  
 
 At Brown, Montana fell in love with painting while studying under <a href="https://wendyedwardspainting.com">Wendy Edwards</a>, <a href="https://jerrymischak.com">Jerry Mischak</a>, and <a href="https://www.ayanaevans.com">Ayana Evans</a>.  Her first exhibition was at Casa de Porras in Granada, Spain when she studied abroad and took a course with Spanish artist, <a href="https://www.instagram.com/telasanimadasdealhambra/">Alhambra García Caballero</a> in 2018.  She has also enjoyed learning from Santa Cruz artist, <a href="https://www.carrieclayden.com">Carrie Clayden</a>.
 
@@ -73,7 +69,7 @@ Brown University, Providence, RI, USA
 
 #### 100 day projects
 
-**Writing: The Artist's Way** *Jan-present 2023*  
+**Writing: The Artist's Way** *Jan-Apr 2023*  
 Montreal, QC, Canada
 
 **Works on Paper** *Jan-Apr 2022*  
@@ -81,13 +77,3 @@ Montreal, QC, Canada
 
 **Work in Sketchbooks** *Feb-May 2021*  
 Santa Cruz, CA, USA
-
-<img src="/website/images/portrait/college-studio.jpg" style="width: 40%"></>
-
-<p style="text-align: center;">Montana's college studio in December 2018</p>
-
-<!-- Through her style of unblended mark-making, Montana creates acrylic paintings depicting landscapes of belonging. A member of both artist and software developer communities, Montana is curious about why we place limitations on ourselves to belong.  The more we dive into experiences unexpected for our communities, the more we realize the lines we draw for ourselves are blurred.
-
-In her pieces, Montana visually investigates a tension between loose, chaotic imperfection and a cohesive composition.  She’ll always remember <a href="https://www.ayanaevans.com">prof. Ayana Evans</a> telling her that a good painting looks just as interesting up close as it does far away.  She spends time close to the canvas making small marks and subtle color shifts, while also taking time to stand back and make decisions for larger moves. Limited color palettes gel the marks created by her variety of tools: palette knives, brushes, crayons & pastels. In her layering process, she enjoys the boldness required to cover an old mark with a new one, often finding the boldest decisions have the best effect on the piece.  
-
-While Montana has felt the positive effects of being bold in her life, she also understands how vulnerability also builds strength. This led her to strive to create pieces with where honest marks form a cohesive image.  When we find somewhere we belong, we can be vulnerable, loose and unfinished while also being bold, cohesive and strong.  In her visual investigation into the limitations we place on ourselves, Montana believes that we discover a real sense of belonging when we don’t listen to any rules at all. -->

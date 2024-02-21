@@ -34,17 +34,45 @@ featured_image: /images/social.jpg
     </section>
     <section class="intro">
         <div class="wrap">
-            <img src="/website/images/2022/Fresh-Air/Knotted-whitespace.jpg">
+            <img src="/website/images/2023/different-now/mine_white2.jpg">
+            <div style="height: 30px"></div>
+            <h3> collections </h3>
+
+            <nav>
+                <ul>
+                    {% for painting-collection in site.painting-collections reversed %}
+                    <li>
+                        <a href="{{site.baseurl}}/painting-collections/{{painting-collection.slug}}/" class="{% if page.url contains painting-collection.slug %}current{% endif %}"> {{painting-collection.title}} ({{painting-collection.subtitle}})</a>
+                    </li>
+                    {% endfor %}
+                    <ul>
+                    </nav>
+            <div style="height: 30px"></div>
+                <img src="/website/images/2022/Fresh-Air/Knotted-whitespace.jpg">
+                <div style="height: 30px"></div>
+
+            
             <p> In 2017, my interests in different art mediums (film, book-making, layout design+) coalesced in my love for painting. After my first painting course with <a href="https://wendyedwardspainting.com">prof. Wendy Edwards</a>, I knew I would continue to paint for the rest of my life. I fell in love with the way painting feels... playing with liquid color on a surface, an endless puzzle of experimentation.  I love playing with the degree of control using different tools, paint consistencies, and layering styles. </p>
             <div style="padding-top: 20px; padding-bottom: 20px;">
                 <img style="padding-top: 20px" src="/website/images/studio/2023a.jpg">
                 <p style="text-align: center; font-style: italic;">my current studio space in Ateliers3333</p>
             </div>
             <p>  <a href="/website/shop">See my available pieces in the shop</a>, or <a href="/website/painting-collections-home">browse my recent collections</a>.  
-                <img style="padding-top: 20px" src="/website/images/art-supplies/shelf.jpg">
+                <!-- <img style="padding-top: 20px" src="/website/images/art-supplies/shelf.jpg">
+                -->                
                 <img style="padding-top: 20px" src="/website/images/art-supplies/yellow-sketchbook.jpg">
+                
             </div>
-        </section>
+
+
+
+                </section>
+
+
+
+
+
+
 <!-- <section class="portfolio">
     <div class="wrap">
     	<h3 style="padding-bottom: 30px;">Collections</h3>
