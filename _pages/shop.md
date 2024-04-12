@@ -526,29 +526,6 @@ Montana is experienced in packaging paintings safely for shipping. Works on pape
     </div>
 </div>
 
-<!-- 2023_2 -->
-<div class="gallery" data-columns="1" style="padding-top: 0px;">
-    <img src="/website/images/2023/neon-times/underneath.jpg">
-</div>
-<div style="padding-bottom: 100px">
-    <h4>underneath (2023)</h4>
-    <p class="description-margin-zero">acrylic, ink & pastel on canvas</p>
-    <p class="description-margin-zero">36 x 36"</p>
-    <p class="description-margin-zero">$648 USD  |  $874 CAD</p>
-    <div class="paypal-button">
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="ZUY2MD3B7VFBW">
-       <select name="os0">
-          <option value="Local Delivery">Local Delivery $648.00 USD</option>
-          <option value="Ship to US or Canada">Ship to US or Canada $768.00 USD</option>
-        </select> 
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </div>
-</div>
 
 <!-- 2023_10 -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
