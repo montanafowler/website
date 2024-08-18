@@ -328,10 +328,6 @@ Montana is experienced in packaging paintings safely for shipping. Works on pape
 </div>
 
 
-
-
-
-
 <div style="display: block;" id="works-on-canvas-div">
  <div class="paypal-button" style="padding-bottom: 50px;">
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
@@ -511,9 +507,6 @@ Montana is experienced in packaging paintings safely for shipping. Works on pape
         </form>
     </div>
 </div>
-
-<!-- 2022_41 -->
-
 
 <!-- 2022_43 -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
