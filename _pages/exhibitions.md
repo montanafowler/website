@@ -5,6 +5,103 @@ description:
 featured_image: 
 layout: page
 ---
+#### Baby Gay Vernissage
+*February 1st, 2025*  
+Ateliers3333, Montreal, QC
+
+<div class="gallery" data-columns="1">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_15.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/everyone.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/table.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_1.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_2.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_3.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/booyah.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_4.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_5.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_6.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_7.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_8.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_9.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_10.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_11.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_12.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_13.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_14.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_16.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_17.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_18.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_19.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_20.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_21.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_22.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_23.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_24.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_25.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_26.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_27.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_28.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_29.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_30.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_32.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_33.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_34.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_35.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_36.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_37.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/film/baby-gay-film_38.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/champagne.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/polaroids.jpg">
+	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/queer-family.jpg">
+</div>
+
+My friends joined me for a night in my studio to celebrate all the work I created as a **Baby Gay**.  Christale Terris (@soft_breaks) baked a gorgeous passionfruit cake inspired by one unnamed piece in the show. Inspired by Christale's cake, my friends suggested the name Passionate Fruit, a play on queerness & also my dad's childhood nickname for me (Fruit).
+
+My friend Nin took beautiful film photos of my friends with my art as a wonderful vernissage gift. Thank you, Nin!
+
+<div style="height: 100px"></div>
+
+#### Ateliers3333 Opening
+*June 20, 2023*  
+Ateliers3333, Montreal, QC
+
+<div class="gallery" data-columns="1">
+	<img src="/website/images/exhibitions/2023-6-ateliers3333-opening/ateliers3333-opening.jpg">
+</div>
+
+My piece, Tommy (2022), appeared in a group show with the artists of Ateliers3333 on the 6th floor.
+
+<div style="height: 100px"></div>
+
+#### Ateliers3333 Open Doors
+*October 1, 2022*  
+Ateliers3333, Montreal, QC
+
+<div class="gallery" data-columns="1">
+	<img src="/website/images/exhibitions/2022-10-open-doors/open-doors-2022.jpg">
+</div>
+
+After 7 months in the studio, I joined the artists of Ateliers3333 to participate in the city's Open Doors event to debut the building to the public.  I shared my space and talked about art with artists,  visitors, and public officials.
+
+<div style="height: 100px"></div>
+
+#### Marché Popup & Vente Communautaire
+*June 5, 2022*  
+Bed & Breakfast du Village, Montreal, QC
+
+<div class="gallery" data-columns="1">
+	<img src="/website/images/exhibitions/2022-6-marche/marche_0.jpg">
+	<img src="/website/images/exhibitions/2022-6-marche/marche_1.jpg">
+	<img src="/website/images/exhibitions/2022-6-marche/marche_2.jpg">
+	<img src="/website/images/exhibitions/2022-6-marche/marche_3.jpg">
+</div>
+
+My first public art event since covid was incredibly heartwarming.  After only living in Montreal for 9 months, my friends who felt like my family in a city so far from home, all came to the show.  It meant so much to me.
+
+
+<div style="height: 100px"></div>
+
+
 #### In These Uncertain Times...  
 *January to May 2021*  
 Santa Cruz Museum of Art and History, Santa Cruz, CA, USA
