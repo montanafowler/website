@@ -1,11 +1,12 @@
 ---
 title: Baby Gay
 subtitle: February 2025
-description: All the work I created as a Baby Gay, debuted at my vernissage Feb 1, 2025.
+description: Baby Gay, a collection of light exploratory mixed media paintings with a focus on scribbled marks and fluid paint, debuted at <a href="/website/exhibitions">my vernissage Feb 1, 2025</a>.
 featured_image: /images/exhibitions/2025-2-baby-gay/cake.JPG
 layout: painting-collection
 collection_featured_image: /images/exhibitions/2025-2-baby-gay/film/baby-gay-film_15.JPG
 ---
+
 <!-- 2024_1 -->
 <div class="gallery" data-columns="1" style="padding-top: 0px;">
     <img src="/website/images/2025/baby-gay-series/passionate-fruit-1200.jpg">

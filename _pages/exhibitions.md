@@ -55,7 +55,7 @@ Ateliers3333, Montreal, QC
 	<img src="/website/images/exhibitions/2025-2-baby-gay/digital/queer-family.jpg">
 </div>
 
-My friends joined me for a night in my studio to celebrate all the work I created as a **Baby Gay**.  Christale Terris (@soft_breaks) baked a gorgeous passionfruit cake inspired by one unnamed piece in the show. Inspired by Christale's cake, my friends suggested the name Passionate Fruit, a play on queerness & also my dad's childhood nickname for me (Fruit).
+My friends joined me for a night in my studio to celebrate all the work I created as a **Baby Gay**.  <a href="https://www.instagram.com/yourtinycatering/">Christale Terris (@yourtinycatering)</a> baked a gorgeous passionfruit cake inspired by one unnamed piece in the show. Inspired by Christale's cake, my friends suggested the name Passionate Fruit, a play on queerness & also my dad's childhood nickname for me (Fruit).
 
 My friend Nin took beautiful film photos of my friends with my art as a wonderful vernissage gift. Thank you, Nin!
 
