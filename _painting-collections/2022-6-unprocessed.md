@@ -409,15 +409,7 @@ collection_featured_image: /images/2022/100DayProject/2022_20.jpg
     <h4>Collide (2022)</h4>
     <p class="description-margin-zero">acrylic & ink on paper</p>
     <p class="description-margin-zero">5 x 7" in 8 x 10" mat</p>
-    <p class="description-margin-zero">$25 USD  |  $30 CAD</p>
-    <div class="paypal-button">
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="TZ4XWYCN45MR4">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-  </div>
+    <p class="description-margin-zero">donated to MTLRD</p>
   </div>
 </div>
 
